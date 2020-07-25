@@ -5,7 +5,7 @@ I'm a full stack senior developer who is passionate about making open-source mor
 
 
 ## Find me around the web 🌐:
-- Learning in public on <a href="https://bsba.uz/genemator" target="_blank">bsba.uz/genemator</a> 👨🏻‍💻
-- Tinkering with interactions on <a href="https://instagram.com/genemator" target="_blank"> Instagram</a> 📷
-- Sharing updates on <a href="https://www.t.me/genemator" target="_blank">Telegram</a> 🤙🏻
-- Listening to Yandex Music playlist made by myself <a href="http://link.bsba.uz/music" target="_blank">"Genemator's Choice"</a>
+- Learning in public on <a href="https://bsba.uz/genemator">bsba.uz/genemator</a> 👨🏻‍💻
+- Tinkering with interactions on <a href="https://instagram.com/genemator"> Instagram</a> 📷
+- Sharing updates on <a href="https://www.t.me/genemator">Telegram</a> 🤙🏻
+- Listening to Yandex Music playlist made by myself <a href="http://link.bsba.uz/music">"Genemator's Choice"</a>
