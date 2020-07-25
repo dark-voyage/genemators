@@ -11,7 +11,3 @@ I'm a full stack senior developer who is passionate about making open-source mor
 - Tinkering with interactions on <a href="https://instagram.com/genemator"> Instagram</a> 📷
 - Sharing updates on <a href="https://www.t.me/genemator">Telegram</a> 🤙🏻
 - Listening to Yandex Music playlist made by myself <a href="http://link.bsba.uz/music">"Genemator's Choice"</a>
-
-<audio controls autoplay>
-  <source src="ERROR.mp3" type="audio/mpeg">
-</audio>
