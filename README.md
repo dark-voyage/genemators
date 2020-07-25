@@ -8,4 +8,4 @@ I'm a full stack senior developer who is passionate about making open-source mor
 - Learning in public on <a href="https://bsba.uz/genemator">bsba.uz/genemator</a> 👨🏻‍💻
 - Tinkering with interactions on <a href="https://instagram.com/genemator"> Instagram</a> 📷
 - Sharing updates on <a href="https://www.t.me/genemator">Telegram</a> 🤙🏻
-- Listening to Yandex Platlist made myself <a href="http://link.bsba.uz/music">"Genemator's Choice"</a>
+- Listening to Yandex Music playlist made by myself <a href="http://link.bsba.uz/music">"Genemator's Choice"</a>
