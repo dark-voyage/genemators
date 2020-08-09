@@ -16,7 +16,7 @@ const Header = () => {
                     <div className="lg:w-0 lg:flex-1">
                         <Link href="/">
                             <a href="/" className="flex items-center">
-                                <div className="text-white px-2 genemator-title">Genemator's</div> <div className="text-white">| Home Page</div>
+                                <div className="text-white px-2 genemator-title">Genemator's</div> <div className="text-white">| {"<"} Home Page {"/>"}</div>
                             </a>
                         </Link>
                     </div>
