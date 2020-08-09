@@ -1,0 +1,34 @@
+{
+  "name": "genemators-portfolio",
+  "version": "0.0.1",
+  "description": "The portfolio website of Genemator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genemators/genemators.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "NextJS",
+    "Next",
+    "JS",
+    "Genemator"
+  ],
+  "author": "Genemator Sakhib <genemators@gmail.com> (genemator.bsba.uz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/genemators/genemators/issues"
+  },
+  "homepage": "https://github.com/genemators/genemators#readme",
+  "dependencies": {
+    "next": "^9.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
