@@ -2,6 +2,16 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@font-face {
+    font-family: "Fette Haenel Fraktur";
+    src: url("/fonts/FetteHaenelFraktur.eot");
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+.genemator-title {
+    font-family: "Fette Haenel Fraktur";
+    font-size: 1.6rem;
 }
