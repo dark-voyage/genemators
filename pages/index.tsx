@@ -8,7 +8,7 @@ export default function Home() {
             <Head>
                <title>Genemator's Portfolio</title>
             </Head>
-            <Header />
+            <Header subtitle="Home Page"/>
         </>
     );
 };

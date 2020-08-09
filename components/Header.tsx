@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Transition from "./Transition";
 
-const Header = () => {
+const Header = ({ subtitle }: { subtitle: string }) => {
     const [menuOpen, setMenuOpen] = useState(false)
     const [solutionIsOpen, solutionSetIsOpen] = useState(false)
     const [moreIsOpen, moreSetIsOpen] = useState(false)
@@ -16,7 +16,8 @@ const Header = () => {
                     <div className="lg:w-0 lg:flex-1">
                         <Link href="/">
                             <a href="/" className="flex items-center">
-                                <div className="text-white px-2 genemator-title">Genemator's</div> <div className="text-white">| {"<"} Home Page {"/>"}</div>
+                                <div className="text-white px-2 genemator-title">Genemator's</div>
+                                {subtitle && (<div className="text-white">{">"} {subtitle}</div>)}
                             </a>
                         </Link>
                     </div>
