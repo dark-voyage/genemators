@@ -16,10 +16,6 @@ const Header = () => {
                     <div className="lg:w-0 lg:flex-1">
                         <Link href="/">
                             <a href="/" className="flex items-center">
-                                {/*<img*/}
-                                {/*    className="h-8 w-auto sm:h-10"*/}
-                                {/*    src="/logo.svg" alt="Workflow"*/}
-                                {/*/> */}
                                 <div className="text-white px-2 genemator-title">Genemator's </div>
                             </a>
                         </Link>
@@ -61,9 +57,9 @@ const Header = () => {
                             <div
                                 className="absolute -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                                 <div className="rounded-lg shadow-lg">
-                                    <div className="rounded-lg shadow-xs overflow-hidden">
+                                    <div className="rounded-lg border shadow-xs overflow-hidden">
                                         <div
-                                            className="z-20 relative grid gap-6 bg-gray-900 px-5 py-6 sm:gap-8 sm:p-8">
+                                            className="z-20 relative grid gap-6 bg-black  px-5 py-6 sm:gap-8 sm:p-8">
                                             <a href="#"
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6 text-white" fill="none"
@@ -201,7 +197,7 @@ const Header = () => {
                             <button type="button"
                                     onClick={() => moreSetIsOpen(!moreIsOpen)}
                                     className="text-white inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
-                                <span>More</span>
+                                <span>Projects</span>
                                 <svg
                                     className="text-gray-400 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
                                     viewBox="0 0 20 20" fill="currentColor">
@@ -340,20 +336,22 @@ const Header = () => {
                         </div>
                     </nav>
                     <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
-                        <a href="#"
+                        <a href="https://t.me/genemator"
+                           target="_blank"
                            className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                      d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+                                      d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
                         </a>
-                        <a href="#"
+                        <a href="https://github.com/genemators/genemators"
+                           target="_blank"
                            className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                      d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                                      d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
                             </svg>
                         </a>
                     </div>
@@ -372,16 +370,16 @@ const Header = () => {
 
             <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
                 <div className="rounded-lg shadow-lg">
-                    <div className="rounded-lg shadow-xs bg-black divide-y-2 divide-gray-50 border">
+                    <div className="rounded-lg border shadow-xs bg-black divide-y-2 divide-white">
                         <div className="pt-5 pb-6 px-5 space-y-6">
                             <div className="flex items-center justify-between">
                                 <div>
-                                    <div className="text-white px-2 genemator-title">Genemator's</div> <div className="text-white px-2">Home Page</div>
+                                    <div className="text-white genemator-title">Genemator's</div> <div className="text-white">Home Page</div>
                                 </div>
                                 <div className="-mr-2">
                                     <button type="button"
                                             onClick={() => setMenuOpen(false)}
-                                            className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                                            className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-black hover:bg-gray-100 focus:outline-none focus:bg-white focus:text-black transition duration-150 ease-in-out">
                                         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                              stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
@@ -450,7 +448,7 @@ const Header = () => {
                                 </nav>
                             </div>
                         </div>
-                        <div className="py-6 px-5 space-y-6">
+                        <div className="py-6 px-5 space-y-6 border">
                             <div className="grid grid-cols-2 row-gap-4 col-gap-8">
                                 <a href="#"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
@@ -486,11 +484,18 @@ const Header = () => {
                                 </a>
                             </div>
                             <div className="space-y-6">
+                                <a
+                                    target="_blank"
+                                    href="https://github.com/genemators/genemators"
+                                   className="w-full flex items-center justify-center px-4 py-2 border border text-base leading-6 font-medium rounded-md text-white bg-transparent hover:bg-white hover:text-black focus:outline-none focus:border-white focus:shadow-outline-white active:bg-white transition ease-in-out duration-150">
+                                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                              d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                                    </svg>
+                                    <div className="px-2">GitHub</div>
+                                </a>
                                 <span className="w-full flex rounded-md shadow-sm">
-                                  <a href="#"
-                                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-900 hover:bg-gray-700 focus:outline-none focus:border-gray-500 focus:shadow-outline-indigo active:bg-gray-400 transition ease-in-out duration-150">
-                                    Sign up
-                                  </a>
                                 </span>
                                 <p className="text-center text-base leading-6 font-medium text-white">
                                     Existing customer? {" "}
