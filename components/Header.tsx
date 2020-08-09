@@ -376,10 +376,7 @@ const Header = () => {
                         <div className="pt-5 pb-6 px-5 space-y-6">
                             <div className="flex items-center justify-between">
                                 <div>
-                                    <img className="h-8 w-auto"
-                                         src="/logo.svg"
-                                         alt="Workflow"
-                                    />
+                                    <div className="text-white px-2 genemator-title">Genemator's</div> <div className="text-white px-2">Home Page</div>
                                 </div>
                                 <div className="-mr-2">
                                     <button type="button"
