@@ -88,7 +88,7 @@ export default class MyDocument extends Document {
                     />
                     <meta
                         name="msapplication-TileColor"
-                        content="#ffffff"
+                        content="#000000"
                     />
                     <meta
                         name="msapplication-TileImage"
@@ -96,7 +96,7 @@ export default class MyDocument extends Document {
                     />
                     <meta
                         name="theme-color"
-                        content="#ffffff"
+                        content="#000000"
                     />
                 </Head>
                 <body>
