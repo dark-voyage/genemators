@@ -7,7 +7,7 @@ export default class DenoWebsiteApp extends App {
         const { Component, pageProps } = this.props;
         return (
             <div className="h-screen">
-                <Head ><title/></Head>
+                <Head><title/></Head>
                 <Component {...pageProps} />
             </div>
         );
