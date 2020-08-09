@@ -5,7 +5,7 @@ export default function Custom404() {
     return (
         <>
             <Head>
-                <title>Oopsie, 404!</title>
+                <title>Oopsie, 404! | Genemator's</title>
             </Head>
             <div className="bg-white">
                 <div className="bg-gray-50 border-b border-gray-200">
