@@ -1,17 +1,17 @@
 import React from "react";
 import Link from "next/link";
 
-const Notification = () => {
+const Notification = ({ news }: { news: string }) => {
     return(
         <div className="bg-white">
             <div className="max-w-screen-xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
                 <div className="pr-16 sm:text-center sm:px-16">
                     <p className="font-medium text-black">
-                        <span>News: Website has been published!</span>
+                        <span><span className="font-bold">News:</span> {news}</span>
                         <span className="block sm:ml-2 sm:inline-block">
-                          <Link href="/v1">
-                            <a className="text-black font-bold underline">
-                              Read our blog &rarr;
+                          <Link href="/news">
+                            <a className="text-black underline">
+                              Read my blog &rarr;
                             </a>
                           </Link>
                         </span>

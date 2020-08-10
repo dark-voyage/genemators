@@ -12,7 +12,7 @@ export default function Home() {
             </Head>
             <div className="bg-black">
                 <Header subtitle="Home Page"/>
-                <Notification />
+                <Notification news="Website has been published!"/>
                 <Footer />
             </div>
 
