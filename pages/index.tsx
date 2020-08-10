@@ -11,8 +11,8 @@ export default function Home() {
                 <title>Genemator's</title>
             </Head>
             <div className="bg-black">
-                <Header subtitle="Home Page"/>
                 <Notification news="Website has been published!"/>
+                <Header subtitle="Home Page"/>
                 <Footer />
             </div>
 
