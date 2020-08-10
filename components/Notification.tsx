@@ -11,7 +11,7 @@ const Notification = () => {
                         <span className="block sm:ml-2 sm:inline-block">
                           <Link href="/v1">
                             <a className="text-black font-bold underline">
-                              Blog postimizni o'qing &rarr;
+                              Read our blog &rarr;
                             </a>
                           </Link>
                         </span>
