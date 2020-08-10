@@ -15,7 +15,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                     className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
                     <div className="lg:w-0 lg:flex-1">
                         <Link href="/">
-                            <a href="/" className="flex items-center">
+                            <a className="flex items-center">
                                 <div className="text-white px-2 genemator-title">Genemator's</div>
                                 {subtitle && (<div className="text-white">{">"} {subtitle}</div>)}
                             </a>
@@ -449,7 +449,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                 </nav>
                             </div>
                         </div>
-                        <div className="py-6 px-5 space-y-6 border">
+                        <div className="py-6 px-5 space-y-6">
                             <div className="grid grid-cols-2 row-gap-4 col-gap-8">
                                 <a href="#"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
