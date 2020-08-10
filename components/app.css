@@ -1,8 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import "@glidejs/glide/dist/css/glide.core.min.css";
-@import "@glidejs/glide/dist/css/glide.theme.min.css";
 
 @font-face {
     font-family: "Fette Haenel Fraktur";
