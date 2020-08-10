@@ -1,6 +1,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "@glidejs/glide/dist/css/glide.core.min.css";
+@import "@glidejs/glide/dist/css/glide.theme.min.css";
 
 @font-face {
     font-family: "Fette Haenel Fraktur";
@@ -9,6 +11,17 @@
 
 html {
     scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
 
 .genemator-title {
