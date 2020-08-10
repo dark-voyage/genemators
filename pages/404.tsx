@@ -20,13 +20,13 @@ export default function Custom404() {
                 </div>
                 <div className="flex mb-4 justify-center">
                     <div className="text-white text-center text-3xl">
-                        Listen to my voice and tell them that it was Demon's Work!
+                        Listen to my voice, the Geny's tellin' you the Devil's work
                     </div>
                 </div>
                 <Link href="/">
                     <div className="flex mb-4 justify-center mb-64">
                         <div className="text-white text-center text-3xl hover:underline cursor-pointer">
-                            {"<-"} Go back home
+                            {"<-"} Go to hell
                         </div>
                     </div>
                 </Link>

@@ -12,13 +12,24 @@
     src: url("https://genemator.bsba.uz/fonts/JetBrains.ttf");
 }
 
-
 html {
-    background-color: black;
     scroll-behavior: smooth;
     overflow: scroll;
     overflow-x: hidden;
     font-family: 'JetBrainsMono NF', monospace;
+}
+
+:root {
+    --grey: #5E5D5E;
+    --mid-grey: #3f3f3f;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-size: 50px 50px;
+    background-position: center;
+    background-image: linear-gradient(to right, var(--mid-grey) 1px, transparent 1px), linear-gradient(to bottom, var(--mid-grey) 1px, transparent 1px);
 }
 
 ::-webkit-scrollbar {
