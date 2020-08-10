@@ -375,7 +375,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                         <div className="pt-5 pb-6 px-5 space-y-6">
                             <div className="flex items-center justify-between">
                                 <div>
-                                    <div className="text-white genemator-title">Genemator's</div> <div className="text-white">Home Page</div>
+                                    <div className="text-white genemator-title">Genemator's</div> {subtitle && (<div className="text-white">{">"} {subtitle}</div>)}
                                 </div>
                                 <div className="-mr-2">
                                     <button type="button"

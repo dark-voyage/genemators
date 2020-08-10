@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Genemator's Portfolio</title>
+                <title>Genemator's</title>
             </Head>
             <div className="bg-black">
                 <Header subtitle="Home Page"/>

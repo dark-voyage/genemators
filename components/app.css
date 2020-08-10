@@ -7,11 +7,18 @@
     src: url("https://genemator.bsba.uz/fonts/FetteHaenelFraktur.ttf");
 }
 
+@font-face {
+    font-family: "JetBrainsMono NF";
+    src: url("https://genemator.bsba.uz/fonts/JetBrains.ttf");
+}
+
+
 html {
     background-color: black;
     scroll-behavior: smooth;
     overflow: scroll;
     overflow-x: hidden;
+    font-family: 'JetBrainsMono NF', monospace;
 }
 
 ::-webkit-scrollbar {
@@ -25,5 +32,10 @@ html {
 
 .genemator-title {
     font-family: "Fette Haenel Fraktur";
+    font-size: 1.6rem;
+}
+
+.custom-error {
+    font-family: "JetBrains Mono";
     font-size: 1.6rem;
 }
