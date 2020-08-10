@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = (props: { simple?: boolean }) => (
     <div
-        className={props.simple ? undefined : "bg-black border-t border-gray-200"}
+        className={props.simple ? undefined : "bg-black border-t border-b border-gray-200"}
     >
         <div className="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
             <nav className="-mx-5 -my-2 flex flex-wrap justify-center">

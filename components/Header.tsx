@@ -6,13 +6,15 @@ const Header = ({ subtitle }: { subtitle: string }) => {
     const [menuOpen, setMenuOpen] = useState(false)
     const [solutionIsOpen, solutionSetIsOpen] = useState(false)
     const [moreIsOpen, moreSetIsOpen] = useState(false)
-
+    /*
+    max-w-7xl
+     */
 
     return(
         <div className="relative bg-black">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="mx-auto px-4 sm:px-6">
                 <div
-                    className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+                    className="flex justify-between items-center border-b border-gray-100 py-6 md:justify-start md:space-x-10">
                     <div className="lg:w-0 lg:flex-1">
                         <Link href="/">
                             <a className="flex items-center">

@@ -41,6 +41,10 @@ body {
     background: #FF0000;
 }
 
+::selection {
+    background-color: #1aff31;
+}
+
 .genemator-title {
     font-family: "Fette Haenel Fraktur";
     font-size: 1.6rem;
