@@ -499,7 +499,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                 <span className="w-full flex rounded-md shadow-sm">
                                 </span>
                                 <p className="text-center text-base leading-6 font-medium text-white">
-                                    Proudly hosted with {" "}
+                                    Proudly crafted with {" "}
                                     <a href="https://vercel.com"
                                        className="text-gray-400 hover:text-gray-700 transition ease-in-out duration-150">
                                         Vercel / Next.js
