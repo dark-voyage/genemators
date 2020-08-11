@@ -14,18 +14,18 @@ export default function Custom404() {
             <Header subtitle="404"/>
             <div className="h-auto">
                 <div className="flex mb-4 justify-center mt-64">
-                    <div className="text-white text-center text-6xl border rounded hover:bg-white hover:text-black">
+                    <div className="text-white text-center text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
                         404
                     </div>
                 </div>
                 <div className="flex mb-4 justify-center">
-                    <div className="text-white text-center text-3xl">
+                    <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl">
                         Listen to my voice, the Geny's tellin' you the Devil's work
                     </div>
                 </div>
                 <Link href="/">
                     <div className="flex mb-4 justify-center mb-64">
-                        <div className="text-white text-center text-3xl hover:underline cursor-pointer">
+                        <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
                             {"<-"} Go to hell
                         </div>
                     </div>
