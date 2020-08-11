@@ -19,7 +19,7 @@ export default function Home() {
             <div className="">
                 <Notification news="Website has been published to v1!"/>
                 <Header subtitle="Home Page"/>
-                <div className="h-auto">
+                <div className="h-auto w-auto">
                     <div className="flex justify-center mt-32">
                         <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl ">
                             <div className="animation-wrapper">
