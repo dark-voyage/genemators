@@ -16,18 +16,18 @@ export default function Home() {
                 <Header subtitle="Home Page"/>
                 <div className="h-auto">
                     <div className="flex mb-4 justify-center mt-64">
-                        <div className="text-white text-center xl:text-6xl text-4xl border rounded hover:bg-white hover:text-black">
+                        <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
                             Genemator's Home Page
                         </div>
                     </div>
                     <div className="flex mb-4 justify-center">
-                        <div className="text-white text-center xl:text-3xl text-1xl">
+                        <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl">
                             Welcome to my website! ╰(*°▽°*)╯
                         </div>
                     </div>
                     <Link href="/">
                         <div className="flex mb-4 justify-center mb-64">
-                            <div className="text-white text-center xl:text-3xl text-1xl hover:underline cursor-pointer">
+                            <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
                                 {"->"} Dunno where to send you ಠ_ಠ {"<-"}
                             </div>
                         </div>
