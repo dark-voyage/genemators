@@ -39,7 +39,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                             <button type="button"
                                     onClick={() => solutionSetIsOpen(!solutionIsOpen)}
                                     className="text-white group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
-                                <span>Solutions</span>
+                                <span>Socials</span>
                                 <svg
                                     className="text-gray-400 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
                                     viewBox="0 0 20 20" fill="currentColor">
@@ -187,13 +187,13 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                             </Transition>
                         </div>
 
-                        <a href="#"
+                        <a href="/posts"
                            className="text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
-                            Pricing
+                            Posts
                         </a>
-                        <a href="#"
+                        <a href="https://bsba.uz/whoarewe"
                            className="text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
-                            Docs
+                            Team
                         </a>
 
                         <div className="relative">
@@ -226,7 +226,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                     <div className="rounded-lg border shadow-xs overflow-hidden">
                                         <div
                                             className="z-20 relative grid gap-6 bg-black px-5 py-6 sm:gap-8 sm:p-8">
-                                            <a href="#"
+                                            <a href="https://github.com/genemators/oss"
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-white transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
@@ -236,15 +236,15 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Help Center
+                                                        OSS Linux
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
-                                                        Get all of your questions answered in our forums or contact
-                                                        support.
+                                                        Operation System for enthusiasts and creators. Project is out of
+                                                        support for now.
                                                     </p>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="https://chisel.uz"
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-white transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
@@ -254,15 +254,15 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Guides
+                                                        Chisel Devs
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
-                                                        Learn how to maximize our platform to get the most out of
-                                                        it.
+                                                        Development portal for newbies & masters to share and learn some
+                                                        skills.
                                                     </p>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="https://deno.land"
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-white transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
@@ -272,15 +272,14 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Events
+                                                        Denoland
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
-                                                        See what meet-ups and other events we might be planning near
-                                                        you.
+                                                        A secure runtime for JavaScript and TypeScript.
                                                     </p>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="https://bsba.uz"
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-white transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
@@ -290,10 +289,10 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Security
+                                                        BSBA™
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
-                                                        Understand how we take your privacy seriously.
+                                                        Team of 4 senior developers that makes open source accessible.
                                                     </p>
                                                 </div>
                                             </a>

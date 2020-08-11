@@ -12,8 +12,8 @@ export default function Home() {
                 <title>Genemator's</title>
             </Head>
             <div className="">
-                <Notification news="Website has been published to v1!"/>
                 <Header subtitle="Home Page"/>
+                <Notification news="Website has been published to v1!"/>
                 <div className="h-auto">
                     <div className="flex mb-4 justify-center mt-64">
                         <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
