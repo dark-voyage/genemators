@@ -13,8 +13,8 @@ export default function Home() {
         <>
             <Head>
                 <title>Genemator's</title>
-                <script async src="https://codepen.io/juliangarnier/pen/75efae7724dbc3c055e918057fc4aca5.js"/>
-                <script async src="/js/sphere.js"/>
+                <script defer src="/js/lib/anime.min.js"/>
+                <script defer src="/js/sphere.js"/>
             </Head>
             <div className="">
                 <Notification news="Website has been published to v1!"/>
@@ -22,8 +22,8 @@ export default function Home() {
                 <div className="h-auto">
                     <div className="flex justify-center mt-32">
                         <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl ">
-                            <div className="animation-wrapper">
-                                <div className="sphere-animation">
+                            <div className="animation-wrapper xl:w-full lg:w-9/12 md:w-9/12 sm:w-3/5">
+                                <div className="sphere-animation w">
                                     <svg className="sphere" viewBox="0 0 440 440" stroke="rgba(80,80,80,.35)">
                                         <defs>
                                             <linearGradient id="sphereGradient" x1="5%" x2="5%" y1="0%" y2="15%">

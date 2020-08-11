@@ -33,7 +33,7 @@ var sphereAnimation = (function() {
                     translateX: [2, -4],
                     translateY: [2, -4],
                     easing: 'easeOutQuad',
-                    autoplay: false
+                    autoplay: true
                 }));
             }
         },
@@ -44,11 +44,11 @@ var sphereAnimation = (function() {
             });
         },
         duration: Infinity,
-        autoplay: false
+        autoplay: true
     });
 
     var introAnimation = anime.timeline({
-        autoplay: false
+        autoplay: true
     })
         .add({
             targets: spherePathEls,
@@ -71,7 +71,7 @@ var sphereAnimation = (function() {
         y2: '75%',
         duration: 30000,
         easing: 'easeOutQuint',
-        autoplay: false
+        autoplay: true
     }, 0);
 
     function init() {
