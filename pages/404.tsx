@@ -24,9 +24,9 @@ export default function Custom404() {
                 </div>
                 <Link href="/">
                     <div className="flex mb-4 justify-center mb-64">
-                        <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
+                        <a className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
                             {"<-"} Go to hell
-                        </div>
+                        </a>
                     </div>
                 </Link>
 

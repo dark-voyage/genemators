@@ -12,7 +12,7 @@ export default function Home() {
                 <title>Genemator's</title>
             </Head>
             <div className="">
-                <Header subtitle="Home Page"/>
+                <Header subtitle="Home"/>
                 <Notification news="Website has been published to v1!"/>
                 <div className="h-auto">
                     <div className="flex mb-4 justify-center mt-64">

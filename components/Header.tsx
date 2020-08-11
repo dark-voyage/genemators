@@ -186,16 +186,16 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                             </div>
                             </Transition>
                         </div>
-
-                        <a href="/posts"
-                           className="text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
-                            Posts
-                        </a>
-                        <a href="https://bsba.uz/whoarewe"
-                           className="text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
-                            Team
-                        </a>
-
+                        <Link href="/posts">
+                            <a className="text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
+                                Posts
+                            </a>
+                        </Link>
+                        <Link href="/about">
+                            <a className="text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
+                                About
+                            </a>
+                        </Link>
                         <div className="relative">
                             <button type="button"
                                     onClick={() => moreSetIsOpen(!moreIsOpen)}
