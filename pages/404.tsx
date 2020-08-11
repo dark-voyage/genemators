@@ -9,7 +9,6 @@ export default function Custom404() {
         <>
             <Head>
                 <title>Oopsie, 404! | Genemator's</title>
-                <link rel="stylesheet" href="/css/404.css"/>
             </Head>
             <Header subtitle="404"/>
             <div className="h-auto">
