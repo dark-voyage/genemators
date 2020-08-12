@@ -63,7 +63,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                     <div className="rounded-lg border shadow-xs overflow-hidden">
                                         <div
                                             className="z-20 relative grid gap-6 bg-black  px-5 py-6 sm:gap-8 sm:p-8">
-                                            <a href="#"
+                                            <a href="https://twitter.com/genemator"
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-gray-50 transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
@@ -81,13 +81,16 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                     </p>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="https://www.instagram.com/genemator/"
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-gray-50 transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
+                                                    <rect strokeLinecap="round" strokeLinejoin="round"
+                                                          strokeWidth="2" x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                                                     <path strokeLinecap="round" strokeLinejoin="round"
-                                                          strokeWidth="2"
-                                                          d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/>
+                                                          strokeWidth="2" d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                                    <line strokeLinecap="round" strokeLinejoin="round"
+                                                          strokeWidth="2" x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
@@ -98,13 +101,13 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                     </p>
                                                 </div>
                                             </a>
-                                            <a href="#"
+                                            <a href="https://www.facebook.com/sakhib.orzklv/"
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-gray-50 transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round"
                                                           strokeWidth="2"
-                                                          d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                                          d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
@@ -119,9 +122,10 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-gray-50 transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round"
-                                                          strokeWidth="2"
-                                                          d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>
+                                                    <line strokeLinecap="round" strokeLinejoin="round"
+                                                          strokeWidth="2" x1="22" y1="2" x2="11" y2="13"/>
+                                                    <polygon strokeLinecap="round" strokeLinejoin="round"
+                                                             strokeWidth="2" points="22 2 15 22 11 13 2 9 22 2"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
