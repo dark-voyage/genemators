@@ -243,7 +243,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                      viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round"
                                                           strokeWidth="2"
-                                                          d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
+                                                          d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
@@ -261,7 +261,17 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                      viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round"
                                                           strokeWidth="2"
-                                                          d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                                          d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                                    <polyline strokeLinecap="round" strokeLinejoin="round"
+                                                              strokeWidth="2" points="7.5 4.21 12 6.81 16.5 4.21"/>
+                                                    <polyline strokeLinecap="round" strokeLinejoin="round"
+                                                              strokeWidth="2" points="7.5 19.79 7.5 14.6 3 12"/>
+                                                    <polyline strokeLinecap="round" strokeLinejoin="round"
+                                                              strokeWidth="2" points="21 12 16.5 14.6 16.5 19.79"/>
+                                                    <polyline strokeLinecap="round" strokeLinejoin="round"
+                                                              strokeWidth="2" points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                                    <line strokeLinecap="round" strokeLinejoin="round"
+                                                          strokeWidth="2" x1="12" y1="22.08" x2="12" y2="12"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
@@ -279,7 +289,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                      viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round"
                                                           strokeWidth="2"
-                                                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                                          d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
@@ -294,9 +304,8 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-white transition ease-in-out duration-150">
                                                 <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                      viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round"
-                                                          strokeWidth="2"
-                                                          d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                                    <polygon strokeLinecap="round" strokeLinejoin="round"
+                                                             strokeWidth="2" points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
@@ -365,6 +374,29 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                  stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                       d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </a>
+                        <a href="#"
+                           className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
+                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                      d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                            </svg>
+                        </a>
+                        <a href="#"
+                           className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
+                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <circle strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" cx="12" cy="12" r="5"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="12" y1="1" x2="12" y2="3"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="12" y1="21" x2="12" y2="23"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="1" y1="12" x2="3" y2="12"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="21" y1="12" x2="23" y2="12"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
                             </svg>
                         </a>
                     </div>
