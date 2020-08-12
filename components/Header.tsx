@@ -154,22 +154,29 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                         <div
                                             className="px-5 py-5 bg-black space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                                             <div className="flow-root">
-                                                <a href="#"
+                                                <a href="mailto:genemators@gmail.com?subject=Sending%20email%20from%20website%20link!&body=Continue%20typing%20your%20text..."
                                                    className="-m-3 p-3 flex items-center space-x-3 rounded-md text-base leading-6 font-medium hover:bg-gray-100 text-white hover:text-black transition ease-in-out duration-150">
-                                                    <svg className="flex-shrink-0 h-6 w-6" fill="none"
-                                                         viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path strokeLinecap="round" strokeLinejoin="round"
-                                                              strokeWidth="2"
-                                                              d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
-                                                        <path strokeLinecap="round" strokeLinejoin="round"
-                                                              strokeWidth="2"
-                                                              d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                    <svg
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        className="flex-shrink-0 h-6 w-6">
+                                                        <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/>
+                                                        <path
+                                                            strokeLinecap="round" strokeLinejoin="round"
+                                                            strokeWidth="2" d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>
                                                     </svg>
-                                                    <span>Watch Demo</span>
+                                                    <svg
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        className="flex-shrink-0 h-6 w-6">
+                                                        <path
+                                                            strokeLinecap="round" strokeLinejoin="round"
+                                                            strokeWidth="2" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                                        <polyline points="22,6 12,13 2,6"/>
+                                                    </svg>
+                                                    <span>Send email</span>
                                                 </a>
                                             </div>
                                             <div className="flow-root">
-                                                <a href="#"
+                                                <a href="tel:+998998711546"
                                                    className="-m-3 p-3 flex items-center space-x-3 rounded-md text-base leading-6 font-medium hover:bg-white text-white hover:text-black transition ease-in-out duration-150">
                                                     <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                          viewBox="0 0 24 24" stroke="currentColor">
@@ -177,7 +184,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                               strokeWidth="2"
                                                               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                                                     </svg>
-                                                    <span>Contact Sales</span>
+                                                    <span>Contact Number</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -304,31 +311,31 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                 </h3>
                                                 <ul className="space-y-4">
                                                     <li className="text-base leading-6 truncate">
-                                                        <a href="#"
+                                                        <a href="https://bsba.uz/2020/03/06/how-to-install-scoop/"
                                                            className="font-medium text-gray-400 hover:text-gray-300 transition ease-in-out duration-150">
-                                                            Boost your conversion rate
+                                                            How to install Scoop Command Line Installer
                                                         </a>
                                                     </li>
                                                     <li className="text-base leading-6 truncate">
-                                                        <a href="#"
+                                                        <a href="https://bsba.uz/2020/01/10/my-environment/"
                                                            className="font-medium text-gray-400 hover:text-gray-300 transition ease-in-out duration-150">
-                                                            How to use search engine optimization to drive traffic
-                                                            to your site
+                                                            My Environments
                                                         </a>
                                                     </li>
                                                     <li className="text-base leading-6 truncate">
-                                                        <a href="#"
+                                                        <a href="https://bsba.uz/2020/01/10/homebrew-installation/"
                                                            className="font-medium text-gray-400 hover:text-gray-300 transition ease-in-out duration-150">
-                                                            Improve your customer experience
+                                                            Homebrew Installation
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="text-sm leading-5">
-                                                <a href="#"
-                                                   className="font-medium text-gray-600 hover:text-gray-500 transition ease-in-out duration-150">
-                                                    View all posts &rarr;
-                                                </a>
+                                                <Link href="/posts">
+                                                    <a className="font-medium text-gray-600 hover:text-gray-500 transition ease-in-out duration-150">
+                                                        View all posts &rarr;
+                                                    </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

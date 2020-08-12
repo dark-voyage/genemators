@@ -28,7 +28,7 @@ export default function Home() {
                     <Link href="/">
                         <div className="flex mb-4 justify-center mb-64">
                             <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
-                                {"->"} Dunno where to send you ಠ_ಠ {"<-"}
+                                {"->"} Dunno where to send you? ಠ_ಠ {"<-"}
                             </div>
                         </div>
                     </Link>
