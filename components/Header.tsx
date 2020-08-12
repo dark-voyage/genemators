@@ -69,11 +69,11 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                      viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round"
                                                           strokeWidth="2"
-                                                          d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                                                          d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Analytics
+                                                        Twitter
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
                                                         Get a better understanding of where your traffic is coming
@@ -91,7 +91,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Engagement
+                                                        Instagram
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
                                                         Speak directly to your customers in a more meaningful way.
@@ -108,7 +108,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Security
+                                                        Facebook
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
                                                         Your customers data will be safe and secure.
@@ -125,7 +125,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Integrations
+                                                        Telegram
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
                                                         Connect with third-party tools that you’re already using.
@@ -138,11 +138,11 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                      viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round"
                                                           strokeWidth="2"
-                                                          d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                                                          d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                                 </svg>
                                                 <div className="space-y-1">
                                                     <p className="text-base leading-6 font-medium">
-                                                        Automations
+                                                        Github
                                                     </p>
                                                     <p className="text-sm leading-5 text-gray-500">
                                                         Build strategic funnels that will drive your customers to
@@ -350,8 +350,8 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                            className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                      d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" points="22 2 15 22 11 13 2 9 22 2"/>
                             </svg>
                         </a>
                         <a href="https://github.com/genemators/genemators"
@@ -360,7 +360,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                      d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                             </svg>
                         </a>
                     </div>
@@ -500,7 +500,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                          stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                              d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                                              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                     </svg>
                                     <div className="px-2">GitHub</div>
                                 </a>
