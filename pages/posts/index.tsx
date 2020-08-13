@@ -36,7 +36,7 @@ const PostsIndexPage = (props: Props) => {
       </Head>
       <Header subtitle="Posts"/>
       <div className="pt-8 pb-20 px-4 sm:px-6 lg:pt-8 lg:pb-28 lg:px-8">
-        <div className="relative max-w-screen-lg mx-auto">
+        <div className="max-w-screen-lg mx-auto">
           <div className="border-b-2 border-gray-100 pb-10">
             <h2 className="text-4xl font-bold tracking-tight">Posts {"<|>"} News</h2>
             <div className="mt-3 sm:mt-4">

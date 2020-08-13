@@ -46,12 +46,12 @@ body {
 }
 
 .genemator-title {
-    font-family: "Fette Haenel Fraktur";
+    font-family: "Fette Haenel Fraktur", monospace;
     font-size: 1.6rem;
 }
 
 .custom-error {
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", monospace;
     font-size: 1.6rem;
 }
 
@@ -79,23 +79,6 @@ body {
 
     ::-webkit-scrollbar-track {
         background: white; /*linear-gradient(90deg,#201c29,#201c29 1px,#100e17 0,#100e17); */
-    }
-}
-
-
-.sphere-animation {
-    width: 580px;
-    height: 580px;
-}
-
-.sphere path {
-    stroke-width: 1px;
-    stroke: rgba(80,80,80,.35);
-}
-
-@media (min-width: 500px) {
-    .sphere path {
-        stroke-width: .4px;
     }
 }
 
