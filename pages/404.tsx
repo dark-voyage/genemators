@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React from "react";
-import Link from "next/link";
 import Router from "next/router"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
