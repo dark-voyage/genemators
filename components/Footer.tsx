@@ -10,40 +10,36 @@ const Footer = (props: { simple?: boolean }) => (
         <div className="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
             <nav className="-mx-5 -my-2 flex flex-wrap justify-center">
                 <div className="px-5 py-2">
-                    <Link href="/[...rest]" as="/manual">
-                        <a className="text-base leading-6 text-white hover:text-gray-200">
-                            Assistant
-                        </a>
-                    </Link>
-                </div>
-                <div className="px-5 py-2">
-                    <a
-                        href="https://doc.deno.land/builtin/stable"
-                        className="text-base leading-6 text-white hover:text-gray-200"
-                    >
-                        Social
+                    <a href="https://t.me/bsba_bot" className="text-base leading-6 text-white hover:text-gray-200">
+                        Assistant
                     </a>
                 </div>
                 <div className="px-5 py-2">
-                    <Link href="/[...rest]" as="/std">
+                    <a
+                        href="https://bsba.uz/genemator"
+                        className="text-base leading-6 text-white hover:text-gray-200"
+                    >
+                        Team
+                    </a>
+                </div>
+                <div className="px-5 py-2">
+                    <Link href="/404" as="faq">
                         <a className="text-base leading-6 text-white hover:text-gray-200">
                             FAQ
                         </a>
                     </Link>
                 </div>
                 <div className="px-5 py-2">
-                    <Link href="/x">
+                    <Link href="/404" as="wtf">
                         <a className="text-base leading-6 text-white hover:text-gray-200">
                             Modules
                         </a>
                     </Link>
                 </div>
                 <div className="px-5 py-2">
-                    <Link href="/benchmarks">
-                        <a className="text-base leading-6 text-white hover:text-gray-200">
-                            Libraries
-                        </a>
-                    </Link>
+                    <a href="https://www.twitch.tv/genemators" className="text-base leading-6 text-white hover:text-gray-200">
+                        Twitch
+                    </a>
                 </div>
                 <div className="px-5 py-2">
                     <Link href="/artwork">

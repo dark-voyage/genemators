@@ -25,10 +25,10 @@ export default function Home() {
                             Welcome to my website! ╰(*°▽°*)╯
                         </div>
                     </div>
-                    <Link href="/">
+                    <Link href="/posts" as="/wtf">
                         <div className="flex mb-4 justify-center mb-64">
                             <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
-                                {"->"} Dunno where to send you? ಠ_ಠ {"<-"}
+                                {"->"} Hey, wanna read my blog? ಠ_ಠ {"<-"}
                             </div>
                         </div>
                     </Link>

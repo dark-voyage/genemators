@@ -19,12 +19,12 @@ export default function Custom404() {
                 </div>
                 <div className="flex mb-4 justify-center">
                     <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl">
-                        Listen to my voice, the Geny's tellin' you the Devil's work
+                        I'm so sorry, this page might be unavailable or underconstruction! Stay stunned for new updates...
                     </div>
                 </div>
                 <div className="flex mb-4 justify-center mb-64">
                     <a onClick={() => Router.back()} className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
-                        {"<-"} Go back to hell
+                        {"<-"} Go back to hell 🖤
                     </a>
                 </div>
             </div>
