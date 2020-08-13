@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Link from "next/link";
+import Router from "next/router"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -22,14 +23,11 @@ export default function Custom404() {
                         Listen to my voice, the Geny's tellin' you the Devil's work
                     </div>
                 </div>
-                <Link href="/">
-                    <div className="flex mb-4 justify-center mb-64">
-                        <a className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
-                            {"<-"} Go to hell
-                        </a>
-                    </div>
-                </Link>
-
+                <div className="flex mb-4 justify-center mb-64">
+                    <a onClick={() => Router.back()} className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
+                        {"<-"} Go back to hell
+                    </a>
+                </div>
             </div>
             <Footer />
         </>

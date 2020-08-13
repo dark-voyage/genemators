@@ -372,31 +372,10 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                            className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
-                            </svg>
-                        </a>
-                        <a href="#"
-                           className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
-                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                 stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                      d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-                            </svg>
-                        </a>
-                        <a href="#"
-                           className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
-                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                 stroke="currentColor">
-                                <circle strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" cx="12" cy="12" r="5"/>
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="12" y1="1" x2="12" y2="3"/>
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="12" y1="21" x2="12" y2="23"/>
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="1" y1="12" x2="3" y2="12"/>
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="21" y1="12" x2="23" y2="12"/>
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                                <circle strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" cx="18" cy="18" r="3"/>
+                                <circle strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" cx="6" cy="6" r="3"/>
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 6h3a2 2 0 0 1 2 2v7"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="6" y1="9" x2="6" y2="21"/>
                             </svg>
                         </a>
                     </div>
