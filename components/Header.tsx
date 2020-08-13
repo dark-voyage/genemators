@@ -311,7 +311,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                         </p>
                                                     </div>
                                                 </a>
-                                                <a href="#"
+                                                <a href="https://t.me/genemator"
                                                    className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-gray-50 transition ease-in-out duration-150">
                                                     <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                          viewBox="0 0 24 24" stroke="currentColor">
@@ -329,7 +329,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                                         </p>
                                                     </div>
                                                 </a>
-                                                <a href="#"
+                                                <a href="https://github.com/genemator"
                                                    className="-m-3 p-3 flex items-start space-x-4 rounded-lg text-white hover:text-black hover:bg-gray-50 transition ease-in-out duration-150">
                                                     <svg className="flex-shrink-0 h-6 w-6" fill="none"
                                                          viewBox="0 0 24 24" stroke="currentColor">
@@ -483,37 +483,37 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                         </div>
                         <div className="py-6 px-5 space-y-6">
                             <div className="grid grid-cols-2 row-gap-4 col-gap-8">
-                                <a href="#"
+                                <a href="https://github.com/genemators/oss"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
-                                    Pricing
+                                    OSS Linux
                                 </a>
-                                <a href="#"
+                                <a href="https://github.com/genemator"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
-                                    Docs
+                                    GitHub
                                 </a>
-                                <a href="#"
+                                <a href="https://chisel.uz/"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
-                                    Enterprise
+                                    Chisel Devs
                                 </a>
-                                <a href="#"
+                                <a href="https://t.me/genemator"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
-                                    Blog
+                                    Telegram
                                 </a>
-                                <a href="#"
+                                <a href="https://deno.land/"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
-                                    Help Center
+                                    Denoland
                                 </a>
-                                <a href="#"
+                                <a href="https://www.facebook.com/sakhib.orzklv/"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
-                                    Guides
+                                    Facebook
                                 </a>
-                                <a href="#"
+                                <a href="https://bsba.uz/"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
-                                    Security
+                                    BSBA™
                                 </a>
-                                <a href="#"
+                                <a href="https://www.instagram.com/genemator/"
                                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150">
-                                    Events
+                                    Instagram
                                 </a>
                             </div>
                             <div className="space-y-6">
@@ -524,9 +524,18 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                          stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                    </svg>
+                                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                               d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                     </svg>
-                                    <div className="px-2">GitHub</div>
+                                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                    </svg>
                                 </a>
                                 <span className="w-full flex rounded-md shadow-sm">
                                 </span>
