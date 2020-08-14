@@ -392,13 +392,14 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                         </div>
                     </nav>
                     <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
-                        <a href="https://t.me/genemator"
+                        <a href="https://github.com/genemators/genemators/issues"
                            target="_blank"
                            className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400">
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor">
-                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="22" y1="2" x2="11" y2="13"/>
-                                <polygon strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" points="22 2 15 22 11 13 2 9 22 2"/>
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="12" y1="9" x2="12" y2="13"/>
+                                <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="12" y1="17" x2="12.01" y2="17"/>
                             </svg>
                         </a>
                         <a href="https://github.com/genemators/genemators"
