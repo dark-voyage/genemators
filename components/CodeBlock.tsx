@@ -85,7 +85,9 @@ export const RawCodeBlock = ({
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre
           className={
-            className + " mt-4 mb-4 border rounded flex overflow-y-auto " + (extraClassName ?? "")
+            className +
+            " mt-4 mb-4 border rounded flex overflow-y-auto " +
+            (extraClassName ?? "")
           }
           style={{ ...style }}
         >

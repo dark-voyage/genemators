@@ -33,17 +33,23 @@ const PostsIndexPage = (props: Props) => {
     <>
       <Head>
         <title>Posts | Genemator's</title>
-        <meta property="og:title" content="Page where you can list posts"/>
-        <meta property="og:description" content="At this page you can list existing posts in our website!"/>
+        <meta property="og:title" content="Page where you can list posts" />
+        <meta
+          property="og:description"
+          content="At this page you can list existing posts in our website!"
+        />
       </Head>
-      <Header subtitle="Posts"/>
+      <Header subtitle="Posts" />
       <div className="pt-8 pb-20 px-4 sm:px-6 lg:pt-8 lg:pb-28 lg:px-8">
         <div className="max-w-screen-lg mx-auto">
           <div className="border-b-2 border-gray-100 pb-10">
-            <h2 className="text-4xl font-bold tracking-tight">Posts {"<|>"} News</h2>
+            <h2 className="text-4xl font-bold tracking-tight">
+              Posts {"<|>"} News
+            </h2>
             <div className="mt-3 sm:mt-4">
               <p className="text-xl leading-7 text-white">
-                Get more information or read about Genemator's thoughts in this page!
+                Get more information or read about Genemator's thoughts in this
+                page!
               </p>
             </div>
           </div>

@@ -7,7 +7,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "format": "yarn format:check --write",
+    "format:check": "prettier --check \"**/*.md\" \"*.js\" \"{util,public,pages,components}/**/*.{js,ts,jsx,tsx}\" \"{util,public,pages,components}/*.{js,ts,jsx,tsx}\""
   },
   "repository": {
     "type": "git",
@@ -52,6 +54,7 @@
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   }
 }
