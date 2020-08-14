@@ -21,11 +21,9 @@ export default class MyApp extends App {
         return (
             <div className="h-screen">
                 <Head>
-                    <meta property="og:title" content="Genemator's Portfolio Website!"/>
                     <meta property="og:image" content={preview}/>
-                    <meta property="og:site_name" content="Genemator's Portfolio"/>
-                    <meta property="og:description" content="Website created by Genemator Sakhib to present him and his works"/>
-                    <title>Genemator's Portfolio</title>
+                    <meta property="og:site_name" content="Genemator's"/>
+                    <title>Genemator's Portfolio Website</title>
                 </Head>
                 <Component {...pageProps} />
             </div>

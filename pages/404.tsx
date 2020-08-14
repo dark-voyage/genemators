@@ -9,6 +9,8 @@ export default function Custom404() {
         <>
             <Head>
                 <title>Oopsie, 404! | Genemator's</title>
+                <meta property="og:title" content="404 Whoopie!"/>
+                <meta property="og:description" content="This page's preview is not available as this page doesn't exist"/>
             </Head>
             <Header subtitle="404"/>
             <div className="h-auto">

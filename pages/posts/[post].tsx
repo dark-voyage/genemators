@@ -38,6 +38,8 @@ const NewsPostPage = (props: Props) => {
     <>
       <Head>
         <title>{props.meta.title} | Genemator's</title>
+        <meta property="og:title" content={props.meta.title}/>
+        <meta property="og:description" content={props.meta.snippet}/>
       </Head>
       <Header subtitle={props.meta.title}/>
       <div className="w-full" style={{ backgroundColor: "#2f2e2c" }}>

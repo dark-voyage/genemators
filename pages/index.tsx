@@ -6,10 +6,19 @@ import Notification from "../components/Notification";
 import Link from "next/link";
 
 export default function Home() {
+
+    const random = () => {
+        const links = ["/posts", "/about"]
+        const index = Math.floor(Math.random() * links.length);
+        return links[index]
+    }
+
     return (
         <>
             <Head>
                 <title>Genemator's</title>
+                <meta property="og:image" content="Welcome to Genemator's Website"/>
+                <meta property="og:site_name" content="In our website, I'm Geno Ferollo a.k.a Genemator. My website serves as a sources of information about my studies & works. Glad that you're interested! ;)"/>
             </Head>
             <div className="">
                 <Header subtitle="Home"/>
@@ -25,10 +34,10 @@ export default function Home() {
                             Welcome to my website! ╰(*°▽°*)╯
                         </div>
                     </div>
-                    <Link href="/posts" as="/wtf">
+                    <Link href={random()} as="/wtf">
                         <div className="flex mb-4 justify-center mb-64">
                             <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
-                                {"->"} Hey, wanna read my blog? ಠ_ಠ {"<-"}
+                                {"->"} Hey, press me and I'll send you random page! ಠ_ಠ {"<-"}
                             </div>
                         </div>
                     </Link>
