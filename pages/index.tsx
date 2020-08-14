@@ -17,8 +17,8 @@ export default function Home() {
         <>
             <Head>
                 <title>Genemator's</title>
-                <meta property="og:image" content="Welcome to Genemator's Website"/>
-                <meta property="og:site_name" content="In our website, I'm Geno Ferollo a.k.a Genemator. My website serves as a sources of information about my studies & works. Glad that you're interested! ;)"/>
+                <meta property="og:title" content="Welcome to Genemator's Website"/>
+                <meta property="og:description" content="In our website, I'm Geno Ferollo a.k.a Genemator. My website serves as a sources of information about my studies & works. Glad that you're interested! ;)"/>
             </Head>
             <div className="">
                 <Header subtitle="Home"/>
