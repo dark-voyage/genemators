@@ -14,8 +14,8 @@ export default function About() {
             </Head>
             <Header subtitle="About"/>
             <Notification news="Website has been published to v1!"/>
-            <div className="h-auto">
-
+            <div>
+                
             </div>
             <Footer/>
         </>
