@@ -19,7 +19,7 @@ export default function Home() {
         <meta property="og:title" content="Welcome to Genemator's Website" />
         <meta
           property="og:description"
-          content="In our website, I'm Geno Ferollo a.k.a Genemator. My website serves as a sources of information about my studies & works. Glad that you're interested! ;)"
+          content="Hi, I'm Geno Ferollo a.k.a Genemator. My website serves as a sources of information about my studies & works. Glad that you're interested! ;)"
         />
       </Head>
       <Header subtitle="Home" />
