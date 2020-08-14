@@ -48,12 +48,10 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                 <div
                     className="flex justify-between items-center border-b border-gray-100 py-6 md:justify-start md:space-x-10">
                     <div className="lg:w-0 lg:flex-1">
-                        <Link href="/">
-                            <a className="flex items-center">
-                                <div className="text-white px-2 genemator-title">Genemator's</div>
-                                {subtitle && (<div className="text-white">{">"} {subtitle}</div>)}
-                            </a>
-                        </Link>
+                        <a className="flex items-center">
+                            <div className="text-white px-2 genemator-title">Genemator's</div>
+                            {subtitle && (<div className="text-white">{">"} {subtitle}</div>)}
+                        </a>
                     </div>
                     <div className="-mr-2 -my-2 md:hidden">
                         <button
