@@ -24,12 +24,66 @@ html {
     --mid-grey: #3f3f3f;
 }
 
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 0px 100px;
+    }
+}
+@-moz-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 0px 100px;
+    }
+}
+@-o-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 0px 100px;
+    }
+}
+@keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 0px 100px;
+    }
+}
+@-webkit-keyframes bg-scrolling {
+    0% {
+        background-position: 0px 100px;
+    }
+}
+@-moz-keyframes bg-scrolling {
+    0% {
+        background-position: 0px 100px;
+    }
+}
+@-o-keyframes bg-scrolling {
+    0% {
+        background-position: 0px 100px;
+    }
+}
+@keyframes bg-scrolling {
+    0% {
+        background-position: 0px 100px;
+    }
+}
+
 body {
     background-color: black;
     color: white;
     background-size: 50px 50px;
     background-position: center;
     background-image: linear-gradient(to right, var(--mid-grey) 1px, transparent 1px), linear-gradient(to bottom, var(--mid-grey) 1px, transparent 1px);
+    -webkit-animation: bg-scrolling-reverse 15s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 15s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 15s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 15s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+
 }
 
 ::-webkit-scrollbar {
@@ -88,4 +142,35 @@ body {
 
 .read-post:hover {
     color: #20983b;
+}
+
+.notification-area {
+    background: linear-gradient(270deg, #ffffff, #a5a5a5, #5c5b5b);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 12s ease infinite;
+    -moz-animation: AnimationName 12s ease infinite;
+    -o-animation: AnimationName 12s ease infinite;
+    animation: AnimationName 12s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
