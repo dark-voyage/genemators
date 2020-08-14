@@ -33,7 +33,7 @@ const PostsIndexPage = (props: Props) => {
     <>
       <Head>
         <title>Posts | Genemator's</title>
-        <meta property="og:image" content="Page where you can list posts"/>
+        <meta property="og:title" content="Page where you can list posts"/>
         <meta property="og:description" content="At this page you can list existing posts in our website!"/>
       </Head>
       <Header subtitle="Posts"/>
