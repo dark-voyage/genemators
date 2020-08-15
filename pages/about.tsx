@@ -20,17 +20,11 @@ export default function About() {
       {/*<Notification news="Website has been published to v1!" />*/}
       <div className="h-auto">
         <div className="flex justify-center items-center mb-8">
-            <span>
-              <img
-                src="/big_logo.png"
-                className="logo-head"
-                alt="Genemator's Logo"
-                style={{
-                    width: 500,
-                    height: 500
-                }}
-              />
-            </span>
+          <img
+            src="/big_logo.png"
+            className="logo-head h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
+            alt="Genemator's Logo"
+          />
         </div>
         <div className="flex mb-4 justify-center mt-8">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
