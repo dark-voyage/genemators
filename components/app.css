@@ -118,12 +118,12 @@ body {
     }
 
     ::-webkit-scrollbar-thumb {
-        background: #1aff31;
+        background: white;
         border-radius: 30px;
     }
 
     ::-webkit-scrollbar-track {
-        background: white; /*linear-gradient(90deg,#201c29,#201c29 1px,#100e17 0,#100e17); */
+        background: transparent; /*linear-gradient(90deg,#201c29,#201c29 1px,#100e17 0,#100e17); */
     }
 }
 

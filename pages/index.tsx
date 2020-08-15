@@ -27,7 +27,7 @@ export default function Home() {
       <div className="h-auto">
         <div className="flex mb-4 justify-center mt-64">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
-            Gendy's Weebly
+            Genemator's Weebly
           </div>
         </div>
         <div className="flex mb-4 justify-center">
