@@ -22,7 +22,7 @@ export default function About() {
         <div className="flex justify-center items-center mb-8">
           <img
             src="/big_logo.png"
-            className="logo-head h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
+            className="h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
             alt="Genemator's Logo"
           />
         </div>

@@ -25,7 +25,14 @@ export default function Home() {
       <Header subtitle="Home" />
       <Notification news="Website has been published to v1!" />
       <div className="h-auto">
-        <div className="flex mb-4 justify-center mt-64">
+      <div className="flex justify-center items-center mt-4 mb-8">
+          <img
+              src="/favicon.png"
+              className="logo-head h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
+              alt="Genemator's Logo"
+          />
+      </div>
+        <div className="flex mb-4 justify-center mt-8">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
             Genemator's Weebly
           </div>
@@ -36,7 +43,7 @@ export default function Home() {
           </div>
         </div>
         <Link href={random()} as="/wtf">
-          <div className="flex mb-4 justify-center mb-64">
+          <div className="flex mb-4 justify-center mb-32">
             <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
               {"->"} Hey, press me and I'll send you random page! ಠ_ಠ {"<-"}
             </div>
