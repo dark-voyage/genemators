@@ -9,27 +9,28 @@
 
 @font-face {
     font-family: "JetBrains Mono";
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Bold.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Bold-Italic.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-ExtraBold.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-ExtraBold-Italic.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-ExtraLight.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-ExtraLight-Italic.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Italic.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Light.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Light-Italic.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Medium.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Medium-Italic.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Regular.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-SemiLight.eot");
-    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-SemiLight-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Bold.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Bold-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-ExtraBold.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-ExtraBold-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-ExtraLight.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-ExtraLight-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Light.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Light-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Medium.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Medium-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Regular.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-SemiLight.eot");
+    src: url("https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-SemiLight-Italic.eot");
 }
 
 html {
     scroll-behavior: smooth;
     overflow: scroll;
     overflow-x: hidden;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
 }
 
 :root {
