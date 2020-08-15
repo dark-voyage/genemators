@@ -26,24 +26,29 @@ export default function About() {
       <Header subtitle="About" />
       {/*<Notification news="Website has been published to v1!" />*/}
       <div className="h-auto">
-        <div className="flex justify-center items-center mb-8">
-          <img
+        <div className="flex flex-wrap justify-center items-center mb-8 mt-12">
+            <img
+                src="/avatar.png"
+                className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
+                alt="Genemator's Logo"
+            />
+            <img
             src="/favicon.png"
-            className="h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
+            className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
             alt="Genemator's Logo"
           />
         </div>
         <div className="flex mb-4 justify-center mt-8">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
-              愛のあるコード
+              愛されるコード
           </div>
         </div>
         <div className="flex mb-16 justify-center">
-          <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl border rounded">
+          <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:bg-white hover:text-black">
               <Typewriter
                   options={{
                       deleteSpeed: 25,
-                      strings: ['I am $enior Developer from Uzbekistan...', 'Welcome to my showcase!'],
+                      strings: ['I am Senior Developer from Uzbekistan...', 'Welcome to my showcase...'],
                       autoStart: true,
                       loop: true,
                   }}
@@ -53,9 +58,9 @@ export default function About() {
           <div className="py-12">
               <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="lg:text-center">
-                      <p className="text-base leading-6 text-white font-semibold tracking-wide uppercase">Transactions</p>
+                      <p className="text-base leading-6 text-white font-semibold tracking-wide uppercase">SKILLS</p>
                       <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
-                          A better way to send money
+                          DIRECTIONS THAT I COVER
                       </h3>
                       <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-300 lg:mx-auto">
                           Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate
@@ -78,8 +83,7 @@ export default function About() {
                                       </div>
                                   </div>
                                   <div className="ml-4">
-                                      <h4 className="text-lg leading-6 font-medium text-white">Competitive exchange
-                                          rates</h4>
+                                      <h4 className="text-lg leading-6 font-medium text-white">Front End</h4>
                                       <p className="mt-2 text-base leading-6 text-gray-300">
                                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
                                           perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
@@ -100,7 +104,7 @@ export default function About() {
                                       </div>
                                   </div>
                                   <div className="ml-4">
-                                      <h4 className="text-lg leading-6 font-medium text-white">No hidden fees</h4>
+                                      <h4 className="text-lg leading-6 font-medium text-white">Back End</h4>
                                       <p className="mt-2 text-base leading-6 text-gray-300">
                                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
                                           perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
@@ -121,8 +125,7 @@ export default function About() {
                                       </div>
                                   </div>
                                   <div className="ml-4">
-                                      <h4 className="text-lg leading-6 font-medium text-white">Transfers are
-                                          instant</h4>
+                                      <h4 className="text-lg leading-6 font-medium text-white">Database</h4>
                                       <p className="mt-2 text-base leading-6 text-gray-300">
                                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
                                           perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
@@ -143,8 +146,7 @@ export default function About() {
                                       </div>
                                   </div>
                                   <div className="ml-4">
-                                      <h4 className="text-lg leading-6 font-medium text-white">Mobile
-                                          notifications</h4>
+                                      <h4 className="text-lg leading-6 font-medium text-white">Scripting</h4>
                                       <p className="mt-2 text-base leading-6 text-gray-300">
                                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
                                           perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.

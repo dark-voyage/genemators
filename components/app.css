@@ -176,6 +176,10 @@ body {
     animation: blinker 1s linear infinite;
 }
 
+.avatar {
+    border-radius: 50%;
+}
+
 @-webkit-keyframes rotation {
     from {
         -webkit-transform: rotate(0deg);
