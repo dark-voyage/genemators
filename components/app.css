@@ -9,18 +9,16 @@
 
 @font-face {
     font-family: 'JetBrains Mono';
-    src: url('https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Regular.eot'); /* IE9 Compat Modes */
-    src: url('https://genemator.me/fonts/JetBrainsMono/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'), /* IE6-IE8 */
-    url('https://genemator.me/fonts/JetBrainsMono/woff2/JetBrainsMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('https://genemator.me/fonts/JetBrainsMono/woff/JetBrainsMono-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-    url('https://genemator.me/fonts/JetBrains.ttf')  format('truetype'), /* Safari, Android, iOS */
+    src: url('https://genemator.me/fonts/JetBrains.woff2') format('woff2'),
+    url('https://genemator.me/fonts/JetBrains.woff') format('woff'),
+    url('https://genemator.me/fonts/JetBrains.ttf') format('truetype');
 }
 
 html {
     scroll-behavior: smooth;
     overflow: scroll;
     overflow-x: hidden;
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
 }
 
 :root {
