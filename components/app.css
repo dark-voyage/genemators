@@ -8,19 +8,28 @@
 }
 
 @font-face {
-    font-family: "JetBrainsMono NF";
-    src: url("https://genemator.me/fonts/JetBrains.ttf");
-    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
-    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
-    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
-    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+    font-family: "JetBrains Mono";
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Bold.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Bold-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-ExtraBold.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-ExtraBold-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-ExtraLight.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-ExtraLight-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Light.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Light-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Medium.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Medium-Italic.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-Regular.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-SemiLight.eot");
+    src: url("https://genemator.me/fonts/JetBrains%20Mono/eot/JetBrainsMono-SemiLight-Italic.eot");
 }
 
 html {
     scroll-behavior: smooth;
     overflow: scroll;
     overflow-x: hidden;
-    font-family: 'JetBrainsMono NF', monospace;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 :root {
