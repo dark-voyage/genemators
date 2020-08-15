@@ -28,7 +28,7 @@ export default function Home() {
       <div className="flex justify-center items-center mt-4 mb-8">
           <img
               src="/favicon.png"
-              className="logo-head h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
+              className="h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
               alt="Genemator's Logo"
           />
       </div>
