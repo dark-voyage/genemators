@@ -43,7 +43,8 @@
     "react-dom": "^16.13.1",
     "react-transition-group": "^4.4.1",
     "tailwindcss": "^1.6.2",
-    "tailwindcss-hyphens": "^0.1.0"
+    "tailwindcss-hyphens": "^0.1.0",
+    "typewriter-effect": "^2.13.1"
   },
   "devDependencies": {
     "@types/dompurify": "^2.0.3",

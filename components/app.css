@@ -9,7 +9,11 @@
 
 @font-face {
     font-family: "JetBrainsMono NF";
-    src: url("https://genemator.bsba.uz/fonts/JetBrains.ttf");
+    src: url("https://genemator.me/fonts/JetBrains.ttf");
+    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
 }
 
 html {
@@ -170,11 +174,21 @@ body {
     -webkit-animation: rotation 10s infinite linear;
 }
 
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
 @-webkit-keyframes rotation {
     from {
         -webkit-transform: rotate(0deg);
     }
     to {
         -webkit-transform: rotate(359deg);
+    }
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 25%;
     }
 }
