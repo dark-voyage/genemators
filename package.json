@@ -1,6 +1,6 @@
 {
   "name": "genemators-portfolio",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "The portfolio website of Genemator",
   "main": "index.js",
   "scripts": {
