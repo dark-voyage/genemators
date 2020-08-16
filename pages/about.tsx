@@ -2,10 +2,9 @@ import React from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-// import Notification from "../components/Notification";
-// import Link from "next/link";
 
 // @ts-ignore
+// No typing references
 import Typewriter from "typewriter-effect";
 
 
@@ -24,11 +23,10 @@ export default function About() {
         />
       </Head>
       <Header subtitle="About" />
-      {/*<Notification news="Website has been published to v1!" />*/}
       <div className="h-auto">
         <div className="flex flex-wrap justify-center items-center mb-8 mt-12">
             <img
-                src="/avatar.jpg"
+                src={"/avatar.jpg"}
                 className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"
                 alt="Genemator's Logo"
             />
