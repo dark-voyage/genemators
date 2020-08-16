@@ -62,8 +62,8 @@ export default function About() {
                 DIRECTIONS THAT I COVER
               </h3>
               <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-300 lg:mx-auto">
-                As everybody knows, there exists multiple directions on IT sphere
-                and all of them specializes in some kind of skills.
+                As everybody knows, there exists multiple directions on IT
+                sphere and all of them specializes in some kind of skills.
               </p>
             </div>
 
@@ -93,7 +93,9 @@ export default function About() {
                         Front End
                       </h4>
                       <p className="mt-2 text-base leading-6 text-gray-300">
-                        With the help of trendy JavaScript frameworks as React, Vue or maybe Next.JS I can build speedy and beautifully designed web apps with out-of-box functionalities.
+                        With the help of trendy JavaScript frameworks as React,
+                        Vue or maybe Next.JS I can build speedy and beautifully
+                        designed web apps with out-of-box functionalities.
                       </p>
                     </div>
                   </div>
@@ -149,7 +151,10 @@ export default function About() {
                         Back End
                       </h4>
                       <p className="mt-2 text-base leading-6 text-gray-300">
-                        I am able to build up my own server from zero to hero with various programming languages and frameworks. For example, Express.js on Node.js, Django or Flask on Python, also Oak on Deno.land
+                        I am able to build up my own server from zero to hero
+                        with various programming languages and frameworks. For
+                        example, Express.js on Node.js, Django or Flask on
+                        Python, also Oak on Deno.land
                       </p>
                     </div>
                   </div>
@@ -193,7 +198,10 @@ export default function About() {
                         Database
                       </h4>
                       <p className="mt-2 text-base leading-6 text-gray-300">
-                        Thanks for database programming knowledge, I have possibilities to create server with fully integrated datasets. As an example, postgresql, mysql, vanilla sql and so on.
+                        Thanks for database programming knowledge, I have
+                        possibilities to create server with fully integrated
+                        datasets. As an example, postgresql, mysql, vanilla sql
+                        and so on.
                       </p>
                     </div>
                   </div>
@@ -222,7 +230,9 @@ export default function About() {
                         Scripting
                       </h4>
                       <p className="mt-2 text-base leading-6 text-gray-300">
-                        With my knowledge on C, C++ or Python programming languages, I can build ready setup & build scripts, startups or unit tests for project.
+                        With my knowledge on C, C++ or Python programming
+                        languages, I can build ready setup & build scripts,
+                        startups or unit tests for project.
                       </p>
                     </div>
                   </div>
