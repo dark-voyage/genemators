@@ -40,7 +40,7 @@ export default function About() {
         </div>
         <div className="flex mb-4 justify-center mt-8">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
-              {"<"}愛されるコード{">"}
+              {">"}愛されるコード{"<"}
           </div>
         </div>
         <div className="flex mb-16 justify-center">
