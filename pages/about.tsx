@@ -46,7 +46,7 @@ export default function About() {
               <Typewriter
                   options={{
                       deleteSpeed: 25,
-                      strings: ['I am Senior Developer from Uzbekistan...', 'Welcome to my showcase...'],
+                      strings: ['I am Senior Developer from Uzbekistan ¯\\_(ツ)_/¯', 'Welcome to my showcase ^_^'],
                       autoStart: true,
                       loop: true,
                   }}
