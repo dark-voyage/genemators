@@ -39,7 +39,7 @@ export default function About() {
             {">"}愛されるコード{"<"}
           </div>
         </div>
-        <div className="flex mb-16 justify-center">
+        <div className="flex mb-4 justify-center">
           <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:bg-white hover:text-black">
             <Typewriter
               options={{
@@ -52,6 +52,28 @@ export default function About() {
                 loop: true,
               }}
             />
+          </div>
+        </div>
+        <div className="py-12">
+          <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="lg:text-center">
+              <p className="text-base leading-6 text-white font-semibold tracking-wide uppercase">
+                BRIEF
+              </p>
+              <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
+                ABOUT MYSELF
+              </h3>
+              <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-300 lg:mx-auto">
+                Hello dear visitor! I’m <span style={{color: "#1aff31"}}>Sokhibjon Orzikulov</span>, who is famous under the nickname <span style={{color: "#1aff31"}}>三·Genemator</span>.
+                I’m glad to see you visit my website. For the beginning, let me introduce myself. I’m a Senior Full-Stack developer with more than 7 years of experience.
+                Although I professionally code using different programming languages, I mainly use C++ for its total control and wide range of functions.
+                That said, my knowledge is not limited to coding. I am also a specialist in creating 3D driven video and photo.
+                Besides, I prefer Cinema 4D as 3D engine and utilize Adobe Products for editing purposes.
+                I can also create different songs and music for my projects by using special applications on a professional level.
+                For the time being, I am a second-year student at Westminster International University in Tashkent.
+                My nationality is Uzbek and I’m only 19 years old 😎
+              </p>
+            </div>
           </div>
         </div>
         <div className="py-12">
