@@ -47,7 +47,7 @@ export default function About() {
               options={{
                 deleteSpeed: 25,
                 strings: [
-                  "I am Senior Developer from Uzbekistan ¯\\_(ツ)_/¯",
+                  "Senior Developer from Uzbekistan ¯\\_(ツ)_/¯",
                   "Welcome to my showcase ^_^",
                 ],
                 autoStart: true,
