@@ -98,8 +98,10 @@ export default function About() {
                                           className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
                                           <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                                stroke="currentColor">
-                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+                                              <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="22" y1="12" x2="2" y2="12"/>
+                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>
+                                              <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="6" y1="16" x2="6.01" y2="16"/>
+                                              <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="10" y1="16" x2="10.01" y2="16"/>
                                           </svg>
                                       </div>
                                   </div>
@@ -119,8 +121,9 @@ export default function About() {
                                           className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
                                           <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                                stroke="currentColor">
-                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                              <ellipse strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" cx="12" cy="5" rx="9" ry="3"/>
+                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
                                           </svg>
                                       </div>
                                   </div>
@@ -141,7 +144,7 @@ export default function About() {
                                           <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                                stroke="currentColor">
                                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/>
+                                                    d="M13 10V3L4 14h7v7l9-11h-7z"/>
                                           </svg>
                                       </div>
                                   </div>
