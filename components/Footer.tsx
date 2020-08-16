@@ -28,9 +28,9 @@ const Footer = (props: { simple?: boolean }) => (
           </a>
         </div>
         <div className="px-5 py-2">
-          <Link href="/404" as="faq">
+          <Link href="/quotes">
             <a className="text-base leading-6 text-white hover:text-gray-200">
-              FAQ
+              Quotes
             </a>
           </Link>
         </div>

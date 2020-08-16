@@ -100,6 +100,11 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                 About
               </a>
             </Link>
+            <Link href="/quotes">
+              <a className="text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
+                Quotes
+              </a>
+            </Link>
             <div className="relative">
               <button
                 type="button"
@@ -778,6 +783,44 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                         </svg>
                         <div className="text-base leading-6 font-medium">
                           About
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/quotes">
+                      <a className="-m-3 p-3 flex items-center space-x-3 rounded-md text-white hover:bg-white hover:text-black transition ease-in-out duration-150">
+                        <svg
+                          className="flex-shrink-0 h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <polyline
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            points="21 8 21 21 3 21 3 8"
+                          />
+                          <rect
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            x="1"
+                            y="3"
+                            width="22"
+                            height="5"
+                          />
+                          <line
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            x1="10"
+                            y1="12"
+                            x2="14"
+                            y2="12"
+                          />
+                        </svg>
+                        <div className="text-base leading-6 font-medium">
+                          Quotes
                         </div>
                       </a>
                     </Link>
