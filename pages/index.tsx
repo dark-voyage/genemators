@@ -27,10 +27,10 @@ export default function Home() {
       <div className="h-auto">
         <div className="flex justify-center items-center">
           <svg
-            className="text-white xl:w-3/4 lg:w-2/4 w-3/4"
+            className="text-white xl:w-3/4 lg:w-3/4 sm:w-3/4 w-3/4"
             version="1.1"
-            width="500"
-            height="500"
+            width="400"
+            height="400"
             viewBox="0 0 320 320"
             fill="none"
             stroke="#fff"
