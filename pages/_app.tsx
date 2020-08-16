@@ -5,7 +5,7 @@ import "../components/app.css";
 import Router from "next/router";
 import NProgress from "nprogress";
 import "../components/ngprogress.css";
-import "../components/markdown.css"
+import "../components/markdown.css";
 
 NProgress.configure({
   showSpinner: false,

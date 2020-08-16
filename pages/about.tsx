@@ -7,11 +7,7 @@ import Footer from "../components/Footer";
 // No typing references
 import Typewriter from "typewriter-effect";
 
-
 export default function About() {
-
-
-
   return (
     <>
       <Head>
@@ -25,140 +21,216 @@ export default function About() {
       <Header subtitle="About" />
       <div className="h-auto">
         <div className="flex flex-wrap justify-center items-center mb-8 mt-12">
-            <img
-                src={"/avatar.jpg"}
-                className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"
-                alt="Genemator's Logo"
-            />
-            {/*<img*/}
-            {/*src="/big_logo.png"*/}
-            {/*className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"*/}
-            {/*alt="Genemator's Logo"*/}
-            {/*/>*/}
+          <img
+            src={"/avatar.jpg"}
+            className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"
+            alt="Genemator's Logo"
+          />
+          {/*<img*/}
+          {/*src="/big_logo.png"*/}
+          {/*className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"*/}
+          {/*alt="Genemator's Logo"*/}
+          {/*/>*/}
         </div>
         <div className="flex mb-4 justify-center mt-8">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
-              {">"}愛されるコード{"<"}
+            {">"}愛されるコード{"<"}
           </div>
         </div>
         <div className="flex mb-16 justify-center">
           <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:bg-white hover:text-black">
-              <Typewriter
-                  options={{
-                      deleteSpeed: 25,
-                      strings: ['I am Senior Developer from Uzbekistan ¯\\_(ツ)_/¯', 'Welcome to my showcase ^_^'],
-                      autoStart: true,
-                      loop: true,
-                  }}
-              />
+            <Typewriter
+              options={{
+                deleteSpeed: 25,
+                strings: [
+                  "I am Senior Developer from Uzbekistan ¯\\_(ツ)_/¯",
+                  "Welcome to my showcase ^_^",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </div>
         </div>
-          <div className="py-12">
-              <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-                  <div className="lg:text-center">
-                      <p className="text-base leading-6 text-white font-semibold tracking-wide uppercase">SKILLS</p>
-                      <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
-                          DIRECTIONS THAT I COVER
-                      </h3>
-                      <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-300 lg:mx-auto">
-                          Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate
-                          veritatis in accusamus quisquam.
-                      </p>
-                  </div>
+        <div className="py-12">
+          <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="lg:text-center">
+              <p className="text-base leading-6 text-white font-semibold tracking-wide uppercase">
+                SKILLS
+              </p>
+              <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
+                DIRECTIONS THAT I COVER
+              </h3>
+              <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-300 lg:mx-auto">
+                As everybody knows, there exists multiple directions on IT sphere
+                and all of them specializes in some kind of skills.
+              </p>
+            </div>
 
-                  <div className="mt-10">
-                      <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
-                          <li>
-                              <div className="flex">
-                                  <div className="flex-shrink-0">
-                                      <div
-                                          className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
-                                          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                               stroke="currentColor">
-                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
-                                          </svg>
-                                      </div>
-                                  </div>
-                                  <div className="ml-4">
-                                      <h4 className="text-lg leading-6 font-medium text-white">Front End</h4>
-                                      <p className="mt-2 text-base leading-6 text-gray-300">
-                                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-                                          perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                      </p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li className="mt-10 md:mt-0">
-                              <div className="flex">
-                                  <div className="flex-shrink-0">
-                                      <div
-                                          className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
-                                          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                               stroke="currentColor">
-                                              <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="22" y1="12" x2="2" y2="12"/>
-                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>
-                                              <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="6" y1="16" x2="6.01" y2="16"/>
-                                              <line strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" x1="10" y1="16" x2="10.01" y2="16"/>
-                                          </svg>
-                                      </div>
-                                  </div>
-                                  <div className="ml-4">
-                                      <h4 className="text-lg leading-6 font-medium text-white">Back End</h4>
-                                      <p className="mt-2 text-base leading-6 text-gray-300">
-                                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-                                          perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                      </p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li className="mt-10 md:mt-0">
-                              <div className="flex">
-                                  <div className="flex-shrink-0">
-                                      <div
-                                          className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
-                                          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                               stroke="currentColor">
-                                              <ellipse strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" cx="12" cy="5" rx="9" ry="3"/>
-                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
-                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
-                                          </svg>
-                                      </div>
-                                  </div>
-                                  <div className="ml-4">
-                                      <h4 className="text-lg leading-6 font-medium text-white">Database</h4>
-                                      <p className="mt-2 text-base leading-6 text-gray-300">
-                                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-                                          perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                      </p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li className="mt-10 md:mt-0">
-                              <div className="flex">
-                                  <div className="flex-shrink-0">
-                                      <div
-                                          className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
-                                          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                               stroke="currentColor">
-                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                                          </svg>
-                                      </div>
-                                  </div>
-                                  <div className="ml-4">
-                                      <h4 className="text-lg leading-6 font-medium text-white">Scripting</h4>
-                                      <p className="mt-2 text-base leading-6 text-gray-300">
-                                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-                                          perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                                      </p>
-                                  </div>
-                              </div>
-                          </li>
-                      </ul>
+            <div className="mt-10">
+              <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
+                <li>
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
+                        <svg
+                          className="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="ml-4">
+                      <h4 className="text-lg leading-6 font-medium text-white">
+                        Front End
+                      </h4>
+                      <p className="mt-2 text-base leading-6 text-gray-300">
+                        With the help of trendy JavaScript frameworks as React, Vue or maybe Next.JS I can build speedy and beautifully designed web apps with out-of-box functionalities.
+                      </p>
+                    </div>
                   </div>
-              </div>
+                </li>
+                <li className="mt-10 md:mt-0">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
+                        <svg
+                          className="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <line
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            x1="22"
+                            y1="12"
+                            x2="2"
+                            y2="12"
+                          />
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
+                          />
+                          <line
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            x1="6"
+                            y1="16"
+                            x2="6.01"
+                            y2="16"
+                          />
+                          <line
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            x1="10"
+                            y1="16"
+                            x2="10.01"
+                            y2="16"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="ml-4">
+                      <h4 className="text-lg leading-6 font-medium text-white">
+                        Back End
+                      </h4>
+                      <p className="mt-2 text-base leading-6 text-gray-300">
+                        I am able to build up my own server from zero to hero with various programming languages and frameworks. For example, Express.js on Node.js, Django or Flask on Python, also Oak on Deno.land
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li className="mt-10 md:mt-0">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
+                        <svg
+                          className="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <ellipse
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            cx="12"
+                            cy="5"
+                            rx="9"
+                            ry="3"
+                          />
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"
+                          />
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="ml-4">
+                      <h4 className="text-lg leading-6 font-medium text-white">
+                        Database
+                      </h4>
+                      <p className="mt-2 text-base leading-6 text-gray-300">
+                        Thanks for database programming knowledge, I have possibilities to create server with fully integrated datasets. As an example, postgresql, mysql, vanilla sql and so on.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li className="mt-10 md:mt-0">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-white text-black">
+                        <svg
+                          className="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="ml-4">
+                      <h4 className="text-lg leading-6 font-medium text-white">
+                        Scripting
+                      </h4>
+                      <p className="mt-2 text-base leading-6 text-gray-300">
+                        With my knowledge on C, C++ or Python programming languages, I can build ready setup & build scripts, startups or unit tests for project.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
+        </div>
       </div>
       <Footer />
     </>

@@ -29,7 +29,6 @@ interface Props {
 }
 
 const PostsIndexPage = (props: Props) => {
-
   return (
     <>
       <Head>
@@ -85,7 +84,12 @@ const PostsIndexPage = (props: Props) => {
                         Read post
                       </a>
                     </Link>
-                    <a href={`https://t.me/share/url?url=${`https://genemator.me/posts/` + post.id}&text=${post.title}`} className="read-post text-base leading-6 font-semibold transition ease-in-out duration-150 ml-10">
+                    <a
+                      href={`https://t.me/share/url?url=${
+                        `https://genemator.me/posts/` + post.id
+                      }&text=${post.title}`}
+                      className="read-post text-base leading-6 font-semibold transition ease-in-out duration-150 ml-10"
+                    >
                       Share
                     </a>
                   </div>
