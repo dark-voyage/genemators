@@ -25,9 +25,9 @@ export default function Home() {
       <Header subtitle="Home" />
       <Notification news="Website has been published to v1!" />
       <div className="h-auto">
-        <div className="flex justify-center items-center mt-4 mb-4">
+        <div className="flex justify-center items-center">
           <svg
-            className="text-white"
+            className="text-white xl:w-3/4 lg:w-2/4 w-3/4"
             version="1.1"
             width="500"
             height="500"
@@ -173,12 +173,12 @@ export default function Home() {
             <use xlinkHref="#r6" transform="rotate(330 160 160)" />
           </svg>
         </div>
-        <div className="flex mb-4 justify-center ">
+        <div className="flex mb-4 justify-center">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
             Genemator's Weebly
           </div>
         </div>
-        <div className="flex mb-4 justify-center">
+        <div className="flex justify-center">
           <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl">
             Welcome to my website! ╰(*°▽°*)╯
           </div>
