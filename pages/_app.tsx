@@ -5,6 +5,7 @@ import "../components/app.css";
 import Router from "next/router";
 import NProgress from "nprogress";
 import "../components/ngprogress.css";
+import "../components/markdown.css"
 
 NProgress.configure({
   showSpinner: false,
@@ -17,7 +18,7 @@ Router.events.on("routeChangeError", () => NProgress.done());
 export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
-    const preview: string = `https://raw.githubusercontent.com/genemators/genemators/master/public/preview.png`;
+    const preview: string = `https://genemator.me/preview.png`;
     return (
       <div className="h-screen">
         <Head>

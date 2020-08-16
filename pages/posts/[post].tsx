@@ -75,6 +75,11 @@ const NewsPostPage = (props: Props) => {
             sourceURL={`https://genemators.me/posts/${props.meta.id}.md`}
           />
         </div>
+        <a href={`https://t.me/share/url?url=${`https://genemator.me/posts/` + props.meta.id}&text=${`**` + `${props.meta.title}` + `**`}`}>
+          <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
+            Share
+          </div>
+        </a>
       </div>
       <Footer />
     </>
