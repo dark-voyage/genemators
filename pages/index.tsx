@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Home() {
   const random = () => {
-    const links = ["/posts", "/about"];
+    const links = ["/posts", "/about", "/quotes"];
     const index = Math.floor(Math.random() * links.length);
     return links[index];
   };
@@ -177,7 +177,7 @@ export default function Home() {
         </div>
         <div className="flex mb-4 justify-center">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded">
-            Genemator's Weebly
+            Genemator's
           </div>
         </div>
         <div className="flex justify-center">
