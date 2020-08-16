@@ -6,13 +6,8 @@ import Footer from "../components/Footer";
 // @ts-ignore
 // No typing references
 import Typewriter from "typewriter-effect";
-import {start} from "repl";
 
 export default function About() {
-
-  const terminal = (typewriter) => {
-
-  }
 
   return (
     <>
