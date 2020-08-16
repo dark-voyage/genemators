@@ -1,3 +1,5 @@
+/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
+
 import Head from "next/head";
 import React from "react";
 import Router from "next/router";

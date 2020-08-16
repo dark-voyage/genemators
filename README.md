@@ -14,3 +14,5 @@ I'm a full stack senior developer who is passionate about making open-source mor
 - Sharing updates on <a href="https://www.t.me/genemator">Telegram</a> 🤙🏻
 - Listening to Yandex Music playlist made by myself
   <a href="http://link.bsba.uz/music">"Genemator's Choice"</a> 🎵
+
+**Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license.**

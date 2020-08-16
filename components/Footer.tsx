@@ -1,6 +1,6 @@
-// @ts-ignore
+/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
+
 import React from "react";
-// @ts-ignore
 import Link from "next/link";
 
 const Footer = (props: { simple?: boolean }) => (

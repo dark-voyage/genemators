@@ -1,3 +1,5 @@
+/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
+
 import React, { ReactNode } from "react";
 import { CSSTransition as ReactCSSTransition } from "react-transition-group";
 import { useRef, useEffect, useContext } from "react";
