@@ -97,7 +97,7 @@ const Footer = (props: { simple?: boolean }) => (
           </svg>
         </a>
       </div>
-      <div className="mt-9 flex justify-center">
+      <div className="mt-9 flex justify-center text-center">
         MPL-2.0 Licensed | Copyright © 2020 Genemator Sakhib
       </div>
     </div>
