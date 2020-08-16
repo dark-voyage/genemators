@@ -6,8 +6,14 @@ import Footer from "../components/Footer";
 // @ts-ignore
 // No typing references
 import Typewriter from "typewriter-effect";
+import {start} from "repl";
 
 export default function About() {
+
+  const terminal = (typewriter) => {
+
+  }
+
   return (
     <>
       <Head>
@@ -238,6 +244,52 @@ export default function About() {
                   </div>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <div className="m-8">
+          <div className="coding inverse-toggle px-5 pt-4 shadow-lg text-white text-sm font-mono subpixel-antialiased
+              bg-black border pb-6 pt-4 rounded-lg leading-normal overflow-hidden">
+            <div className="top mb-2 flex">
+              <div className="h-3 w-3 bg-red-500 rounded-full"/>
+              <div className="ml-2 h-3 w-3 bg-orange-300 rounded-full"/>
+              <div className="ml-2 h-3 w-3 bg-green-500 rounded-full"/>
+            </div>
+            <div className="mt-4 flex-wrap">
+              <div className="text-green-400">{"-> "}genemator {"$"}</div>
+              <div className=" items-center pl-2">
+                <Typewriter
+                    options={{
+                      autoStart: true,
+                      cursor: '¦'
+                    }}
+                    onInit={(typewriter:any) => {
+                      typewriter
+                          .typeString(' exec ./goodbyeworld') //
+                          .pauseFor(1000)
+                          .pasteString("<br>" + 'Thank you for being with me all time! 💖')
+                          .pauseFor(5000)
+                          .pasteString("<br/>" + '(#--------) 5%')
+                          .pauseFor(1000)
+                          .pasteString("<br/>" + '(###------) 26%')
+                          .pauseFor(1000)
+                          .pasteString("<br/>" + '(#####----) 52%')
+                          .pauseFor(1000)
+                          .pasteString("<br/>" + '(######---) 72%')
+                          .pauseFor(1000)
+                          .pasteString("<br/>" + '(#######--) 84%')
+                          .pauseFor(1000)
+                          .pasteString("<br/>" + '(########-) 99%')
+                          .pauseFor(1000)
+                          .pasteString("<br/>" + 'Goodbye World! (┬┬﹏┬┬)')
+                          .pauseFor(5000)
+                          .deleteChars(30)
+                          .typeString('  exit')
+                          .pasteString("<br/>" + '[Process completed]')
+                          .start()
+                    }}
+                />
+              </div>
             </div>
           </div>
         </div>
