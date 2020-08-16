@@ -28,7 +28,7 @@ export default function About() {
       <div className="h-auto">
         <div className="flex flex-wrap justify-center items-center mb-8 mt-12">
             <img
-                src="/avatar.png"
+                src="/avatar.jpg"
                 className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"
                 alt="Genemator's Logo"
             />
