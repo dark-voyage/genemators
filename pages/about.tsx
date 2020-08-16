@@ -29,14 +29,14 @@ export default function About() {
         <div className="flex flex-wrap justify-center items-center mb-8 mt-12">
             <img
                 src="/avatar.png"
-                className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
+                className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"
                 alt="Genemator's Logo"
             />
-            <img
-            src="/favicon.png"
-            className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4"
-            alt="Genemator's Logo"
-          />
+            {/*<img*/}
+            {/*src="/big_logo.png"*/}
+            {/*className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"*/}
+            {/*alt="Genemator's Logo"*/}
+            {/*/>*/}
         </div>
         <div className="flex mb-4 justify-center mt-8">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
