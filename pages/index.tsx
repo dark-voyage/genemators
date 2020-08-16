@@ -176,7 +176,7 @@ export default function Home() {
           </svg>
         </div>
         <div className="flex mb-4 justify-center">
-          <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
+          <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded">
             Genemator's Weebly
           </div>
         </div>
@@ -186,8 +186,8 @@ export default function Home() {
           </div>
         </div>
         <Link href={random()} as="/wtf">
-          <div className="flex mb-4 justify-center mb-32">
-            <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
+          <div className="flex mb-4 mt-4 justify-center mb-32">
+            <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:bg-white hover:text-black cursor-pointer">
               Feeling lucky?
             </div>
           </div>
