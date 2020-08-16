@@ -188,7 +188,7 @@ export default function Home() {
         <Link href={random()} as="/wtf">
           <div className="flex mb-4 justify-center mb-32">
             <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl hover:underline cursor-pointer">
-              Hey, press me and I'll send you random page! ಠ_ಠ
+              Feeling lucky?
             </div>
           </div>
         </Link>
