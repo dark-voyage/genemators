@@ -36,7 +36,9 @@ export default function About() {
         </div>
         <div className="flex mb-4 justify-center mt-8">
           <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded hover:bg-white hover:text-black">
-            {">"}愛されるコード{"<"}
+            <strong>
+              {">"}愛されるコード{"<"}
+            </strong>
           </div>
         </div>
         <div className="flex mb-4 justify-center">
@@ -64,14 +66,26 @@ export default function About() {
                 ABOUT MYSELF
               </h3>
               <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-300 lg:mx-auto">
-                Hello dear visitor! I’m <span style={{color: "#1aff31"}}>Sokhibjon Orzikulov</span>, who is famous under the nickname <span style={{color: "#1aff31"}}>三·Genemator</span>.
-                I’m glad to see you visit my website. For the beginning, let me introduce myself. I’m a Senior Full-Stack developer with more than 7 years of experience.
-                Although I professionally code using different programming languages, I mainly use C++ for its total control and wide range of functions.
-                That said, my knowledge is not limited to coding. I am also a specialist in creating 3D driven video and photo.
-                Besides, I prefer Cinema 4D as 3D engine and utilize Adobe Products for editing purposes.
-                I can also create different songs and music for my projects by using special applications on a professional level.
-                For the time being, I am a second-year student at Westminster International University in Tashkent.
-                My nationality is Uzbek and I’m only 19 years old 😎
+                Hello dear visitor! I’m{" "}
+                <span style={{ color: "#1aff31" }}>Sokhibjon Orzikulov</span>,
+                who is famous under the nickname{" "}
+                <span style={{ color: "#1aff31" }}>三·Genemator</span>. I’m glad
+                to see you visit my website. For the beginning, let me introduce
+                myself. I’m a Senior Full-Stack developer with more than 7 years
+                of experience. Although I professionally code using different
+                programming languages, I mainly use C++ for its total control
+                and wide range of functions. That said, my knowledge is not
+                limited to coding. I am also a specialist in creating 3D driven
+                video and photo. Besides, I prefer Cinema 4D as 3D engine and
+                utilize Adobe Products for editing purposes. I can also create
+                different songs and music for my projects by using special
+                applications on a professional level. For the time being, I am a
+                second-year student at Westminster International University in
+                Tashkent. My nationality is{" "}
+                <span className="text-blue-500">Uz</span>
+                <span className="text-red-500">b</span>
+                <span className="text-green-400">ek</span> and I’m only 19 years
+                old 😎
               </p>
             </div>
           </div>
