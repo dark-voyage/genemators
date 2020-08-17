@@ -3,11 +3,11 @@
 import React from "react";
 import App from "next/app";
 import Head from "next/head";
-import "../components/app.css";
 import Router from "next/router";
 import NProgress from "nprogress";
-import "../components/ngprogress.css";
-import "../components/markdown.css";
+import "../components/app.compressed.css";
+import "../components/markdown.compressed.css";
+import "../components/ngprogress.compressed.css";
 
 NProgress.configure({
   showSpinner: false,
