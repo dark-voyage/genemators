@@ -46,7 +46,7 @@ const Footer = (props: { simple?: boolean }) => (
             href="https://www.twitch.tv/genemators"
             className="text-base leading-6 text-white hover:text-gray-200"
           >
-            Twitch
+            Stream
           </a>
         </div>
         <div className="px-5 py-2">
