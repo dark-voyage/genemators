@@ -98,7 +98,9 @@ const Footer = (props: { simple?: boolean }) => (
         </a>
       </div>
       <div className="mt-9 flex justify-center text-center">
-        MPL-2.0 Licensed | Copyright © 2020 Genemator Sakhib
+        <a href="https://github.com/genemators/genemators/blob/master/LICENSE" className="hover:underline">
+          MPL-2.0 Licensed | Copyright © 2020 Genemator Sakhib
+        </a>
       </div>
     </div>
   </div>
