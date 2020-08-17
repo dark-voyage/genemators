@@ -71,7 +71,7 @@ const NewsPostPage = (props: Props) => {
           {format.format(date)}
         </p>
         <p className="telegram-author text-gray-200 mt-3 leading-tight">{props.meta.author}</p>
-        <div className="mt-8 telegram-post">
+        <div className="telegram-post mt-8">
           <Markdown
             source={props.markdown}
             displayURL={`https://genemators.me/posts/${props.meta.id}`}
