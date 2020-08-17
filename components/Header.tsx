@@ -108,7 +108,12 @@ const Header = ({ subtitle }: { subtitle: string }) => {
             <div className="relative">
               <button
                 type="button"
-                onClick={() => moreSetIsOpen(!moreIsOpen)}
+                onClick={() => {
+                  if (solutionIsOpen) {
+                    solutionSetIsOpen(!solutionIsOpen)
+                  }
+                  moreSetIsOpen(!moreIsOpen)
+                }}
                 className="text-white inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
               >
                 <span>Projects</span>
@@ -327,7 +332,12 @@ const Header = ({ subtitle }: { subtitle: string }) => {
             <div className="relative">
               <button
                 type="button"
-                onClick={() => solutionSetIsOpen(!solutionIsOpen)}
+                onClick={() => {
+                  if (moreIsOpen) {
+                    moreSetIsOpen(!moreIsOpen)
+                  }
+                  solutionSetIsOpen(!solutionIsOpen)
+                }}
                 className="text-white group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
               >
                 <span>Socials</span>

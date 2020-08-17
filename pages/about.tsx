@@ -100,8 +100,8 @@ export default function About() {
                 DIRECTIONS THAT I COVER
               </h3>
               <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-300 lg:mx-auto">
-                As everybody knows, there exists multiple directions on IT
-                sphere and all of them specializes in some kind of skills.
+                As everybody knows, there are multiple directions in IT
+                sphere and all of them specialize in some kind of skills.
               </p>
             </div>
 
