@@ -193,7 +193,7 @@ export default function Home() {
           </div>
         </Link>
       </div>
-      <Footer />
+      <Footer/>
     </>
   );
 }
