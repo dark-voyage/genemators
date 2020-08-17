@@ -25,7 +25,7 @@ export default function Home() {
         />
       </Head>
       <Header subtitle="Home" />
-      <Notification news="Website has been published to v1!" />
+      <Notification news="Update Hotfix V2 released!" />
       <div className="h-auto">
         <div className="flex justify-center items-center">
           <svg
