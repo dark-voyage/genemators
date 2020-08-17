@@ -64,7 +64,7 @@ const NewsPostPage = (props: Props) => {
           <a className="link">&lt;- Back to overview</a>
         </Link>
 
-        <h1 className="tracking-tight font-bold text-5xl leading-10 mt-4 py-8">
+        <h1 className="telegram-title tracking-tight font-bold text-5xl leading-10 mt-4 py-8">
           {props.meta.title}
         </h1>
         <p className="text-gray-200 mt-3 leading-tight">
