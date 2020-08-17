@@ -110,9 +110,9 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                 type="button"
                 onClick={() => {
                   if (solutionIsOpen) {
-                    solutionSetIsOpen(!solutionIsOpen)
+                    solutionSetIsOpen(!solutionIsOpen);
                   }
-                  moreSetIsOpen(!moreIsOpen)
+                  moreSetIsOpen(!moreIsOpen);
                 }}
                 className="text-white inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
               >
@@ -291,28 +291,18 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                           </h3>
                           <ul className="space-y-4">
                             <li className="text-base leading-6 truncate">
-                              <a
-                                href="https://bsba.uz/2020/03/06/how-to-install-scoop/"
-                                className="font-medium text-gray-400 hover:text-gray-300 transition ease-in-out duration-150"
-                              >
-                                How to install Scoop Command Line Installer
-                              </a>
+                              <Link href="/posts/v1">
+                                <a className="font-medium text-gray-400 hover:text-gray-300 transition ease-in-out duration-150">
+                                  Genemator's V1 Next.js website
+                                </a>
+                              </Link>
                             </li>
                             <li className="text-base leading-6 truncate">
-                              <a
-                                href="https://bsba.uz/2020/01/10/my-environment/"
-                                className="font-medium text-gray-400 hover:text-gray-300 transition ease-in-out duration-150"
-                              >
-                                My Environments
-                              </a>
-                            </li>
-                            <li className="text-base leading-6 truncate">
-                              <a
-                                href="https://bsba.uz/2020/01/10/homebrew-installation/"
-                                className="font-medium text-gray-400 hover:text-gray-300 transition ease-in-out duration-150"
-                              >
-                                Homebrew Installation
-                              </a>
+                              <Link href="/posts/v2">
+                                <a className="font-medium text-gray-400 hover:text-gray-300 transition ease-in-out duration-150">
+                                  Update V2
+                                </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -334,9 +324,9 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                 type="button"
                 onClick={() => {
                   if (moreIsOpen) {
-                    moreSetIsOpen(!moreIsOpen)
+                    moreSetIsOpen(!moreIsOpen);
                   }
-                  solutionSetIsOpen(!solutionIsOpen)
+                  solutionSetIsOpen(!solutionIsOpen);
                 }}
                 className="text-white group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
               >
@@ -680,7 +670,6 @@ const Header = ({ subtitle }: { subtitle: string }) => {
           </div>
         </div>
       </div>
-
       <Transition
         show={menuOpen}
         enter="duration-150 ease-out"
