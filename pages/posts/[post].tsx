@@ -67,11 +67,11 @@ const NewsPostPage = (props: Props) => {
         <h1 className="telegram-title tracking-tight font-bold text-5xl leading-10 mt-4 py-8">
           {props.meta.title}
         </h1>
-        <p className="text-gray-200 mt-3 leading-tight">
+        <p className="telegram-date text-gray-200 mt-3 leading-tight">
           {format.format(date)}
         </p>
-        <p className="text-gray-200 mt-3 leading-tight">{props.meta.author}</p>
-        <div className="mt-8">
+        <p className="telegram-author text-gray-200 mt-3 leading-tight">{props.meta.author}</p>
+        <div className="mt-8 telegram-post">
           <Markdown
             source={props.markdown}
             displayURL={`https://genemators.me/posts/${props.meta.id}`}
