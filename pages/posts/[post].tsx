@@ -78,18 +78,18 @@ const NewsPostPage = (props: Props) => {
             sourceURL={`https://genemators.me/posts/${props.meta.id}.md`}
           />
         </div>
-        <a
-          href={`https://t.me/share/url?url=${
-            `https://genemator.me/posts/` + props.meta.id
-          }&text=${`**` + `${props.meta.title}` + `**`}`}
-        >
+        <div className="mt-4 border rounded hover:text-black hover:bg-white">
+          <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="Z3p5pwFd" data-limit="5" data-color="343638" data-dislikes="1" data-outlined="1" data-colorful="1"/>
+        </div>
           <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
-            Share
+            <a
+                href={`https://t.me/share/url?url=${
+                    `https://genemator.me/posts/` + props.meta.id
+                }&text=${`**` + `${props.meta.title}` + `**`}`}
+            >
+              Share
+            </a>
           </div>
-          <div className="mt-4 border rounded hover:text-black hover:bg-white">
-            <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="Z3p5pwFd" data-limit="5" data-color="343638" data-dislikes="1" data-outlined="1" data-colorful="1"/>
-          </div>
-        </a>
       </div>
       <Footer />
     </>
