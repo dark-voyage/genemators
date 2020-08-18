@@ -42,7 +42,7 @@ const NewsPostPage = (props: Props) => {
         <title>{props.meta.title} | Genemator's</title>
         <meta property="og:title" content={props.meta.title} />
         <meta property="og:description" content={props.meta.snippet} />
-        <meta property="telegram" content="post" />
+        <meta property="telegram"/>
       </Head>
       <Header subtitle={props.meta.title} />
       <div className="w-full" style={{ backgroundColor: "#2f2e2c" }}>
@@ -85,6 +85,9 @@ const NewsPostPage = (props: Props) => {
         >
           <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
             Share
+          </div>
+          <div className="mt-4 border rounded hover:text-black hover:bg-white">
+            <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="Z3p5pwFd" data-limit="5" data-color="343638" data-dislikes="1" data-outlined="1" data-colorful="1"/>
           </div>
         </a>
       </div>
