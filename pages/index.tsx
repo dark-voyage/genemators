@@ -171,7 +171,7 @@ export default function Home() {
           </svg>
         </div>
         <div className="flex mb-4 justify-center">
-          <div className="genemator-title text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded">
+          <div className="genemator-title text-white text-center xl:text-6xl lg:text-5xl text-4xl border-4 rounded-lg">
             Genemator Sakhib
           </div>
         </div>
