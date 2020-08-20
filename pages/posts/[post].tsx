@@ -30,11 +30,6 @@ interface Props {
 }
 
 const NewsPostPage = (props: Props) => {
-  const share = encodeURI(
-    `https://t.me/share/url?url=${
-      `https://genemator.me/posts/` + props.meta.id
-    }&text=${props.meta.title}`
-  );
   const date = new Date(props.meta.publish_date);
   const format = new Intl.DateTimeFormat(undefined, {
     month: "long",
@@ -87,8 +82,8 @@ const NewsPostPage = (props: Props) => {
           />
         </div>
         <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
-          <a className="link" href={share}>
-            Share
+          <a href="https://t.me/genemators">
+            Telegram Channel
           </a>
         </div>
       </div>

@@ -46,11 +46,6 @@ const Quotes = (props: Props) => {
           </div>
           <div className="mt-6 grid gap-16 lg:grid-cols-2 lg:col-gap-5 lg:row-gap-12">
             {props.quotes.map((quote) => {
-              const share = encodeURI(
-                `https://t.me/share/url?url=${
-                  `https://genemator.me/quotes/` + quote.id
-                }&text=**${quote.id}:** __${quote.title}__`
-              );
               const date = new Date(quote.publish_date);
               const format = new Intl.DateTimeFormat(undefined, {
                 month: "long",
@@ -71,14 +66,6 @@ const Quotes = (props: Props) => {
                     <p className="mt-3 text-base leading-6 text-gray-300">
                       {quote.snippet}
                     </p>
-                  </div>
-                  <div className="mt-3">
-                    <a
-                      className="read-post text-base leading-6 font-semibold transition ease-in-out duration-150"
-                      href={share}
-                    >
-                      Share
-                    </a>
                   </div>
                 </div>
               );
