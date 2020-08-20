@@ -78,7 +78,8 @@ const NewsPostPage = (props: Props) => {
             source={props.markdown}
             displayURL={`https://genemators.me/posts/${props.meta.id}`}
             sourceURL={`https://genemators.me/posts/${props.meta.id}.md`}
-            baseURL={props.markdown}/>
+            baseURL={props.markdown}
+          />
         </div>
         <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
           <a
