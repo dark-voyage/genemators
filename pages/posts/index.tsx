@@ -57,7 +57,11 @@ const PostsIndexPage = (props: Props) => {
           </div>
           <div className="mt-6 grid gap-16 lg:grid-cols-2 lg:col-gap-5 lg:row-gap-12">
             {props.posts.map((post) => {
-              const share = encodeURI(`https://t.me/share/url?url=${`https://genemator.me/posts/` + post.id}&text=${post.title}`)
+              const share = encodeURI(
+                `https://t.me/share/url?url=${
+                  `https://genemator.me/posts/` + post.id
+                }&text=${post.title}`
+              );
               const date = new Date(post.publish_date);
               const format = new Intl.DateTimeFormat(undefined, {
                 month: "long",
