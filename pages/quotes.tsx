@@ -67,17 +67,11 @@ const Quotes = (props: Props) => {
                     <p className="mt-3 text-base leading-6 text-gray-300">
                       {quote.snippet}
                     </p>
-                    <a
-                      className="mt-6 read-post text-base leading-6 font-semibold transition ease-in-out duration-150"
-                      href={link}
-                    >
-                      Share
-                    </a>
                   </div>
                   <div className="mt-3">
                     <a
                       className="read-post text-base leading-6 font-semibold transition ease-in-out duration-150"
-                      href={link}
+                      href=""
                     >
                       Share
                     </a>
