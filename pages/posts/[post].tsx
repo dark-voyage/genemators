@@ -33,7 +33,7 @@ const NewsPostPage = (props: Props) => {
   const share = encodeURI(
     `https://t.me/share/url?url=${
       `https://genemator.me/posts/` + props.meta.id
-    }&text=${`**` + `${props.meta.title}` + `**`}`
+    }&text=${props.meta.title}`
   );
   const date = new Date(props.meta.publish_date);
   const format = new Intl.DateTimeFormat(undefined, {
@@ -86,7 +86,6 @@ const NewsPostPage = (props: Props) => {
             baseURL={props.markdown}
           />
         </div>
-        <a href={share}>Link</a>
         <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
           <a className="link" href={share}>
             Share
