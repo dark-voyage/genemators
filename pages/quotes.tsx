@@ -69,8 +69,8 @@ const Quotes = (props: Props) => {
                   </div>
                   <div className="mt-3">
                     <a
-                      href={`https://t.me/share/url?url=https://genemator.me/quotes/&text=**${quote.id}:** __${quote.title}__`}
-                      className="read-post text-base leading-6 font-semibold transition ease-in-out duration-150"
+                        className="read-post text-base leading-6 font-semibold transition ease-in-out duration-150"
+                        href={`https://t.me/share/url?url=https://genemator.me/quotes/&text=**${quote.id}:** __${quote.title}__`}
                     >
                       Share
                     </a>
