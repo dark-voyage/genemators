@@ -82,9 +82,7 @@ const NewsPostPage = (props: Props) => {
           />
         </div>
         <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
-          <a href="https://t.me/genemators">
-            Telegram Channel
-          </a>
+          <a href="https://t.me/genemators">Telegram Channel</a>
         </div>
       </div>
       <Footer />
