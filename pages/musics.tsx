@@ -38,10 +38,9 @@ const Socials = (props: Props) => {
                     <iframe
                         className="border rounded-lg"
                         frameBorder="0"
-                        style={{width: "100%", height: "1000px"}}
-                        width="100%" height="1000"
-                        src="https://music.yandex.ru/iframe/#playlist/ferollo/3">Listen to <a
-                        href='https://music.yandex.ru/users/ferollo/playlists/3?lang=en'>Favorites</a> — <a
+                        style={{width: "100%", height: "600px"}}
+                        src="https://music.yandex.ru/iframe/#playlist/ferollo/1019">Listen to <a
+                        href='https://music.yandex.ru/users/ferollo/playlists/1019?lang=en'>Genemator's Choice</a> — <a
                         href='https://music.yandex.ru/users/ferollo'>𝕲𝖊𝖓𝖊𝖒𝖆𝖙𝖔𝖗</a> on Yandex Music
                     </iframe>
                 </div>

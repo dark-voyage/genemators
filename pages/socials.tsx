@@ -26,10 +26,10 @@ const Socials = (props: Props) => {
     <>
       <Head>
         <title>Socials | Genemator's</title>
-        <meta property="og:title" content="Page where you can list posts" />
+        <meta property="og:title" content="Page of social links" />
         <meta
           property="og:description"
-          content="At this page you can list existing posts in our website!"
+          content="At this page you can get links to social profile of Genemator!"
         />
       </Head>
       <Header subtitle="Socials" />

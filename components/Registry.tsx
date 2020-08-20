@@ -159,6 +159,11 @@ const Registry = () => {
           {name}
           {version && `@${version}`} - genemator.me{!isStd ? "/x" : ""}
         </title>
+        <meta property="og:title" content="eXplorer - Project Explorer" />
+        <meta
+            property="og:description"
+            content="eXplorer helps you to manage or check Genemator's works and contributions with handy UI."
+        />
       </Head>
       <div className="min-h-full">
         <Header subtitle={"eXplorer HEX"} />
