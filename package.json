@@ -1,6 +1,7 @@
 {
   "name": "genemators-portfolio",
   "version": "2.0.0",
+  "private": true,
   "description": "The portfolio website of Genemator",
   "main": "index.js",
   "scripts": {
@@ -9,8 +10,8 @@
     "start": "next start",
     "test": "jest",
     "format": "yarn format:check --write",
-    "format:check": "prettier --check \"**/*.md\" \"*.js\" \"{util,public,pages,components}/**/*.{js,ts,jsx,tsx}\" \"{util,public,pages,components}/*.{js,ts,jsx,tsx}\"",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx pages/ components/"
+    "format:check": "prettier --check \"**/*.md\" \"*.js\" \"*.json\" \"{util,public,pages,components}/**/*.{js,ts,jsx,tsx}\" \"{util,public,pages,components}/*.{js,ts,jsx,tsx}\"",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx util/ pages/ components/ --fix"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
     "JS",
     "Genemator"
   ],
-  "author": "Genemator Sakhib <genemators@gmail.com> (genemator.bsba.uz)",
+  "author": "Genemator Sakhib <genemators@gmail.com> (genemator.me)",
   "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/genemators/genemators/issues"
@@ -35,6 +36,7 @@
     "@types/nprogress": "^0.2.0",
     "@types/react-transition-group": "^4.4.0",
     "dompurify": "^2.0.12",
+    "isomorphic-unfetch": "^3.0.0",
     "marked": "^1.1.1",
     "next": "^9.5.1",
     "nprogress": "^0.2.0",
@@ -45,6 +47,7 @@
     "react": "github:preact-compat/react#1.0.0",
     "react-dom": "github:preact-compat/react-dom#1.0.0",
     "react-transition-group": "^4.4.1",
+    "swr": "^0.3.0",
     "tailwindcss": "^1.6.2",
     "tailwindcss-hyphens": "^0.1.0",
     "typewriter-effect": "^2.13.1"

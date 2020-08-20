@@ -1,0 +1,86 @@
+{
+  "betacraft": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "betacraft",
+    "desc": "The minecraft server manager written in denoland"
+  },
+  "betalander": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "betalander",
+    "desc": "The minecraft server manager written in python"
+  },
+  "bobbify": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "bobbify",
+    "desc": "Social messenger created with React, Express, MongoDB"
+  },
+  "bsba": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "bsba",
+    "desc": "BSBA team's website"
+  },
+  "deno": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "deno",
+    "desc": "Denoland's uzbek ported website"
+  },
+  "dot": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "dot",
+    "desc": "The dotenv files and environment files!"
+  },
+  "genemators": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "genemators",
+    "desc": "Genemator's Portfolio website"
+  },
+  "goodbye.world": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "goodbye.world",
+    "desc": "The last program that every programmer must write!\n"
+  },
+  "lander.js": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "lander.js",
+    "desc": "Denoland's telegram assistant"
+  },
+  "onichan": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "onichan",
+    "desc": "3D modeled website animation"
+  },
+  "oss": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "oss",
+    "desc": "OSS Linux for ready solutions"
+  },
+  "remotely": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "remotely",
+    "desc": "The python programming language based telegram bot for remote shell emulation."
+  },
+  "sara": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "sara",
+    "desc": "The Voice Assistant for myself for making automatising"
+  },
+  "westman.js": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "westman.js",
+    "desc": "The re-written javascript/node.js version of Westman's Confession bot script"
+  }
+}

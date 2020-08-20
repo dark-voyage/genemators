@@ -28,6 +28,10 @@ html {
     --mid-grey: #3f3f3f;
 }
 
+select option {
+    background-color: rgba(0, 0, 0, 255);
+}
+
 @-webkit-keyframes bg-scrolling-reverse {
     100% {
         background-position: 0px 100px;

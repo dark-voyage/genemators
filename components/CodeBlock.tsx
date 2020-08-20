@@ -41,8 +41,7 @@ export const RawCodeBlock = ({
   enableLineRef = false,
 }: CodeBlockProps & { className?: string; enableLineRef?: boolean }) => {
   const [hashValue, setHashValue] = useState("");
-  const codeDivClassNames =
-    "text-white token-line text-right select-none text-xs";
+  const codeDivClassNames = "token-line text-right select-none text-xs";
   if (enableLineRef) {
     useEffect(() => {
       Router.events.on("hashChangeComplete", (url: any) => {
@@ -87,9 +86,7 @@ export const RawCodeBlock = ({
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre
           className={
-            className +
-            " mt-4 mb-4 border rounded flex overflow-y-auto " +
-            (extraClassName ?? "")
+            className + " flex overflow-y-auto " + (extraClassName ?? "")
           }
           style={{ ...style }}
         >

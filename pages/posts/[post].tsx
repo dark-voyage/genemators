@@ -42,7 +42,7 @@ const NewsPostPage = (props: Props) => {
         <title>{props.meta.title} | Genemator's</title>
         <meta property="og:title" content={props.meta.title} />
         <meta property="og:description" content={props.meta.snippet} />
-        <meta property="telegram"/>
+        <meta property="telegram" />
       </Head>
       <Header subtitle={props.meta.title} />
       <div className="w-full" style={{ backgroundColor: "#2f2e2c" }}>
@@ -70,7 +70,9 @@ const NewsPostPage = (props: Props) => {
         <p className="telegram-date text-gray-200 mt-3 leading-tight">
           {format.format(date)}
         </p>
-        <p className="telegram-author text-gray-200 mt-3 leading-tight">{props.meta.author}</p>
+        <p className="telegram-author text-gray-200 mt-3 leading-tight">
+          {props.meta.author}
+        </p>
         <div className="telegram-post mt-8">
           <Markdown
             source={props.markdown}
@@ -78,18 +80,15 @@ const NewsPostPage = (props: Props) => {
             sourceURL={`https://genemators.me/posts/${props.meta.id}.md`}
           />
         </div>
-        <div className="mt-4 border rounded hover:text-black hover:bg-white">
-          <script async src="/javascripts/comments.js" data-comments-app-website="Z3p5pwFd" data-limit="5" data-color="343638" data-dislikes="1" data-outlined="1" data-colorful="1"/>
+        <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
+          <a
+            href={`https://t.me/share/url?url=${
+              `https://genemator.me/posts/` + props.meta.id
+            }&text=${`**` + `${props.meta.title}` + `**`}`}
+          >
+            Share
+          </a>
         </div>
-          <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
-            <a
-                href={`https://t.me/share/url?url=${
-                    `https://genemator.me/posts/` + props.meta.id
-                }&text=${`**` + `${props.meta.title}` + `**`}`}
-            >
-              Share
-            </a>
-          </div>
       </div>
       <Footer />
     </>
