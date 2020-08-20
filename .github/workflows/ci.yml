@@ -21,5 +21,4 @@ jobs:
             web-${{ runner.os }}-yarn-
       - run: yarn --frozen-lockfile
       - run: yarn format:check
-      - run: yarn lint
       - run: yarn test
