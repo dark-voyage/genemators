@@ -52,6 +52,7 @@ const Quotes = (props: Props) => {
                 day: "numeric",
                 year: "numeric",
               });
+              const link = `https://t.me/share/url?url=https://genemator.me/quotes/&text=**${quote.id}:** __${quote.title}__`;
               return (
                 <div key={quote.id}>
                   <p className="text-sm leading-5 text-gray-200">
@@ -70,7 +71,7 @@ const Quotes = (props: Props) => {
                   <div className="mt-3">
                     <a
                       className="read-post text-base leading-6 font-semibold transition ease-in-out duration-150"
-                      href={`https://t.me/share/url?url=https://genemator.me/quotes/&text=**${quote.id}:** __${quote.title}__`}
+                      href={link}
                     >
                       Share
                     </a>
