@@ -59,14 +59,14 @@ const Quotes = (props: Props) => {
                       {format.format(date)}
                     </time>
                   </p>
-                  <a className="block">
+                  <div className="block">
                     <h3 className="mt-2 text-xl leading-7 font-semibold text-white">
                       {quote.title}
                     </h3>
                     <p className="mt-3 text-base leading-6 text-gray-300">
                       {quote.snippet}
                     </p>
-                  </a>
+                  </div>
                   <div className="mt-3">
                     <a
                       href={`https://t.me/share/url?url=https://genemator.me/quotes/&text=**${quote.id}:** __${quote.title}__`}
