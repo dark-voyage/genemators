@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Home() {
   const random = () => {
-    const links = ["/posts", "/about", "/quotes"];
+    const links = ["/posts", "/about", "/quotes", "/x", "/socials"];
     const index = Math.floor(Math.random() * links.length);
     return links[index];
   };

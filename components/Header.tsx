@@ -108,7 +108,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                 eXplorer
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/socials">
               <a className="text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150">
                 Socials
               </a>
@@ -372,7 +372,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                         </div>
                       </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/socials">
                       <a className="-m-3 p-3 flex items-center space-x-3 rounded-md text-white hover:bg-white hover:text-black transition ease-in-out duration-150">
                         <svg
                           className="flex-shrink-0 h-6 w-6"
