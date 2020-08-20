@@ -355,16 +355,16 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                     <Link href="/x">
                       <a className="-m-3 p-3 flex items-center space-x-3 rounded-md text-white hover:bg-white hover:text-black transition ease-in-out duration-150">
                         <svg
-                            className="flex-shrink-0 h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
+                          className="flex-shrink-0 h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
                         >
                           <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
                           />
                         </svg>
                         <div className="text-base leading-6 font-medium">
@@ -375,16 +375,16 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                     <Link href="/">
                       <a className="-m-3 p-3 flex items-center space-x-3 rounded-md text-white hover:bg-white hover:text-black transition ease-in-out duration-150">
                         <svg
-                            className="flex-shrink-0 h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
+                          className="flex-shrink-0 h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
                         >
                           <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 16V9h14V2H5l14 14h-7m-7 0l7 7v-7m-7 0h7"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 16V9h14V2H5l14 14h-7m-7 0l7 7v-7m-7 0h7"
                           />
                         </svg>
                         <div className="text-base leading-6 font-medium">
@@ -416,8 +416,8 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                     BSBA™
                   </a>
                   <a
-                      href="https://www.youtube.com/channel/UCLvAJjc5gvy_6QL2f-RRBuw"
-                      className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150"
+                    href="https://www.youtube.com/channel/UCLvAJjc5gvy_6QL2f-RRBuw"
+                    className="text-base leading-6 font-medium text-white hover:text-gray-300 transition ease-in-out duration-150"
                   >
                     iBlogs
                   </a>
@@ -468,7 +468,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                       />
                     </svg>
                   </a>
-                  <span className="w-full flex rounded-md shadow-sm"/>
+                  <span className="w-full flex rounded-md shadow-sm" />
                   <p className="text-center text-base leading-6 font-medium text-white">
                     Proudly crafted with{" "}
                     <a
