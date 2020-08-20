@@ -81,9 +81,11 @@ const NewsPostPage = (props: Props) => {
             baseURL={props.markdown}
           />
         </div>
-        <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
-          <a href="https://t.me/genemators">Telegram Channel</a>
-        </div>
+        <a href="tg://resolve?domain=genemators">
+          <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
+            Channel
+          </div>
+        </a>
       </div>
       <Footer />
     </>
