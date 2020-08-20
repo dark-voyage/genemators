@@ -86,6 +86,7 @@ const NewsPostPage = (props: Props) => {
             baseURL={props.markdown}
           />
         </div>
+        {share}
         <div className="mt-4 text-center border rounded hover:text-black hover:bg-white">
           <a href={share}>Share</a>
         </div>
