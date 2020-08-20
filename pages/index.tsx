@@ -8,11 +8,6 @@ import Notification from "../components/Notification";
 import Link from "next/link";
 
 export default function Home() {
-  const random = () => {
-    const links = ["/posts", "/about", "/quotes", "/x", "/socials"];
-    const index = Math.floor(Math.random() * links.length);
-    return links[index];
-  };
 
   return (
     <>
@@ -25,7 +20,7 @@ export default function Home() {
         />
       </Head>
       <Header subtitle="Home" />
-      <Notification news="Update Hotfix V2 released!" />
+      <Notification news="GenoHub in V3?!" />
       <div className="h-auto">
         <div className="flex justify-center items-center">
           <svg
@@ -176,19 +171,19 @@ export default function Home() {
           </svg>
         </div>
         <div className="flex mb-4 justify-center">
-          <div className="text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded">
-            Genemator's
+          <div className="genemator-title text-white text-center xl:text-6xl lg:text-5xl text-4xl border rounded">
+            Genemator Sakhib
           </div>
         </div>
         <div className="flex justify-center">
           <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl">
-            Welcome to my website! ╰(*°▽°*)╯
+            I create websites, artworks, servers, apps, 3Ds...
           </div>
         </div>
-        <Link href={random()} as="/wtf">
+        <Link href={"/x"} as="/wtf">
           <div className="flex mb-4 mt-4 justify-center mb-32">
-            <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:bg-white hover:text-black cursor-pointer">
-              Feeling lucky?
+            <div className="bg-white text-black text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:text-white hover:bg-transparent cursor-pointer">
+              .*.eXplore.*.
             </div>
           </div>
         </Link>
