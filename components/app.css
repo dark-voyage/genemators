@@ -201,3 +201,14 @@ body {
         opacity: 25%;
     }
 }
+
+.animated-social {
+    stroke-dasharray: 5;
+    animation: dash 50s infinite linear;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 1000;
+    }
+}
