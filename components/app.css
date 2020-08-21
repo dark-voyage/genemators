@@ -203,7 +203,7 @@ body {
 }
 
 .animated-social {
-    stroke-dasharray: 5;
+    stroke-dasharray: 3;
     animation: dash 50s infinite linear;
 }
 
