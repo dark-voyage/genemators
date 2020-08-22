@@ -17,6 +17,18 @@
     "repo": "bobbify",
     "desc": "Social messenger created with React, Express, MongoDB"
   },
+  "chisel": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "chisel",
+    "desc": "Chisel - Development Portal for Educational purposes"
+  },
+  "chiseler": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "chiseler",
+    "desc": "The Chisel's Group Manager"
+  },
   "bsba": {
     "type": "github",
     "owner": "genemators",
@@ -41,6 +53,12 @@
     "repo": "genemators",
     "desc": "Genemator's Portfolio website"
   },
+  "genoxs": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "genoxs",
+    "desc": "The Python based Telegram bot that can serve as cloud server and manager"
+  },
   "goodbye.world": {
     "type": "github",
     "owner": "genemators",
@@ -52,6 +70,12 @@
     "owner": "genemators",
     "repo": "lander.js",
     "desc": "Denoland's telegram assistant"
+  },
+  "netlenister": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "netlenister",
+    "desc": "Netlenister is a template of serverless telegram bot with serverless database created by Genemator Sakhib."
   },
   "onichan": {
     "type": "github",
@@ -73,14 +97,44 @@
   },
   "sara": {
     "type": "github",
-    "owner": "genemators",
+    "owner": "genemator",
     "repo": "sara",
     "desc": "The Voice Assistant for myself for making automatising"
+  },
+  "serverland": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "serverland",
+    "desc": "The Server Manager for the team"
+  },
+  "telex": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "telex",
+    "desc": "The example typescript rest api repository"
+  },
+  "unister": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "unister",
+    "desc": "The telegram bot assistant of The BSBA™ team."
+  },
+  "unitestlint": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "unitestlint",
+    "desc": "Unister telegram bot application re-written for deno.land runtime engine."
   },
   "westman.js": {
     "type": "github",
     "owner": "genemators",
     "repo": "westman.js",
     "desc": "The re-written javascript/node.js version of Westman's Confession bot script"
+  },
+  "westman.py": {
+    "type": "github",
+    "owner": "bsba-team",
+    "repo": "westman.py",
+    "desc": "The confession manager for real ladies and gentlemen."
   }
 }
