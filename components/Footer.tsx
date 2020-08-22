@@ -103,7 +103,7 @@ const Footer = (props: { simple?: boolean }) => (
           href="https://github.com/genemators/genemators/blob/master/LICENSE"
           className="hover:underline"
         >
-          V3 | MPL-2.0 Licensed | Copyright © 2020 Genemator Sakhib
+          V3 | MPL-2.0 Licensed | Copyright © 2017-2020 Genemator Sakhib
         </a>
       </div>
     </div>
