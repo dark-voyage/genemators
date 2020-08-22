@@ -17,6 +17,12 @@
     "repo": "bobbify",
     "desc": "Social messenger created with React, Express, MongoDB"
   },
+  "bsba": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "bsba",
+    "desc": "BSBA team's website"
+  },
   "chisel": {
     "type": "github",
     "owner": "bsba-team",
@@ -28,12 +34,6 @@
     "owner": "bsba-team",
     "repo": "chiseler",
     "desc": "The Chisel's Group Manager"
-  },
-  "bsba": {
-    "type": "github",
-    "owner": "genemators",
-    "repo": "bsba",
-    "desc": "BSBA team's website"
   },
   "deno": {
     "type": "github",
