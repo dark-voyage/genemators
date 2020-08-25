@@ -25,13 +25,13 @@
   },
   "chisel": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "chisel",
     "desc": "Chisel - Development Portal for Educational purposes"
   },
   "chiseler": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "chiseler",
     "desc": "The Chisel's Group Manager"
   },
@@ -55,7 +55,7 @@
   },
   "genoxs": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "genoxs",
     "desc": "The Python based Telegram bot that can serve as cloud server and manager"
   },
@@ -73,7 +73,7 @@
   },
   "netlenister": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "netlenister",
     "desc": "Netlenister is a template of serverless telegram bot with serverless database created by Genemator Sakhib."
   },
@@ -103,25 +103,25 @@
   },
   "serverland": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "serverland",
     "desc": "The Server Manager for the team"
   },
   "telex": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "telex",
     "desc": "The example typescript rest api repository"
   },
   "unister": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "unister",
     "desc": "The telegram bot assistant of The BSBA™ team."
   },
   "unitestlint": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "unitestlint",
     "desc": "Unister telegram bot application re-written for deno.land runtime engine."
   },
@@ -133,7 +133,7 @@
   },
   "westman.py": {
     "type": "github",
-    "owner": "bsba-team",
+    "owner": "genestatic",
     "repo": "westman.py",
     "desc": "The confession manager for real ladies and gentlemen."
   }
