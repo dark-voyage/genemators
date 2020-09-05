@@ -176,16 +176,23 @@ export default function Home() {
         </div>
         <div className="flex justify-center">
           <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl">
-            I create websites, artworks, servers, apps, 3Ds...
+            <a href="https://commits.top/uzbekistan.html">
+              A Senior Developer from Top 3 Developers across Uzbekistan!
+            </a>
           </div>
         </div>
-        <Link href={"/x"} as="/wtf">
-          <div className="flex mb-4 mt-4 justify-center mb-32">
-            <div className="bg-white text-black text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:text-white hover:bg-transparent cursor-pointer">
-              .*.eXplore.*.
-            </div>
+          <div className="flex wrap mb-4 mt-4 justify-center mb-32">
+            <Link href={"/x"} as="/wtf">
+              <div className="bg-white text-black text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:text-white hover:bg-transparent cursor-pointer m-4">
+                {"✵ 9xplore ✵"}
+              </div>
+            </Link>
+            <Link href={"/about"} as="/wtf">
+              <div className="bg-white text-black text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:text-white hover:bg-transparent cursor-pointer m-4">
+                {"✵ 4bout ✵"}
+              </div>
+            </Link>
           </div>
-        </Link>
       </div>
       <Footer />
     </>
