@@ -181,18 +181,18 @@ export default function Home() {
             </a>
           </div>
         </div>
-          <div className="flex wrap mb-4 mt-4 justify-center mb-32">
-            <Link href={"/x"} as="/wtf">
-              <div className="bg-white text-black text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:text-white hover:bg-transparent cursor-pointer m-4">
-                {"✵ 9xplore ✵"}
-              </div>
-            </Link>
-            <Link href={"/about"} as="/wtf">
-              <div className="bg-white text-black text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:text-white hover:bg-transparent cursor-pointer m-4">
-                {"✵ 4bout ✵"}
-              </div>
-            </Link>
-          </div>
+        <div className="flex wrap mb-4 mt-4 justify-center mb-32">
+          <Link href={"/x"} as="/wtf">
+            <div className="bg-white text-black text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:text-white hover:bg-transparent cursor-pointer m-4">
+              {"✵ 9xplore ✵"}
+            </div>
+          </Link>
+          <Link href={"/about"} as="/wtf">
+            <div className="bg-white text-black text-center xl:text-3xl lg:text-2xl text-1xl border rounded hover:text-white hover:bg-transparent cursor-pointer m-4">
+              {"✵ 4bout ✵"}
+            </div>
+          </Link>
+        </div>
       </div>
       <Footer />
     </>
