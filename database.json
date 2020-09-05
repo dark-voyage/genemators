@@ -25,7 +25,7 @@
   },
   "chisel": {
     "type": "github",
-    "owner": "genestatic",
+    "owner": "chiseldevs",
     "repo": "chisel",
     "desc": "Chisel - Development Portal for Educational purposes"
   },
