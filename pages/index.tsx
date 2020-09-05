@@ -177,7 +177,7 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="text-white text-center xl:text-3xl lg:text-2xl text-1xl">
             <a href="https://commits.top/uzbekistan.html">
-              A Senior Developer from Top 3 Developers across Uzbekistan!
+              Senior Developer from UZB Top 3!
             </a>
           </div>
         </div>
