@@ -1,3 +1,5 @@
+/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
+
 import React, { useEffect } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import marked, { Renderer } from "marked";

@@ -1,3 +1,5 @@
+/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
+
 import React, { useMemo, useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
