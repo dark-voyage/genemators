@@ -119,22 +119,10 @@
     "repo": "unister",
     "desc": "The telegram bot assistant of The BSBA™ team."
   },
-  "unitestlint": {
-    "type": "github",
-    "owner": "genestatic",
-    "repo": "unitestlint",
-    "desc": "Unister telegram bot application re-written for deno.land runtime engine."
-  },
   "westman.js": {
     "type": "github",
     "owner": "genemators",
     "repo": "westman.js",
     "desc": "The re-written javascript/node.js version of Westman's Confession bot script"
-  },
-  "westman.py": {
-    "type": "github",
-    "owner": "genestatic",
-    "repo": "westman.py",
-    "desc": "The confession manager for real ladies and gentlemen."
   }
 }
