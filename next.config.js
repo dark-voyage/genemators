@@ -1,5 +1,3 @@
-/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
-
 const withPrefresh = require("@prefresh/next");
 
 module.exports = withPrefresh({
