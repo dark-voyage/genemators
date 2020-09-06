@@ -23,22 +23,8 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" content="#000000" />
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-176078455-1"
-          />
-          <script async src="/google/analytics.js" />
-          <script async src="/google/tagmanager.js" />
         </Head>
         <body>
-          <noscript>
-            <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-57ZPM49"
-              height="0"
-              width="0"
-              style={{ display: "none", visibility: "hidden" }}
-            />
-          </noscript>
           <Main />
           <NextScript />
         </body>
