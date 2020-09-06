@@ -1,3 +1,5 @@
+/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
+
 import { Entry, DirEntry, DatabaseEntry } from "../registries";
 
 export interface GithubDatabaseEntry extends DatabaseEntry {
