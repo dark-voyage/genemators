@@ -8,7 +8,7 @@ I'm a full stack senior developer who is passionate about making open-source mor
 
 ## Find me around the web 🌐:
 
-- Learning in public on <a href="https://flutter.dev/">Flutter</a> 👨🏻‍💻
+- Contributing in public on <a href="https://deno.land/">Deno</a> 👨🏻‍💻
 - Tinkering with interactions on <a href="https://instagram.com/genemator">
   Instagram</a> 📷
 - Sharing updates on <a href="https://www.t.me/genemators">Telegram</a> 🤙🏻
