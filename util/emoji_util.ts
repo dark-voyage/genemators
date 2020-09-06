@@ -1,3 +1,5 @@
+/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
+
 import emojis from "./emojis.json";
 
 export function replaceEmojis(src: string): string {
