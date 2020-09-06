@@ -1,3 +1,5 @@
+/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
+
 import DATABASE from "../database.json";
 import { GithubEntry, GithubDatabaseEntry } from "./registries/github";
 import { URLEntry, URLDatabaseEntry } from "./registries/url";
