@@ -72,7 +72,7 @@ export default function About() {
                 <span style={{ color: "#1aff31" }}>三·Genemator</span>. I’m glad
                 to see you visit my website. For the beginning, let me introduce
                 myself. I’m a Senior Full-Stack developer with more than 7 years
-                of experience. Although I professionally code using different
+                of experience. Although I professionally code using 7 different
                 programming languages, I mainly use C++ for its total control
                 and wide range of functions. That said, my knowledge is not
                 limited to coding. I am also a specialist in creating 3D driven
