@@ -31,7 +31,7 @@
   },
   "chiseler": {
     "type": "github",
-    "owner": "genestatic",
+    "owner": "chiseldevs",
     "repo": "chiseler",
     "desc": "The Chisel's Group Manager"
   },
@@ -97,7 +97,7 @@
   },
   "sara": {
     "type": "github",
-    "owner": "genemator",
+    "owner": "genemators",
     "repo": "sara",
     "desc": "The Voice Assistant for myself for making automatising"
   },
