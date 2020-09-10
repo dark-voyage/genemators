@@ -1,7 +1,7 @@
 {
   "name": "genemators-portfolio",
   "version": "3.0.2",
-  "private": true,
+  "private": false,
   "description": "The portfolio website of Genemator",
   "scripts": {
     "dev": "next",
