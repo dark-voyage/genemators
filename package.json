@@ -1,7 +1,7 @@
 {
   "name": "genemators-portfolio",
   "version": "3.0.2",
-  "private": false,
+  "private": true,
   "description": "The portfolio website of Genemator",
   "scripts": {
     "dev": "next",
@@ -16,9 +16,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/genemators/genemators.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "Portfolio",
