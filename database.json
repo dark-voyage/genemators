@@ -3,49 +3,49 @@
     "type": "github",
     "owner": "genemators",
     "repo": "betacraft",
-    "desc": "The minecraft server manager written in denoland"
+    "desc": "The MineCraft Server of Java & Bedrock Edition"
   },
   "betalander": {
     "type": "github",
     "owner": "genemators",
     "repo": "betalander",
-    "desc": "The minecraft server manager written in python"
+    "desc": "The minecraft server manager written in TypeScript"
   },
   "bobbify": {
     "type": "github",
     "owner": "genemators",
     "repo": "bobbify",
-    "desc": "Social messenger created with React, Express, MongoDB"
+    "desc": "Social Messenger created with React, Express, MongoDB"
   },
   "bsba": {
     "type": "github",
     "owner": "genemators",
     "repo": "bsba",
-    "desc": "BSBA team's website"
-  },
-  "chisel": {
-    "type": "github",
-    "owner": "chiseldevs",
-    "repo": "chisel",
-    "desc": "Chisel - Development Portal for Educational purposes"
-  },
-  "chiseler": {
-    "type": "github",
-    "owner": "chiseldevs",
-    "repo": "chiseler",
-    "desc": "The Chisel's Group Manager"
+    "desc": "The main homepage website of BSBA team"
   },
   "deno": {
     "type": "github",
     "owner": "genemators",
     "repo": "deno",
-    "desc": "Denoland's uzbek ported website"
+    "desc": "The deno land project ported to uzbek community"
+  },
+  "deno.depricated": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "deno.depricated",
+    "desc": "The depricated old version of deno.uz"
   },
   "dot": {
     "type": "github",
     "owner": "genemators",
     "repo": "dot",
     "desc": "The dotenv files and environment files!"
+  },
+  "future.development": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "future-development",
+    "desc": "The website of Future Development™"
   },
   "genemators": {
     "type": "github",
@@ -55,7 +55,7 @@
   },
   "genoxs": {
     "type": "github",
-    "owner": "genestatic",
+    "owner": "genemators",
     "repo": "genoxs",
     "desc": "The Python based Telegram bot that can serve as cloud server and manager"
   },
@@ -63,25 +63,19 @@
     "type": "github",
     "owner": "genemators",
     "repo": "goodbye.world",
-    "desc": "The last program that every programmer must write!\n"
+    "desc": "The last program that every programmer must write!"
   },
   "lander.js": {
     "type": "github",
     "owner": "genemators",
     "repo": "lander.js",
-    "desc": "Denoland's telegram assistant"
+    "desc": "Denoland's telegram assistant written in Node.js"
   },
   "netlenister": {
     "type": "github",
-    "owner": "genestatic",
+    "owner": "genemators",
     "repo": "netlenister",
     "desc": "Netlenister is a template of serverless telegram bot with serverless database created by Genemator Sakhib."
-  },
-  "onichan": {
-    "type": "github",
-    "owner": "genemators",
-    "repo": "onichan",
-    "desc": "3D modeled website animation"
   },
   "oss": {
     "type": "github",
@@ -89,11 +83,17 @@
     "repo": "oss",
     "desc": "OSS Linux for ready solutions"
   },
+  "osswsl": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "osswsl",
+    "desc": "[ALPHA] OSSWSL based WSL2 distribution. Added systemd support hacks"
+  },
   "remotely": {
     "type": "github",
     "owner": "genemators",
     "repo": "remotely",
-    "desc": "The python programming language based telegram bot for remote shell emulation."
+    "desc": "The python programming language based telegram bot for remote shell emulation"
   },
   "sara": {
     "type": "github",
@@ -103,26 +103,26 @@
   },
   "serverland": {
     "type": "github",
-    "owner": "genestatic",
+    "owner": "genemators",
     "repo": "serverland",
-    "desc": "The Server Manager for the team"
+    "desc": "The Server Manager for my own database"
+  },
+  "tailwind": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "tailwind",
+    "desc": "The example typescript next js template with tailwind"
   },
   "telex": {
     "type": "github",
-    "owner": "genestatic",
+    "owner": "genemators",
     "repo": "telex",
     "desc": "The example typescript rest api repository"
   },
   "unister": {
     "type": "github",
-    "owner": "genestatic",
+    "owner": "genemators",
     "repo": "unister",
     "desc": "The telegram bot assistant of The BSBA™ team."
-  },
-  "westman.js": {
-    "type": "github",
-    "owner": "genemators",
-    "repo": "westman.js",
-    "desc": "The re-written javascript/node.js version of Westman's Confession bot script"
   }
 }
