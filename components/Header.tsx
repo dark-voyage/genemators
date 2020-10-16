@@ -116,7 +116,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
           </nav>
           <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
             <a
-              href="https://github.com/genestatic"
+              href="https://github.com/genemators"
               target="_blank"
               className="whitespace-no-wrap text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400"
             >
