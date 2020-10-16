@@ -13,7 +13,7 @@ const Footer = (props: { simple?: boolean }) => (
       <nav className="-mx-5 -my-2 flex flex-wrap justify-center">
         <div className="px-5 py-2">
           <a
-            href="https://t.me/bsba_bot"
+            href="https://t.me/genemator_bot"
             className="text-base leading-6 text-white hover:text-gray-200"
           >
             Assistant
@@ -36,7 +36,7 @@ const Footer = (props: { simple?: boolean }) => (
         </div>
         <div className="px-5 py-2">
           <a
-            href="https://github.com/genestatic"
+            href="https://github.com/chiseldevs"
             className="text-base leading-6 text-white hover:text-gray-200"
           >
             Organisation
@@ -80,7 +80,7 @@ const Footer = (props: { simple?: boolean }) => (
           </svg>
         </a>
         <a
-          href="https://t.me/bsba_bot"
+          href="https://t.me/genemator_bot"
           className="ml-6 text-white hover:text-gray-300"
         >
           <span className="sr-only">Assistant</span>
