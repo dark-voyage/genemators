@@ -21,7 +21,7 @@ const Footer = (props: { simple?: boolean }) => (
         </div>
         <div className="px-5 py-2">
           <a
-            href="https://bsba.uz/genemator"
+            href="https://bsba.uz/whoarewe"
             className="text-base leading-6 text-white hover:text-gray-200"
           >
             Team
