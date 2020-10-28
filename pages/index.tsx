@@ -19,7 +19,7 @@ export default function Home() {
         />
       </Head>
       <Header subtitle="Home" />
-      <Notification news="GenoHub in V3?!" />
+      <Notification news="WestHub? Yet another Git Manager?" />
       <div className="h-auto">
         <div className="flex justify-center items-center">
           <svg
