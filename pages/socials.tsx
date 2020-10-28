@@ -235,7 +235,10 @@ const Socials = () => {
               </a>
             </div>
             <div className="items-center justify-center">
-              <a href="https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg" key="youtube">
+              <a
+                href="https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg"
+                key="youtube"
+              >
                 <svg
                   className="h-36 w-36 animated-social"
                   fill="none"
