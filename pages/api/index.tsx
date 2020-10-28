@@ -1,5 +1,5 @@
 // Fake users data
-const users = [{ id: 1 }, { id: 2 }, { id: 3 }];
+const users = [{ status: "ok" }];
 
 export default function handler(req: any, res: any) {
   // Get data from your database
