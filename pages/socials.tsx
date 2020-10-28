@@ -29,7 +29,6 @@ const Socials = () => {
             </div>
           </div>
           <div className="mt-6 grid gap-16 lg:grid-cols-5  lg:row-gap-12 items-center text-center justify-center">
-            <div className="items-center justify-center">
               <a href="https://facebook.com/sakhib.orzklv" key="facebook">
                 <svg
                   className="h-36 w-36 animated-social"
@@ -51,8 +50,6 @@ const Socials = () => {
                   />
                 </svg>
               </a>
-            </div>
-            <div className="items-center justify-center">
               <a href="https://instagram.com/genemator" key="instagram">
                 <svg
                   className="h-36 w-36 animated-social"
@@ -80,8 +77,6 @@ const Socials = () => {
                   />
                 </svg>
               </a>
-            </div>
-            <div className="items-center justify-center">
               <a href="https://twitter.com/genemator" key="twitter">
                 <svg
                   className="h-36 w-36 animated-social"
@@ -103,8 +98,6 @@ const Socials = () => {
                   />
                 </svg>
               </a>
-            </div>
-            <div className="items-center justify-center">
               <a href="https://twitch.com/genemators" key="twitch">
                 <svg
                   className="h-36 w-36 animated-social"
@@ -148,8 +141,6 @@ const Socials = () => {
                   />
                 </svg>
               </a>
-            </div>
-            <div className="items-center justify-center">
               <a href="https://vk.com/genemator" key="vkontakte">
                 <svg
                   className="h-36 w-36 animated-social"
@@ -165,8 +156,6 @@ const Socials = () => {
                   />
                 </svg>
               </a>
-            </div>
-            <div className="items-center justify-center">
               <a href="https://t.me/genemator" key="telegram">
                 <svg
                   className="h-36 w-36 animated-social"
@@ -182,8 +171,6 @@ const Socials = () => {
                   />
                 </svg>
               </a>
-            </div>
-            <div className="items-center justify-center">
               <a href="https://github.com/genemators" key="github">
                 <svg
                   className="h-36 w-36 animated-social"
@@ -199,8 +186,6 @@ const Socials = () => {
                   />
                 </svg>
               </a>
-            </div>
-            <div className="items-center justify-center">
               <a href="https://steamcommunity.com/id/genemator" key="steam">
                 <svg
                   className="h-36 w-36 animated-social"
@@ -216,7 +201,6 @@ const Socials = () => {
                   />
                 </svg>
               </a>
-            </div>
           </div>
         </div>
       </div>
