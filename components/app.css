@@ -76,14 +76,9 @@ select option {
 body {
   background-color: black;
   color: white;
-  background-size: 50px 50px;
+  background-size: 500px 500px;
   background-position: center;
-  background-image: linear-gradient(
-      to right,
-      var(--mid-grey) 1px,
-      transparent 1px
-    ),
-    linear-gradient(to bottom, var(--mid-grey) 1px, transparent 1px);
+  background-image: url("https://genemator.me/circuit.svg");
   -webkit-animation: bg-scrolling-reverse 15s infinite;
   /* Safari 4+ */
   -moz-animation: bg-scrolling-reverse 15s infinite;
