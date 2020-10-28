@@ -71,7 +71,7 @@ select option {
 body {
   background-color: black;
   color: white;
-  background-size: 500px 500px;
+  background-size: 300px 300px;
   background-position: center;
   background-image: url("https://genemator.me/circuit.svg");
   -webkit-animation: bg-scrolling-reverse 15s infinite;
