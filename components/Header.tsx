@@ -120,7 +120,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
               target="_blank"
               className="whitespace-no-wrap genemator-title text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400"
             >
-              w
+              W
             </a>
           </div>
         </div>
