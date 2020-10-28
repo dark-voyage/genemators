@@ -23,11 +23,6 @@ html {
   font-family: "JetBrains Mono", monospace;
 }
 
-:root {
-  --grey: #5e5d5e;
-  --mid-grey: #3f3f3f;
-}
-
 select option {
   background-color: rgba(0, 0, 0, 255);
 }
