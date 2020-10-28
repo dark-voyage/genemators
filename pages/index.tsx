@@ -29,8 +29,6 @@ export default function Home() {
             height="450"
             viewBox="0 0 160 160"
             fill="none"
-            stroke="#fff"
-            strokeLinecap="round"
           >
             <circle cx="80" cy="80" r="50" fill="#fff" />
             <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
