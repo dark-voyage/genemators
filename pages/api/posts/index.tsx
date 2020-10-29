@@ -6,7 +6,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 import { promises } from "fs";
 import { join } from "path";
 
-const postsHandler = async (res: NextApiResponse, req: NextApiRequest) => {
+const postsHandler = async (req: NextApiRequest, res: NextApiResponse) => {
   const dir = await promises.readdir("./public/posts");
   const postIds = dir.filter((name) => name.endsWith(".json"));
   const posts = await Promise.all(
@@ -17,7 +17,7 @@ const postsHandler = async (res: NextApiResponse, req: NextApiRequest) => {
       return { ...JSON.parse(file), id: name.replace(/\.json$/, "") };
     })
   );
-  res.status(200).json({ posts });
+  res.status(200).json(posts);
 };
 
 export default postsHandler;
