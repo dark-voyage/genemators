@@ -39,9 +39,8 @@ const postsHandler = (
       day: "numeric",
       year: "numeric",
     });
-
-    res.status(200).json(props);
   });
+  res.status(200).json(props);
 };
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
