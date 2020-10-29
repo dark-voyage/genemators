@@ -2,7 +2,12 @@
 
 import React from "react";
 
-import { GetStaticProps, GetStaticPaths, NextApiRequest, NextApiResponse } from "next";
+import {
+  GetStaticProps,
+  GetStaticPaths,
+  NextApiRequest,
+  NextApiResponse,
+} from "next";
 import { promises as fs } from "fs";
 import { join } from "path";
 import Link from "next/link";
@@ -25,7 +30,11 @@ interface Props {
   };
 }
 
-const postsViewHandler = (props: Props, req: NextApiRequest, res: NextApiResponse) => {
+const postsViewHandler = (
+  props: Props,
+  req: NextApiRequest,
+  res: NextApiResponse
+) => {
   const date = new Date(props.meta.publish_date);
   const format = new Intl.DateTimeFormat(undefined, {
     month: "long",
@@ -33,7 +42,7 @@ const postsViewHandler = (props: Props, req: NextApiRequest, res: NextApiRespons
     year: "numeric",
   });
 
-  res.status(200).json(props)
+  res.status(200).json(props);
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {

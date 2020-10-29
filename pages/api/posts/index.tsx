@@ -27,7 +27,11 @@ interface Props {
   posts: PostMeta[];
 }
 
-const postsHandler = (props: Props, res: NextApiResponse, req: NextApiRequest) => {
+const postsHandler = (
+  props: Props,
+  res: NextApiResponse,
+  req: NextApiRequest
+) => {
   props.posts.map((post) => {
     const date = new Date(post.publish_date);
     const format = new Intl.DateTimeFormat(undefined, {
@@ -36,9 +40,8 @@ const postsHandler = (props: Props, res: NextApiResponse, req: NextApiRequest) =
       year: "numeric",
     });
 
-    res.status(200).json(props)
-  }
-  );
+    res.status(200).json(props);
+  });
 };
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
