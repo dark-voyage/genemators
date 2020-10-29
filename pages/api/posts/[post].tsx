@@ -11,34 +11,13 @@ const postsViewHandler = async (
   res: NextApiResponse
 ) => {
   const dir = await fs.readdir("./public/posts");
+  const postIds = dir.filter((name) => name.endsWith(".json"));
+  const paths = postIds.map((id) => ({
+    params: { post: id.replace(/\.json$/, "") },
+  }));
+  const post = paths.params!.post;
 
-
-  res.status(200).json(dir);
+  res.status(200).json(paths);
 };
-
-// export const getStaticPaths: GetStaticPaths = async () => {
-//   const dir = await fs.readdir("./public/posts");
-//   const postIds = dir.filter((name) => name.endsWith(".json"));
-//   const paths = postIds.map((id) => ({
-//     params: { post: id.replace(/\.json$/, "") },
-//   }));
-//   return { paths, fallback: false };
-// };
-//
-// export const getStaticProps: GetStaticProps<Props> = async (ctx) => {
-//   const post = ctx.params!.post;
-//   const markdown = await fs.readFile(join("./public/posts", post + ".md"), {
-//     encoding: "utf8",
-//   });
-//   const meta = await fs.readFile(join("./public/posts", post + ".json"), {
-//     encoding: "utf8",
-//   });
-//   return {
-//     props: {
-//       markdown,
-//       meta: { ...JSON.parse(meta), id: post },
-//     },
-//   };
-// };
 
 export default postsViewHandler;
