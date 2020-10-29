@@ -6,7 +6,7 @@ const message = [
     status: "ok",
     links: {
       home: "/api",
-      posts: "/posts",
+      posts: "/api/posts",
     },
   },
 ];
