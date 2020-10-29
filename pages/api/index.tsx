@@ -1,7 +1,9 @@
 // Fake users data
-const users = [{ status: "ok" }];
+import { NextApiRequest, NextApiResponse } from "next";
 
-export default function handler(req: any, res: any) {
+const message = [{ status: "ok" }];
+
+export default function apiHandler(req: NextApiRequest, res: NextApiResponse) {
   // Get data from your database
-  res.status(200).json(users);
+  res.status(200).json(message);
 }
