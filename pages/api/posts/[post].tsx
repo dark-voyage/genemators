@@ -10,7 +10,7 @@ const postsViewHandler = async (
   req: NextApiRequest,
   res: NextApiResponse
 ) => {
-  const dir = await fs.readdir("./public/posts");
+  const dir = await fs.readdir("/public/posts");
   const postIds = dir.filter((name) => name.endsWith(".json"));
   const paths = postIds.map((id) => ({
     params: { post: id.replace(/\.json$/, "") },
