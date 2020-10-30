@@ -6,5 +6,6 @@ export default async function postsHandler(
   res: NextApiResponse
 ) {
   const dir = await promises.readdir("../");
+  // const file = await promises.readFile('');
   res.status(200).json(dir);
 }
