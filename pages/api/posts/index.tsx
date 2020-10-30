@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { promises } from "fs";
 
-export default function postsHandler(
+export default async function postsHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
