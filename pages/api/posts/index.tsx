@@ -6,9 +6,9 @@ export default async function postsHandler(
   res: NextApiResponse
 ) {
   const dir = await promises.readdir("./");
-  const file = await promises.readFile('./now__launcher.js', "utf8");
+  const file = await promises.readFile("./now__launcher.js", "utf8");
   res.status(200).json({
     dir: dir,
-    file: file
+    file: file,
   });
 }
