@@ -1,10 +1,10 @@
 import { NextApiRequest, NextApiResponse } from "next";
-
-const users = [{ id: 1 }, { id: 2 }, { id: 3 }];
+import { promises } from "fs";
 
 export default function postsHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  res.status(200).json(users);
+  const dir = await promises.readdir("./public/posts");
+  res.status(200).json(dir);
 }
