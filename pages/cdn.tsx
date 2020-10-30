@@ -50,7 +50,6 @@ const PostsIndexPage = (props: any) => {
                     <a
                       href={"https://genemator.me/" + content}
                       className="read-post text-base leading-6 font-semibold transition ease-in-out duration-150"
-                      download={content}
                     >
                       Download
                     </a>
