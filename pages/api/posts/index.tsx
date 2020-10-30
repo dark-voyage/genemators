@@ -5,6 +5,6 @@ export default async function postsHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const dir = await promises.readdir("./posts");
+  const dir = await promises.readdir("./");
   res.status(200).json(dir);
 }
