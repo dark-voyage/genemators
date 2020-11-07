@@ -7,6 +7,8 @@ import Footer from "../components/Footer";
 import Notification from "../components/Notification";
 import Link from "next/link";
 
+import { news } from "../news.json";
+
 export default function Home() {
   return (
     <>
@@ -19,7 +21,7 @@ export default function Home() {
         />
       </Head>
       <Header subtitle="Home" />
-      <Notification news="WestHub? Yet another Git Manager?" />
+      <Notification news={news} />
       <div className="h-auto">
         <div className="flex justify-center items-center">
           <svg
