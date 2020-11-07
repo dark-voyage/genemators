@@ -313,11 +313,13 @@ export default function About() {
                         )
                         .pasteString(
                           "<br>" +
-                            'Now, I want you to find "Something Comforting" by Porter Robinson and sing with me! I\'ll be wating for you next 10 seconds here... ಥ_ಥ'
+                            'Now, I want you to find "trying//cry4help" by funeral and sing with me! I\'ll be waiting for you next 10 seconds here... ಥ_ಥ'
                         )
                         .pauseFor(1000)
-                        .pasteString("Are you ready?")
-                        .pauseFor(5000)
+                        .pasteString("<br/>" + "Are you ready?")
+                        .pauseFor(1000)
+                        .pasteString("<br/>" + "1...").pauseFor(1000).pasteString(" 2...").pauseFor(1000).pasteString(" 3...").pauseFor(1000)
+                        .deleteAll()
                         .pasteString("<br/>" + "(#--------) 5%")
                         .pauseFor(1000)
                         .pasteString("<br/>" + "(###------) 26%")
