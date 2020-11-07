@@ -6,10 +6,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 // @ts-ignore
-// No typing references
 import Typewriter from "typewriter-effect";
-import { Simulate } from "react-dom/test-utils";
-import pause = Simulate.pause;
 
 export default function About() {
   return (
