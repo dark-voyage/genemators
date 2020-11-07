@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 
 // @ts-ignore
 import Typewriter from "typewriter-effect";
+import VisibilitySensor from "react-visibility-sensor";
 
 export default function About() {
   return (
@@ -294,47 +295,49 @@ export default function About() {
                 {"¸,ø¤º°`°º¤ø,¸¸,ø¤º° genemator °º¤ø,¸¸,ø¤º°`°º¤ø,¸ $"}
               </div>
               <div className=" items-center pl-2">
-                <Typewriter
-                  options={{
-                    autoStart: true,
-                    cursor: "¦",
-                  }}
-                  onInit={(typewriter: any) => {
-                    typewriter
-                      .typeString("...")
-                      .pauseFor(3000)
-                      .deleteChars(3)
-                      .typeString("./goodbyeworld") //
-                      .pauseFor(1000)
-                      .pasteString(
-                        "<br>" + "Thank you for being with me all time! 💖"
-                      )
-                      .pasteString(
-                        "<br>" +
-                          'Now, I want you to find "Something Comforting" by Porter Robinson and sing with me! I\'ll be wating for you next 10 seconds here... ಥ_ಥ'
-                      )
-                      .pauseFor(1000)
-                      .pasteString("Are you ready?")
-                      .pauseFor(5000)
-                      .pasteString("<br/>" + "(#--------) 5%")
-                      .pauseFor(1000)
-                      .pasteString("<br/>" + "(###------) 26%")
-                      .pauseFor(1000)
-                      .pasteString("<br/>" + "(#####----) 52%")
-                      .pauseFor(1000)
-                      .pasteString("<br/>" + "(######---) 72%")
-                      .pauseFor(1000)
-                      .pasteString("<br/>" + "(#######--) 84%")
-                      .pauseFor(1000)
-                      .pasteString("<br/>" + "(########-) 99%")
-                      .pauseFor(1000)
-                      .pasteString("<br/>" + "Goodbye World! (┬┬﹏┬┬)")
-                      .pauseFor(5000)
-                      .typeString("  exit")
-                      .pasteString("<br/>" + "[Process completed]")
-                      .start();
-                  }}
-                />
+                <VisibilitySensor>
+                  <Typewriter
+                    options={{
+                      autoStart: true,
+                      cursor: "¦",
+                    }}
+                    onInit={(typewriter: any) => {
+                      typewriter
+                        .typeString("...")
+                        .pauseFor(3000)
+                        .deleteChars(3)
+                        .typeString("./goodbyeworld") //
+                        .pauseFor(1000)
+                        .pasteString(
+                          "<br>" + "Thank you for being with me all time! 💖"
+                        )
+                        .pasteString(
+                          "<br>" +
+                            'Now, I want you to find "Something Comforting" by Porter Robinson and sing with me! I\'ll be wating for you next 10 seconds here... ಥ_ಥ'
+                        )
+                        .pauseFor(1000)
+                        .pasteString("Are you ready?")
+                        .pauseFor(5000)
+                        .pasteString("<br/>" + "(#--------) 5%")
+                        .pauseFor(1000)
+                        .pasteString("<br/>" + "(###------) 26%")
+                        .pauseFor(1000)
+                        .pasteString("<br/>" + "(#####----) 52%")
+                        .pauseFor(1000)
+                        .pasteString("<br/>" + "(######---) 72%")
+                        .pauseFor(1000)
+                        .pasteString("<br/>" + "(#######--) 84%")
+                        .pauseFor(1000)
+                        .pasteString("<br/>" + "(########-) 99%")
+                        .pauseFor(1000)
+                        .pasteString("<br/>" + "Goodbye World! (┬┬﹏┬┬)")
+                        .pauseFor(5000)
+                        .typeString("  exit")
+                        .pasteString("<br/>" + "[Process completed]")
+                        .start();
+                    }}
+                  />
+                </VisibilitySensor>
               </div>
             </div>
           </div>
