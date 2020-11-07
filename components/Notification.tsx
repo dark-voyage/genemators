@@ -21,7 +21,9 @@ const Notification = ({ news }: { news: string }) => {
                 </span>
                 <span className="block sm:ml-2 sm:inline-block">
                   <Link href="/posts">
-                    <a className="text-black underline select-none">Read my blog &rarr;</a>
+                    <a className="text-black underline select-none">
+                      Read my blog &rarr;
+                    </a>
                   </Link>
                 </span>
               </p>
