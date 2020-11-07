@@ -81,14 +81,16 @@ const Quotes = (props: Props) => {
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const dir = await promises.readdir("./public/quotes");
   const quoteIds = dir.filter((name) => name.endsWith(".json"));
-  const quotes = await Promise.all(
-    quoteIds.map(async (name) => {
-      const file = await promises.readFile(join("./public/quotes", name), {
-        encoding: "utf8",
-      });
-      return { ...JSON.parse(file), id: name.replace(/\.json$/, "") };
-    })
-  );
+  const quotes = await (
+    await Promise.all(
+      quoteIds.map(async (name) => {
+        const file = await promises.readFile(join("./public/quotes", name), {
+          encoding: "utf8",
+        });
+        return { ...JSON.parse(file), id: name.replace(/\.json$/, "") };
+      })
+    )
+  ).reverse();
   return {
     props: { quotes },
   };
