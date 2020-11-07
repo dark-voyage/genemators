@@ -319,7 +319,7 @@ export default function About() {
                         .pasteString("<br/>" + "Are you ready?")
                         .pauseFor(1000)
                         .pasteString("<br/>" + "1...").pauseFor(1000).pasteString(" 2...").pauseFor(1000).pasteString(" 3...").pauseFor(1000)
-                        .deleteAll()
+                        .deleteAll(1)
                         .pasteString("<br/>" + "(#--------) 5%")
                         .pauseFor(1000)
                         .pasteString("<br/>" + "(###------) 26%")
