@@ -7,7 +7,6 @@ import Footer from "../components/Footer";
 
 // @ts-ignore
 import Typewriter from "typewriter-effect";
-import VisibilitySensor from "react-visibility-sensor";
 
 export default function About() {
   return (
