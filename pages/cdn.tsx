@@ -26,7 +26,7 @@ const PostsIndexPage = (props: any) => {
         <div className="max-w-screen-lg mx-auto">
           <div className="border-b-2 border-gray-100 pb-10">
             <h2 className="text-4xl font-bold tracking-tight">
-              CDN {"<|>"} Media Management
+              4BIS2 {"<|>"} Media Management
             </h2>
             <div className="mt-3 sm:mt-4">
               <p className="text-xl leading-7 text-white">
