@@ -1,8 +1,12 @@
 /* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import { useRouter } from "next/router";
 import React from "react";
 import Link from "next/link";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import Router from "next/router";
 
 const Notification = ({ news }: { news: string }) => {
@@ -20,7 +24,7 @@ const Notification = ({ news }: { news: string }) => {
                   {news}
                 </span>
                 <span className="block sm:ml-2 sm:inline-block">
-                  <Link href="/posts">
+                  <Link href="/quotes">
                     <a className="text-black underline select-none">
                       Read my blog &rarr;
                     </a>
