@@ -6,7 +6,7 @@ import Head from "next/head";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Markdown from "../../components/Markdown";
-import { GetStaticProps, GetStaticPaths } from "next";
+import { GetStaticProps, GetStaticPaths } from "next/types";
 import { promises as fs } from "fs";
 import { join } from "path";
 import Link from "next/link";

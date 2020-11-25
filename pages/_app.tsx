@@ -23,6 +23,8 @@ Router.events.on("routeChangeError", () => NProgress.done());
 
 export default class MyApp extends App {
   render() {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     const { Component, pageProps } = this.props;
     const preview = `https://genemator.me/preview.png`;
     return (

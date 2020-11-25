@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { NextApiRequest, NextApiResponse } from "next/types";
 import { promises } from "fs";
 
 export default async function postsHandler(

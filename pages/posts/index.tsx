@@ -2,7 +2,7 @@
 
 import React from "react";
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { GetStaticProps } from "next/types";
 
 import { promises } from "fs";
 

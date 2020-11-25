@@ -2,13 +2,8 @@
 
 import React from "react";
 import Head from "next/head";
-import { GetStaticProps } from "next";
-
-import { promises } from "fs";
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { join } from "path";
 
 interface SocialMeta {
   id: string;
