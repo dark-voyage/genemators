@@ -5,10 +5,11 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Typewriter from "typewriter-effect";
 
-export default function About() {
+export default function About(string: string, node: HTMLElement | null) {
   return (
     <>
       <Head>
@@ -46,12 +47,13 @@ export default function About() {
               options={{
                 deleteSpeed: 25,
                 strings: [
-                  "Senior Developer from Uzbekistan's Top 3 ¯\\_(ツ)_/¯",
+                  "Senior Developer from Uzbekistan's Top 2 ¯\\_(ツ)_/¯",
                   "Welcome to my showcase ^_^",
                 ],
                 autoStart: true,
                 loop: true,
               }}
+              onInit={() => {}}
             />
           </div>
         </div>
@@ -327,7 +329,7 @@ export default function About() {
                       .pauseFor(1000)
                       .pasteString("<br/>" + "(###------) 26%")
                       .pauseFor(1000)
-                      .pasteString("<br/>" + "(#####----) 52%")
+                      .pasteString("<br/>" + "(#####----) 52%", node)
                       .pauseFor(1000)
                       .pasteString("<br/>" + "(######---) 72%")
                       .pauseFor(1000)
