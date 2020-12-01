@@ -73,7 +73,7 @@ body {
   color: white;
   background-size: 300px 300px;
   background-position: center;
-  background-image: url("https://genemator.me/circuit.svg");
+  background-image: url("https://genemator.me/background.svg");
   -webkit-animation: bg-scrolling-reverse 15s infinite;
   /* Safari 4+ */
   -moz-animation: bg-scrolling-reverse 15s infinite;
