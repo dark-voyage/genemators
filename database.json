@@ -1,4 +1,10 @@
 {
+  "asciinator": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "asciinator",
+    "desc": "The userbot telegram client created by Genemator in order to manage messages"
+  },
   "betacraft": {
     "type": "github",
     "owner": "genemators",
@@ -16,6 +22,12 @@
     "owner": "genemators",
     "repo": "bot",
     "desc": "Genemator's Telegram Bot helper assistant"
+  },
+  "bot.ts": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "bot.ts",
+    "desc": "Genemator's Telegram Bot helper assistant rewritten on TypeScript and Serverless Vercel"
   },
   "bsba": {
     "type": "github",
@@ -41,12 +53,6 @@
     "repo": "future-development",
     "desc": "The website of Future Development™"
   },
-  "gafael": {
-    "type": "github",
-    "owner": "genemators",
-    "repo": "gafael",
-    "desc": "Personal computer assistant that is used with Telegram Messenger written on Node.js"
-  },
   "genemators": {
     "type": "github",
     "owner": "genemators",
@@ -71,6 +77,12 @@
     "repo": "netlenister",
     "desc": "Netlenister is a template of serverless telegram bot with serverless database created by Genemator Sakhib."
   },
+  "nexter": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "nexter",
+    "desc": "Template startup Next.js app with TS support!"
+  },
   "oss": {
     "type": "github",
     "owner": "genemators",
@@ -94,6 +106,12 @@
     "owner": "genemators",
     "repo": "stream",
     "desc": "Steam Design files that's used as overlays for streamlabs or obs studio"
+  },
+  "testorex": {
+    "type": "github",
+    "owner": "genemators",
+    "repo": "testorex",
+    "desc": "The course work linted for showcase"
   },
   "westhub": {
     "type": "github",
