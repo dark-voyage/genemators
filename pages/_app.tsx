@@ -29,7 +29,10 @@ export default class MyApp extends App {
     return (
       <div className="h-screen">
         <Head>
-          <meta property="og:image" content="https://genemator.me/preview.png" />
+          <meta
+            property="og:image"
+            content="https://genemator.me/preview.png"
+          />
           <meta property="og:site_name" content="Genemator's" />
           <title>Genemator's Portfolio Website</title>
         </Head>
