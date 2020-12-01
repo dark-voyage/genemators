@@ -20,20 +20,6 @@ const Footer = (props: { simple?: boolean }) => (
           </a>
         </div>
         <div className="px-5 py-2">
-          <Link href="/cdn">
-            <a className="text-base leading-6 text-white hover:text-gray-200">
-              CDN
-            </a>
-          </Link>
-        </div>
-        <div className="px-5 py-2">
-          <Link href="/quotes">
-            <a className="text-base leading-6 text-white hover:text-gray-200">
-              Quotes
-            </a>
-          </Link>
-        </div>
-        <div className="px-5 py-2">
           <a
             href="https://github.com/chiseldevs"
             className="text-base leading-6 text-white hover:text-gray-200"
@@ -53,13 +39,6 @@ const Footer = (props: { simple?: boolean }) => (
           <Link href="/musics">
             <a className="text-base leading-6 text-white hover:text-gray-200">
               Station
-            </a>
-          </Link>
-        </div>
-        <div className="px-5 py-2">
-          <Link href="/posts">
-            <a className="text-base leading-6 text-white hover:text-gray-200">
-              News
             </a>
           </Link>
         </div>
