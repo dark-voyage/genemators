@@ -26,11 +26,10 @@ export default class MyApp extends App {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     const { Component, pageProps } = this.props;
-    const preview = `https://genemator.me/preview.png`;
     return (
       <div className="h-screen">
         <Head>
-          <meta property="og:image" content={preview} />
+          <meta property="og:image" content="https://genemator.me/preview.png" />
           <meta property="og:site_name" content="Genemator's" />
           <title>Genemator's Portfolio Website</title>
         </Head>
