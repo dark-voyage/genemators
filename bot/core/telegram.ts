@@ -3,9 +3,6 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
-    await bot.telegram.deleteWebhook();
-    await bot.telegram.setWebhook(`${process.env.VERCEL_URL}/api/bot`);
-
     const botInfo = await bot.telegram.getMe();
     bot.options.username = botInfo.username;
     console.info(
