@@ -10,6 +10,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       about: description,
       version: version,
       bugs: bugs,
+      message: "bot check"
     })
   );
 }
