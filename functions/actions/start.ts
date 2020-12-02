@@ -15,15 +15,7 @@ const start = async (ctx: TelegrafContext) => {
       `\n` +
       `<code>* Check current status of the Genemator</code>` +
       `\n` +
-      `<code>* Check the students & their statuses</code>` +
-      `\n` +
-      `<code>* Check status of minecraft server</code>` +
-      `\n` +
       `<code>* Check statuses of github repositories</code>` +
-      `\n` +
-      `<code>* Leave a feedback to admins</code>` +
-      `\n` +
-      `<code>* Request to join github organisation</code>` +
       `\n` +
       `\n` +
       `<i>In order to see full detailed usage information of the bot, press the button below.</i>`,
