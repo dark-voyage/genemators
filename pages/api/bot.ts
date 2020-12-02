@@ -3,7 +3,6 @@ import Telegraf, { Markup } from "telegraf";
 import { NextApiRequest, NextApiResponse } from "next";
 import { TelegrafContext } from "telegraf/typings/context";
 
-
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
 
 export default async function telegram(
