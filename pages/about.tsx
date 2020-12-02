@@ -70,21 +70,23 @@ export default function About(string: string, node: HTMLElement | null) {
                 Hello dear visitor! I’m{" "}
                 <span style={{ color: "#1aff31" }}>Sokhibjon Orzikulov</span>,
                 who is famous under the nickname{" "}
-                <span className="genemator-title" style={{ color: "#1aff31" }}>Genemator</span>. I’m glad
-                to see you visit my website. For the beginning, let me introduce
-                myself. I’m a Senior Full-Stack developer with more than 7 years
-                of experience. Although I professionally code using 7 different
-                programming languages as JavaScript, TypeScript, Java, Kotlin,
-                C, C++, Assembler, Python2, Python3. I mainly use C++ for its
-                total control and wide range of functions. That said, my
-                knowledge is not limited to coding. I am also a specialist in
-                creating 3D driven video and photo. Besides, I prefer Cinema 4D
-                as 3D engine and utilize Adobe Products for editing purposes. I
-                can also create different songs and music for my projects by
-                using special applications on a professional level. For the time
-                being, I am a second-year student at Westminster International
-                University in Tashkent. My nationality is{" "}
-                <span className="text-blue-500">Uz</span>
+                <span className="genemator-title" style={{ color: "#1aff31" }}>
+                  Genemator
+                </span>
+                . I’m glad to see you visit my website. For the beginning, let
+                me introduce myself. I’m a Senior Full-Stack developer with more
+                than 7 years of experience. Although I professionally code using
+                7 different programming languages as JavaScript, TypeScript,
+                Java, Kotlin, C, C++, Assembler, Python2, Python3. I mainly use
+                C++ for its total control and wide range of functions. That
+                said, my knowledge is not limited to coding. I am also a
+                specialist in creating 3D driven video and photo. Besides, I
+                prefer Cinema 4D as 3D engine and utilize Adobe Products for
+                editing purposes. I can also create different songs and music
+                for my projects by using special applications on a professional
+                level. For the time being, I am a second-year student at
+                Westminster International University in Tashkent. My nationality
+                is <span className="text-blue-500">Uz</span>
                 <span className="text-red-500">b</span>
                 <span className="text-green-400">ek</span> and I’m only 19 years
                 old 😎
