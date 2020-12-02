@@ -1,7 +1,8 @@
 import * as fuzzy from "fuzzy";
 import Telegraf, { Markup } from "telegraf";
-import { TelegrafContext } from "../../types/telegraf";
 import { NextApiRequest, NextApiResponse } from "next";
+import { TelegrafContext } from "telegraf/typings/context";
+
 
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
 
