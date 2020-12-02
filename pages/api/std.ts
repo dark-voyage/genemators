@@ -11,7 +11,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       version: version,
       url: homepage,
       message: "bot check",
-      token: process.env.BOT_TOKEN
+      token: process.env.BOT_TOKEN,
     })
   );
 }
