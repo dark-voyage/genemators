@@ -42,8 +42,8 @@ const inline = async ({ inlineQuery, answerInlineQuery }: TelegrafContext) => {
       // @ts-ignore
       return obj["name"];
     });
-  // @ts-ignore
   let similarities = await fuzzy
+    // @ts-ignore
     .filter(inlineQuery.query, repos)
     .sort()
     .slice(0, 20);
