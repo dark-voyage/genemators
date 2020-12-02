@@ -1,4 +1,4 @@
-import { handler } from "../../functions/core";
+import { handler } from "../../functions";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handle(
