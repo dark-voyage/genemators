@@ -1,4 +1,4 @@
-import { name, description, version, bugs } from "../../package.json";
+import { name, description, version, homepage } from "../../package.json";
 import { NextApiResponse, NextApiRequest } from "next";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -9,8 +9,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       name: name,
       about: description,
       version: version,
-      bugs: bugs,
-      message: "bot check"
+      url: homepage,
+      message: "bot check",
+      token: process.env.BOT_TOKEN
     })
   );
 }
