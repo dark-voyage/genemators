@@ -14,9 +14,10 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       botInfo.username
     );
 
-    bot.start(async (ctx: TelegrafContext) => await start(ctx));
-    bot.help(async (ctx: TelegrafContext) => await help(ctx));
-    bot.action("help", async (ctx: TelegrafContext) => await helpAction(ctx));
+    bot.on('text', ctx => ctx.reply("responded"))
+    // bot.start(async (ctx: TelegrafContext) => await start(ctx));
+    // bot.help(async (ctx: TelegrafContext) => await help(ctx));
+    // bot.action("help", async (ctx: TelegrafContext) => await helpAction(ctx));
     // bot.on("inline_query", async (ctx: TelegrafContext) => await inline(ctx));
 
     if (req.method === "POST") {
