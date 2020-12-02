@@ -15,7 +15,7 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     if (req.method === "POST") {
       await bot.handleUpdate(req.body, res);
     } else {
-      res.redirect("https://t.me/genemabot");
+      res.redirect(`https://t.me/${botInfo.username?.replace("@", "")}`);
     }
   } catch (error) {
     return error.message;
