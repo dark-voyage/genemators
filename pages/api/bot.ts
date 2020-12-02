@@ -220,7 +220,7 @@ export default async function telegram(
   } catch (e) {
     res.statusCode = 500;
     res.setHeader("Content-Type", "text/html");
-    res.send("<h1>Are u winnin' son?</h1>");
+    res.send("<h1>Are you winnin' son?</h1>");
     console.error(e.message);
   }
 }
