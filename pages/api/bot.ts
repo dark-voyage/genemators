@@ -51,6 +51,8 @@ export default async function telegram(
           `\n` +
           `/help - <code>show this helper message</code>` +
           `\n` +
+          `/about - <code>get information about genemator</code>` +
+          `\n` +
           `\n` +
           `<i>In order to use our inline mode, switch to inline mode ` +
           `by typing: @genemabot and then start typing something there.</i>`,
@@ -101,6 +103,8 @@ export default async function telegram(
           `\n` +
           `\n` +
           `/help - <code>show this helper message</code>` +
+          `\n` +
+          `/about - <code>get information about genemator</code>` +
           `\n` +
           `\n` +
           `<i>In order to use our inline mode, switch to inline mode ` +
