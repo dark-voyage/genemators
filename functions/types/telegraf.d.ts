@@ -3,6 +3,10 @@ import { TelegrafContext as TC } from "telegraf/typings/context";
 import { Composer as C, Middleware } from "telegraf/typings/index";
 export * from "telegraf";
 
+export interface ViaBot {
+  via_bot: boolean
+}
+
 type HearsTriggers<TContext> =
   | string[]
   | string
@@ -10,7 +14,12 @@ type HearsTriggers<TContext> =
   | RegExp[]
   | ((value: string, ctx: TContext) => RegExpExecArray | null);
 declare module "telegraf" {
+  export interface IM extends tt.IncomingMessage {
+    via_bot?: ViaBot
+  }
+
   export interface TelegrafContext extends TC {
+    message?: IM,
     replyWithAnimation(
       animation: tt.InputFile,
       extra?: ExtraAnimation
