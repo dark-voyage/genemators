@@ -29,7 +29,7 @@ export default function About(string: string, node: HTMLElement | null) {
             alt="Genemator's Logo"
           />
           {/*<img*/}
-          {/*bot="/big_logo.png"*/}
+          {/*functions="/big_logo.png"*/}
           {/*className="avatar h-auto sm:w-1/2 lg:1/2 xl:w-1/4 px-5 py-5"*/}
           {/*alt="Genemator's Logo"*/}
           {/*/>*/}

@@ -1,7 +1,7 @@
-import { NextApiRequest, NextApiResponse } from "next";
 import Telegraf from "telegraf";
-import { help, helpAction, start, inline } from "../actions";
 import { TelegrafContext } from "../types/telegraf";
+import { NextApiRequest, NextApiResponse } from "next";
+import { help, helpAction, start, inline } from "../actions";
 
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
 
@@ -10,7 +10,7 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     const botInfo = await bot.telegram.getMe();
     bot.options.username = botInfo.username;
     console.info(
-      "Server has initialized bot username using Webhook:",
+      "Server has initialized functions username using Webhook:",
       botInfo.username
     );
 
