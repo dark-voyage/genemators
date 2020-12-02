@@ -10,7 +10,7 @@ export default async function handle(
   } catch (e) {
     res.statusCode = 500;
     res.setHeader("Content-Type", "text/html");
-    res.redirect("https://genemator.me");
+    res.send("<h1>Are u winnin' son?</h1>");
     console.error(e.message);
   }
 }
