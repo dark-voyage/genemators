@@ -34,7 +34,7 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
      * Exclusion Exceptions
      */
     bot.on("text", async (ctx: TelegrafContext) => {
-      if (ctx.chat?.type === "private" && !ctx.message?.via_bot)
+      if (<string>ctx.chat?.type === "private" && <boolean>!ctx.message?.via_bot)
         await ctx.replyWithAnimation(
           "https://genemator.me/gifs/exclude.gif",
           {
