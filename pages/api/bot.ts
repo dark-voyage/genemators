@@ -197,16 +197,15 @@ export default async function telegram(
      */
     bot.on("text", async (ctx: TelegrafContext) => {
       if (<string>ctx.chat?.type === "private")
-        if (<boolean>!ctx.message?.via_bot)
-          await ctx.replyWithHTML(
-            "<b>This command or message is invalid. Please see our command list for more information!</b>",
-            {
-              parse_mode: "HTML",
-              reply_markup: Markup.inlineKeyboard([
-                Markup.callbackButton(`Show available commands`, `help`),
-              ]),
-            }
-          );
+        await ctx.replyWithHTML(
+          "<b>This command or message is invalid. Please see our command list for more information!</b>",
+          {
+            parse_mode: "HTML",
+            reply_markup: Markup.inlineKeyboard([
+              Markup.callbackButton(`Show available commands`, `help`),
+            ]),
+          }
+        );
     });
 
     /**
