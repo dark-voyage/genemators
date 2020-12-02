@@ -1,12 +1,16 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import Telegraf, { Markup } from "telegraf";
-import { TelegrafContext } from "../../functions/types/telegraf";
-import ds from "../../functions/lib/request";
 import * as fuzzy from "fuzzy";
+import Telegraf, { Markup } from "telegraf";
+import { TelegrafContext } from "../../types/telegraf";
+import { NextApiRequest, NextApiResponse } from "next";
 
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
+const ds = async (link: RequestInfo): Promise<any> => {
+  return await fetch(link).then((res: Response) => {
+    return res.json();
+  });
+}
 
-export default async function handle(
+export default async function telegram(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
