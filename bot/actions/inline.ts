@@ -36,6 +36,7 @@ const inlineKeyboard = (data: { [x: string]: any }) =>
 const inline = async ({ inlineQuery, answerInlineQuery }: TelegrafContext) => {
   let results = [],
     indexation = 1,
+    // @ts-ignore
     repos = Object.values(
       await ds("https://api.github.com/users/genemators/repos")
     ).map(function (obj) {
