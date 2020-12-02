@@ -1,7 +1,7 @@
 import Telegraf from "telegraf";
-import { TelegrafContext } from "../types/telegraf";
+import { TelegrafContext } from "./types/telegraf";
 import { NextApiRequest, NextApiResponse } from "next";
-import { help, helpAction, start, inline } from "../actions";
+import { help, helpAction, start, inline } from "./actions";
 
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
 
