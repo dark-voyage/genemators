@@ -4,11 +4,6 @@ import { TelegrafContext } from "../../types/telegraf";
 import { NextApiRequest, NextApiResponse } from "next";
 
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
-const ds = async (link: RequestInfo): Promise<any> => {
-  return await fetch(link).then((res: Response) => {
-    return res.json();
-  });
-}
 
 export default async function telegram(
   req: NextApiRequest,
@@ -121,7 +116,7 @@ export default async function telegram(
         indexation = 1,
         // @ts-ignore
         repos = Object.values(
-          await ds("https://api.github.com/users/genemators/repos")
+          await fetch("https://api.github.com/users/genemators/repos").then(r => {return r.json()})
         ).map(function (obj) {
           // @ts-ignore
           return obj["name"];
@@ -135,7 +130,7 @@ export default async function telegram(
         return obj.string;
       });
       for (let key of found) {
-        let data = await ds(`https://api.github.com/repos/genemators/${key}`);
+        let data = await fetch(`https://api.github.com/repos/genemators/${key}`).then(r => {return r.json()});
         results.push({
           type: "article",
           id: indexation,
