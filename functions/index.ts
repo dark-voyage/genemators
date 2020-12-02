@@ -19,8 +19,7 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     bot.action("help", async (ctx: TelegrafContext) => await helpAction(ctx));
     bot.on("inline_query", async (ctx: TelegrafContext) => await inline(ctx));
     bot.on("text", async (ctx: TelegrafContext) => {
-      // @ts-ignore
-      if (ctx.chat?.type === "private" && !ctx.message.via_bot)
+      if (ctx.chat?.type === "private" && !ctx.message?.via_bot)
         await ctx.replyWithAnimation(
           "https://genemator.me/gifs/exclude.gif",
           {
