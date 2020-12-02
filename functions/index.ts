@@ -10,7 +10,7 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     const botInfo = await bot.telegram.getMe();
     bot.options.username = botInfo.username;
     console.info(
-      "Server has initialized functions username using Webhook:",
+      "Server has initialized functions for",
       botInfo.username
     );
 
