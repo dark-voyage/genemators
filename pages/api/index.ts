@@ -1,16 +1,17 @@
-import { handler } from "../../functions/core";
-import { NextApiRequest, NextApiResponse } from "next";
+import { name, description, version, homepage } from "../../package.json";
+import { NextApiResponse, NextApiRequest } from "next";
 
-export default async function handle(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
-  try {
-    await handler(req, res);
-  } catch (e) {
-    res.statusCode = 500;
-    res.setHeader("Content-Type", "text/html");
-    res.send("<h1>Are u winnin' son?</h1>");
-    console.error(e.message);
-  }
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "application/json");
+  res.end(
+    JSON.stringify({
+      name: name,
+      about: description,
+      version: version,
+      url: homepage,
+      message: "functions check",
+      token: process.env.BOT_TOKEN,
+    })
+  );
 }
