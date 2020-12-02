@@ -34,15 +34,16 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
      * Exclusion Exceptions
      */
     bot.on("text", async (ctx: TelegrafContext) => {
-      if (<string>ctx.chat?.type === "private" && <boolean>!ctx.message?.via_bot)
-        await ctx.replyWithAnimation(
+      if (<string>ctx.chat?.type === "private")
+        if (<boolean>!ctx.message?.via_bot)
+          await ctx.replyWithAnimation(
           "https://genemator.me/gifs/exclude.gif",
           {
             parse_mode: "HTML",
             caption: "<b>This command or message is invalid. Please see our command list for more information!</b>",
             reply_markup: Markup.inlineKeyboard([
-              Markup.callbackButton(`Show available commands`, `help`),
-            ]),
+              Markup.callbackButton(`Show available commands`, `help`)
+            ])
           }
         );
     });
