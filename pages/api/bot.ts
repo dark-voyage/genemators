@@ -2,7 +2,18 @@ import * as fuzzy from "fuzzy";
 import Telegraf, { Markup } from "telegraf";
 import { NextApiRequest, NextApiResponse } from "next";
 import { TelegrafContext } from "telegraf/typings/context";
-import { InlineQueryResult } from "telegraf/typings/telegram-types";
+import {
+  InlineQueryResult,
+  IncomingMessage,
+} from "telegraf/typings/telegram-types";
+
+interface IM extends IncomingMessage {
+  via_bot?: boolean;
+}
+
+interface TC extends TelegrafContext {
+  message?: IM;
+}
 
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
 
@@ -122,104 +133,94 @@ export default async function telegram(
     /**
      * Inline Query Handler
      */
-    bot.on("inline_query", async ({ inlineQuery, answerInlineQuery }) => {
-      const base = "https://github.com/genemators/";
-      const thumb = "https://genemator.me/favicon.png";
-      let results: InlineQueryResult[] = [],
-        indexation = 1,
-        // @ts-ignore
-        repos = Object.values(
-          await fetch("https://api.github.com/users/genemators/repos").then(
-            (r) => {
-              return r.json();
-            }
-          )
-        ).map(function (obj) {
+    bot.on(
+      "inline_query",
+      async ({ inlineQuery, answerInlineQuery }): Promise<any> => {
+        const base = "https://github.com/genemators/";
+        const thumb = "https://genemator.me/favicon.png";
+        let results: InlineQueryResult[] = [],
+          indexation = 1,
           // @ts-ignore
-          return obj["name"];
+          repos = Object.values(
+            await fetch("https://api.github.com/users/genemators/repos").then(
+              (r) => {
+                return r.json();
+              }
+            )
+          ).map(function (obj: any[string]) {
+            return obj["name"];
+          });
+        let similarities = await fuzzy
+          .filter(<string>inlineQuery?.query, repos)
+          .sort()
+          .slice(0, 20);
+        let found = await similarities.map(function (obj) {
+          return obj.string;
         });
-      let similarities = await fuzzy
-        // @ts-ignore
-        .filter(inlineQuery.query, repos)
-        .sort()
-        .slice(0, 20);
-      let found = await similarities.map(function (obj) {
-        return obj.string;
-      });
-      for (let key of found) {
-        let data = await fetch(
-          `https://api.github.com/repos/genemators/${key}`
-        ).then((r) => {
-          return r.json();
-        });
-        results.push({
-          type: "article",
-          id: indexation.toString(),
-          url: base + key,
-          title: key,
-          thumb_url: thumb,
-          description: `${data["description"]}`,
-          reply_markup: Markup.inlineKeyboard(
-            [
-              Markup.urlButton(`GitHub`, `${data["html_url"]}`),
-              Markup.urlButton(
-                `Download`,
-                `https://github.com/${data["full_name"]}/archive/master.zip`
-              ),
-              Markup.switchToCurrentChatButton(`Repositories`, ``),
-            ],
-            { columns: 2 }
-          ),
-          input_message_content: {
-            message_text:
-              `<b><a href="${data["html_url"]}">〰 GitHub Project Review 〰</a></b>` +
-              `\n` +
-              `\n` +
-              `<b>Description:</b> ${data["description"]}` +
-              `\n` +
-              `<b>Programming Language:</b> ${data["language"]}` +
-              `\n` +
-              `<b>Created Date:</b> ${data["created_at"]}` +
-              `\n` +
-              `\n` +
-              `<code>👁: ${data["watchers_count"]}</code> <b>|</b> ` +
-              `<code>🌟: ${data["stargazers_count"]}</code> <b>|</b> ` +
-              `<code>👥: ${data["subscribers_count"]}</code> <b>|</b> ` +
-              `<code>🔃: ${data["forks_count"]}</code> <b>|</b> ` +
-              `<code>❗: ${data["open_issues_count"]}</code>`,
-            parse_mode: "HTML",
-            disable_web_page_preview: true,
-          },
-        });
-        indexation++;
+        for (let key of found) {
+          let data = await fetch(
+            `https://api.github.com/repos/genemators/${key}`
+          ).then((r) => {
+            return r.json();
+          });
+          results.push({
+            type: "article",
+            id: indexation.toString(),
+            url: base + key,
+            title: key,
+            thumb_url: thumb,
+            description: `${data["description"]}`,
+            reply_markup: Markup.inlineKeyboard(
+              [
+                Markup.urlButton(`GitHub`, `${data["html_url"]}`),
+                Markup.urlButton(
+                  `Download`,
+                  `https://github.com/${data["full_name"]}/archive/master.zip`
+                ),
+                Markup.switchToCurrentChatButton(`Repositories`, ``),
+              ],
+              { columns: 2 }
+            ),
+            input_message_content: {
+              message_text:
+                `<b><a href="${data["html_url"]}">〰 GitHub Project Review 〰</a></b>` +
+                `\n` +
+                `\n` +
+                `<b>Description:</b> ${data["description"]}` +
+                `\n` +
+                `<b>Programming Language:</b> ${data["language"]}` +
+                `\n` +
+                `<b>Created Date:</b> ${data["created_at"]}` +
+                `\n` +
+                `\n` +
+                `<code>👁: ${data["watchers_count"]}</code> <b>|</b> ` +
+                `<code>🌟: ${data["stargazers_count"]}</code> <b>|</b> ` +
+                `<code>👥: ${data["subscribers_count"]}</code> <b>|</b> ` +
+                `<code>🔃: ${data["forks_count"]}</code> <b>|</b> ` +
+                `<code>❗: ${data["open_issues_count"]}</code>`,
+              parse_mode: "HTML",
+              disable_web_page_preview: true,
+            },
+          });
+          indexation++;
+        }
+        return answerInlineQuery(results);
       }
-      return answerInlineQuery(results);
-    });
+    );
 
     /**
      * Exclusion Exceptions
      */
-    bot.on("text", async (ctx: TelegrafContext) => {
-      if (
-        <string>ctx.chat?.type === "private" &&
-        // @ts-ignore
-        (<boolean>ctx.message["via_bot"])
-      ) {
-        await ctx.replyWithHTML(
-          "<b>Yay, you found something useful!?</b>",
-          {
-            parse_mode: "HTML",
-            reply_markup: Markup.inlineKeyboard([
-              Markup.callbackButton(`Continue browsing`, `help`),
-            ]),
-          }
-        );
+    bot.on("text", async (ctx: TC) => {
+      if (ctx.chat?.type === "private" && ctx.message?.via_bot) {
+        await ctx.replyWithHTML("<b>Yay, you found something useful!?</b>", {
+          parse_mode: "HTML",
+          reply_markup: Markup.inlineKeyboard([
+            Markup.callbackButton(`Continue browsing`, `help`),
+          ]),
+        });
       }
-      if (
-        <string>ctx.chat?.type === "private" &&
-        // @ts-ignore
-        !(<boolean>ctx.message["via_bot"])
-      ) {
+      if (ctx.chat?.type === "private" && !ctx.message?.via_bot) {
         await ctx.replyWithHTML(
           "<b>This command or message is invalid. Please see our command list for more information!</b>",
           {
