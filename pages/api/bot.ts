@@ -2,6 +2,7 @@ import * as fuzzy from "fuzzy";
 import Telegraf, { Markup } from "telegraf";
 import { NextApiRequest, NextApiResponse } from "next";
 import { TelegrafContext } from "telegraf/typings/context";
+import { InlineQueryResult } from "telegraf/typings/telegram-types";
 
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
 
@@ -124,7 +125,7 @@ export default async function telegram(
     bot.on("inline_query", async ({ inlineQuery, answerInlineQuery }) => {
       const base = "https://github.com/genemators/";
       const thumb = "https://genemator.me/favicon.png";
-      let results = [],
+      let results: InlineQueryResult[] = [],
         indexation = 1,
         // @ts-ignore
         repos = Object.values(
@@ -153,7 +154,7 @@ export default async function telegram(
         });
         results.push({
           type: "article",
-          id: indexation,
+          id: indexation.toString(),
           url: base + key,
           title: key,
           thumb_url: thumb,
@@ -192,7 +193,6 @@ export default async function telegram(
         });
         indexation++;
       }
-      // @ts-ignore
       return answerInlineQuery(results);
     });
 
@@ -200,7 +200,11 @@ export default async function telegram(
      * Exclusion Exceptions
      */
     bot.on("text", async (ctx: TelegrafContext) => {
-      if (<string>ctx.chat?.type === "private")
+      if (
+        <string>ctx.chat?.type === "private" &&
+        // @ts-ignore
+        !(<boolean>ctx.message["via_bot"])
+      ) {
         await ctx.replyWithHTML(
           "<b>This command or message is invalid. Please see our command list for more information!</b>",
           {
@@ -210,6 +214,7 @@ export default async function telegram(
             ]),
           }
         );
+      }
     });
 
     /**
