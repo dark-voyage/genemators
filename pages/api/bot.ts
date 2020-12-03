@@ -203,6 +203,21 @@ export default async function telegram(
       if (
         <string>ctx.chat?.type === "private" &&
         // @ts-ignore
+        (<boolean>ctx.message["via_bot"])
+      ) {
+        await ctx.replyWithHTML(
+          "<b>Yay, you found something useful!?</b>",
+          {
+            parse_mode: "HTML",
+            reply_markup: Markup.inlineKeyboard([
+              Markup.callbackButton(`Continue browsing`, `help`),
+            ]),
+          }
+        );
+      }
+      if (
+        <string>ctx.chat?.type === "private" &&
+        // @ts-ignore
         !(<boolean>ctx.message["via_bot"])
       ) {
         await ctx.replyWithHTML(
