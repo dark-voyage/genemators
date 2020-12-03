@@ -70,7 +70,7 @@ export default function About(string: string, node: HTMLElement | null) {
                 Hello dear visitor! I’m{" "}
                 <span style={{ color: "#1aff31" }}>Sokhibjon Orzikulov</span>,
                 who is famous under the nickname{" "}
-                <span className="genemator-title" style={{ color: "#1aff31" }}>
+                <span className="genemator-colorful">
                   Genemator
                 </span>
                 . I’m glad to see you visit my website. For the beginning, let
