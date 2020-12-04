@@ -2,17 +2,19 @@ import * as fuzzy from "fuzzy";
 import Telegraf, { Markup } from "telegraf";
 import { NextApiRequest, NextApiResponse } from "next";
 import { TelegrafContext } from "telegraf/typings/context";
-import {
-  InlineQueryResult,
-  IncomingMessage
-} from "telegraf/typings/telegram-types";
+import * as tt from "telegraf/typings/telegram-types";
 
-interface IM extends IncomingMessage {
+interface IM extends tt.IncomingMessage {
   via_bot?: boolean;
 }
 
 interface TC extends TelegrafContext {
   message?: IM;
+  replyWithAnimation(
+    animation: tt.InputFile,
+    extra?: tt.ExtraAnimation
+  ): Promise<tt.MessageAnimation>;
+  startPayload?: string;
 }
 
 const bot = new Telegraf<TelegrafContext>(<string>process.env.BOT_TOKEN);
@@ -32,9 +34,12 @@ export default async function telegram(
     /**
      * Commands
      */
-    bot.start(async (ctx: TelegrafContext) => {
-      await ctx.replyWithHTML(
-        `<b>Welcome to Genemator's Assistant!</b>` +
+    // @ts-ignore
+    bot.start(async (ctx: TC) => {
+      await ctx.replyWithAnimation("https://genemator.me/gifs/start.gif", {
+        parse_mode: "HTML",
+        caption:
+          `<b>Welcome to Genemator's Assistant!</b>` +
           `\n` +
           `\n` +
           `This bot helps you to manage with information about Genemator.` +
@@ -48,15 +53,13 @@ export default async function telegram(
           `\n` +
           `\n` +
           `<i>In order to see full detailed usage information of the bot, press the button below.</i>`,
-        {
-          parse_mode: "HTML",
-          reply_markup: Markup.inlineKeyboard([
-            [Markup.callbackButton("Show detailed information", "help")]
-          ])
-        }
-      );
+        reply_markup: Markup.inlineKeyboard([
+          [Markup.callbackButton("Show detailed information", "help")]
+        ])
+      });
     });
-    bot.help(async (ctx: TelegrafContext) => {
+    // @ts-ignore
+    bot.help(async (ctx: TC) => {
       await ctx.replyWithHTML(
         `<b>List of available commands:</b>` +
           `\n` +
@@ -76,7 +79,8 @@ export default async function telegram(
         }
       );
     });
-    bot.command("about", async (ctx: TelegrafContext) => {
+    // @ts-ignore
+    bot.command("about", async (ctx: TC) => {
       await ctx.replyWithHTML(
         `<b>Senior Developer from Uzbekistan's Top 2 ¯\\_(ツ)_/¯</b>` +
           `\n` +
@@ -109,7 +113,8 @@ export default async function telegram(
         }
       );
     });
-    bot.action("help", async (ctx: TelegrafContext) => {
+    // @ts-ignore
+    bot.action("help", async (ctx: TC) => {
       await ctx.editMessageText(
         `<b>List of available commands:</b>` +
           `\n` +
@@ -136,7 +141,7 @@ export default async function telegram(
     bot.on(
       "inline_query",
       async ({ inlineQuery, answerInlineQuery }): Promise<any> => {
-        let results: InlineQueryResult[] = [],
+        let results: tt.InlineQueryResult[] = [],
           indexation = 1;
         let found = fuzzy
           .filter(
@@ -210,6 +215,7 @@ export default async function telegram(
     /**
      * Exclusion Exceptions
      */
+    // @ts-ignore
     bot.on("text", async (ctx: TC) => {
       if (ctx.chat?.type === "private" && ctx.message?.via_bot) {
         await ctx.replyWithHTML("<b>Yay, you found something useful!?</b>", {
