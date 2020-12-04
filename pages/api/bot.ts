@@ -60,24 +60,23 @@ export default async function telegram(
     });
     // @ts-ignore
     bot.help(async (ctx: TC) => {
-      await ctx.replyWithAnimation("https://genemator.me/gifs/help.gif",
-        {
-          caption: `<b>List of available commands:</b>` +
-            `\n` +
-            `\n` +
-            `/help - <code>show this helper message</code>` +
-            `\n` +
-            `/about - <code>get information about genemator</code>` +
-            `\n` +
-            `\n` +
-            `<i>In order to use our inline mode, switch to inline mode ` +
-            `by typing: @genemabot and then start typing something there.</i>`,
-          parse_mode: "HTML",
-          reply_markup: Markup.inlineKeyboard([
-            [Markup.switchToCurrentChatButton("Search Projects", "")]
-          ])
-        }
-      );
+      await ctx.replyWithAnimation("https://genemator.me/gifs/help.gif", {
+        caption:
+          `<b>List of available commands:</b>` +
+          `\n` +
+          `\n` +
+          `/help - <code>show this helper message</code>` +
+          `\n` +
+          `/about - <code>get information about genemator</code>` +
+          `\n` +
+          `\n` +
+          `<i>In order to use our inline mode, switch to inline mode ` +
+          `by typing: @genemabot and then start typing something there.</i>`,
+        parse_mode: "HTML",
+        reply_markup: Markup.inlineKeyboard([
+          [Markup.switchToCurrentChatButton("Search Projects", "")]
+        ])
+      });
     });
     // @ts-ignore
     bot.command("about", async (ctx: TC) => {
@@ -119,7 +118,8 @@ export default async function telegram(
         {
           type: "animation",
           media: "https://genemator.me/gifs/help.gif",
-          caption: `<b>List of available commands:</b>` +
+          caption:
+            `<b>List of available commands:</b>` +
             `\n` +
             `\n` +
             `/help - <code>show this helper message</code>` +
@@ -138,6 +138,11 @@ export default async function telegram(
         }
       );
     });
+
+    /**
+     * Message Deletion
+     */
+    bot.action("delete", ({ deleteMessage }) => deleteMessage());
 
     /**
      * Inline Query Handler
@@ -225,7 +230,7 @@ export default async function telegram(
         await ctx.replyWithHTML("<b>Yay, you found something useful!?</b>", {
           parse_mode: "HTML",
           reply_markup: Markup.inlineKeyboard([
-            Markup.callbackButton(`Continue browsing`, `help`)
+            Markup.callbackButton(`Delete Message`, `delete`)
           ])
         });
       }
@@ -235,7 +240,8 @@ export default async function telegram(
           {
             parse_mode: "HTML",
             reply_markup: Markup.inlineKeyboard([
-              Markup.callbackButton(`Show available commands`, `help`)
+              [Markup.callbackButton(`Show available commands`, `help`)],
+              [Markup.callbackButton(`Delete Message`, `delete`)]
             ])
           }
         );
