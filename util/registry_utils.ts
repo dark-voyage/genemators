@@ -54,6 +54,18 @@ export function fileTypeFromURL(filename: string) {
     return "rust";
   } else if (f.endsWith(".py")) {
     return "python";
+  } else if (f.endsWith(".cs")) {
+    return "csharp";
+  } else if (f.endsWith(".php")) {
+    return "php";
+  } else if (f.endsWith(".cpp") || f.endsWith(".cxx") || f.endsWith(".cc")) {
+    return "cpp";
+  } else if (f.endsWith(".ps1") || f.endsWith(".psm1") || f.endsWith(".psd1")) {
+    return "powershell";
+  } else if (f.endsWith(".c")) {
+    return "c";
+  } else if (f.endsWith(".css")) {
+    return "css";
   } else if (f.endsWith(".wasm")) {
     return "wasm";
   } else if (f.toLocaleLowerCase().endsWith("makefile")) {

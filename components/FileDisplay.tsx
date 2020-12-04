@@ -67,6 +67,12 @@ function FileDisplay(props: {
           case "wasm":
           case "makefile":
           case "dockerfile":
+          case "csharp":
+          case "cpp":
+          case "php":
+          case "powershell":
+          case "css":
+          case "c":
             return (
               <RawCodeBlock
                 code={props.raw!}
