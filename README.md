@@ -6,12 +6,12 @@ I'm a full stack senior developer who is passionate about making open-source mor
 
 ## Find me around the web 🌐:
 
--   Contributing in public on <a href="https://deno.land/">Deno</a> 👨🏻‍💻
--   Tinkering with interactions on <a href="https://instagram.com/genemator">
-    Instagram</a> 📷
--   Sharing updates on <a href="https://www.t.me/genemators">Telegram</a> 🤙🏻
--   Listening to Yandex Music playlist made by myself
-    <a href="https://music.yandex.ru/users/ferollo/playlists/1019?lang=en">"Genemator's
-    Choice"</a> 🎵
+- Contributing in public on <a href="https://deno.land/">Deno</a> 👨🏻‍💻
+- Tinkering with interactions on <a href="https://instagram.com/genemator">
+  Instagram</a> 📷
+- Sharing updates on <a href="https://www.t.me/genemators">Telegram</a> 🤙🏻
+- Listening to Yandex Music playlist made by myself
+  <a href="https://music.yandex.ru/users/ferollo/playlists/1019?lang=en">"Genemator's
+  Choice"</a> 🎵
 
 **Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license.**
