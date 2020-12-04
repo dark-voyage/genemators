@@ -80,8 +80,9 @@ export default async function telegram(
     });
     // @ts-ignore
     bot.command("about", async (ctx: TC) => {
-      await ctx.replyWithHTML(
-        `<b>Senior Developer from Uzbekistan's Top 2 ¯\\_(ツ)_/¯</b>` +
+      await ctx.replyWithAnimation("https://genemator.me/gifs/admin.gif", {
+        caption:
+          `<b>Senior Developer from Uzbekistan's Top 2 ¯\\_(ツ)_/¯</b>` +
           `\n` +
           `\n` +
           `Hello dear visitor! I’m Sokhibjon Orzikulov, who is famous under the nickname Genemator. I’m glad to see you visit my website. For the beginning, let me introduce myself. I’m a Senior Full-Stack developer with more than 7 years of experience. Although I professionally code using 7 different programming languages as JavaScript, TypeScript, Java, Kotlin, C, C++, Assembler, Python2, Python3. I mainly use C++ for its total control and wide range of functions. That said, my knowledge is not limited to coding. I am also a specialist in creating 3D driven video and photo. Besides, I prefer Cinema 4D as 3D engine and utilize Adobe Products for editing purposes. I can also create different songs and music for my projects by using special applications on a professional level. For the time being, I am a second-year student at Westminster International University in Tashkent. My nationality is Uzbek and I’m only 19 years old 😎` +
@@ -107,10 +108,12 @@ export default async function telegram(
           `\n` +
           `\n` +
           `<i>In order to see full detailed usage information of the bot, press the button below.</i>`,
-        {
-          parse_mode: "HTML"
-        }
-      );
+        parse_mode: "HTML",
+        reply_markup: Markup.inlineKeyboard([
+          [Markup.callbackButton("Delete Information", "delete")],
+          [Markup.callbackButton("Show Available Commands", "help")]
+        ])
+      });
     });
     // @ts-ignore
     bot.action("help", async (ctx: TC) => {
