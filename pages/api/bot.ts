@@ -139,24 +139,25 @@ export default async function telegram(
         const base = "https://github.com/genemators/";
         const thumb = "https://genemator.me/favicon.png";
         let results: InlineQueryResult[] = [],
-          indexation = 1,
-          // @ts-ignore
-          repos = Object.values(
-            await fetch("https://api.github.com/users/genemators/repos").then(
-              (r) => {
-                return r.json();
-              }
-            )
-          ).map(function (obj: any[string]) {
-            return obj["name"];
-          });
-        let similarities = await fuzzy
-          .filter(<string>inlineQuery?.query, repos)
+          indexation = 1;
+        let found = fuzzy
+          .filter(
+            <string>inlineQuery?.query,
+            Object.values(
+              await fetch("https://api.github.com/users/genemators/repos").then(
+                (r) => {
+                  return r.json();
+                }
+              )
+            ).map(function (obj: any[string]) {
+              return obj["name"];
+            })
+          )
           .sort()
-          .slice(0, 20);
-        let found = await similarities.map(function (obj) {
-          return obj.string;
-        });
+          .slice(0, 20)
+          .map(function (obj) {
+            return obj.string;
+          });
         for (let key of found) {
           let data = await fetch(
             `https://api.github.com/repos/genemators/${key}`
