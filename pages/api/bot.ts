@@ -136,8 +136,6 @@ export default async function telegram(
     bot.on(
       "inline_query",
       async ({ inlineQuery, answerInlineQuery }): Promise<any> => {
-        const base = "https://github.com/genemators/";
-        const thumb = "https://genemator.me/favicon.png";
         let results: InlineQueryResult[] = [],
           indexation = 1;
         let found = fuzzy
@@ -167,9 +165,9 @@ export default async function telegram(
           results.push({
             type: "article",
             id: indexation.toString(),
-            url: base + key,
+            url: "https://github.com/genemators/" + key,
             title: key,
-            thumb_url: thumb,
+            thumb_url: "https://genemator.me/favicon.png",
             description: `${data["description"]}`,
             reply_markup: Markup.inlineKeyboard(
               [
