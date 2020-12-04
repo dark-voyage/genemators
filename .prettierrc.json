@@ -1,6 +1,6 @@
 {
-  "proseWrap": "always",
-  "arrowParens": "always",
-  "trailingComma": "none",
-  "tabWidth": 4
+    "proseWrap": "always",
+    "arrowParens": "always",
+    "trailingComma": "none",
+    "tabWidth": 4
 }
