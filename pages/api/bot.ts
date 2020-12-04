@@ -60,18 +60,18 @@ export default async function telegram(
     });
     // @ts-ignore
     bot.help(async (ctx: TC) => {
-      await ctx.replyWithHTML(
-        `<b>List of available commands:</b>` +
-          `\n` +
-          `\n` +
-          `/help - <code>show this helper message</code>` +
-          `\n` +
-          `/about - <code>get information about genemator</code>` +
-          `\n` +
-          `\n` +
-          `<i>In order to use our inline mode, switch to inline mode ` +
-          `by typing: @genemabot and then start typing something there.</i>`,
+      await ctx.replyWithAnimation("https://genemator.me/gifs/help.gif",
         {
+          caption: `<b>List of available commands:</b>` +
+            `\n` +
+            `\n` +
+            `/help - <code>show this helper message</code>` +
+            `\n` +
+            `/about - <code>get information about genemator</code>` +
+            `\n` +
+            `\n` +
+            `<i>In order to use our inline mode, switch to inline mode ` +
+            `by typing: @genemabot and then start typing something there.</i>`,
           parse_mode: "HTML",
           reply_markup: Markup.inlineKeyboard([
             [Markup.switchToCurrentChatButton("Search Projects", "")]
@@ -115,17 +115,21 @@ export default async function telegram(
     });
     // @ts-ignore
     bot.action("help", async (ctx: TC) => {
-      await ctx.editMessageText(
-        `<b>List of available commands:</b>` +
-          `\n` +
-          `\n` +
-          `/help - <code>show this helper message</code>` +
-          `\n` +
-          `/about - <code>get information about genemator</code>` +
-          `\n` +
-          `\n` +
-          `<i>In order to use our inline mode, switch to inline mode ` +
-          `by typing: @genemabot and then start typing something there.</i>`,
+      await ctx.editMessageMedia(
+        {
+          type: "animation",
+          media: "https://genemator.me/gifs/help.gif",
+          caption: `<b>List of available commands:</b>` +
+            `\n` +
+            `\n` +
+            `/help - <code>show this helper message</code>` +
+            `\n` +
+            `/about - <code>get information about genemator</code>` +
+            `\n` +
+            `\n` +
+            `<i>In order to use our inline mode, switch to inline mode ` +
+            `by typing: @genemabot and then start typing something there.</i>`
+        },
         {
           parse_mode: "HTML",
           reply_markup: Markup.inlineKeyboard([
