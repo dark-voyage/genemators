@@ -108,17 +108,7 @@ export default async function telegram(
         `\n` +
         `<i>In order to see full detailed usage information of the bot, press the button below.</i>`;
       await ctx.replyWithAnimation("https://genemator.me/gifs/admin.gif", {
-        caption:
-          `<b>List of available commands:</b>` +
-          `\n` +
-          `\n` +
-          `/help - <code>show this helper message</code>` +
-          `\n` +
-          `/about - <code>get information about genemator</code>` +
-          `\n` +
-          `\n` +
-          `<i>In order to use our inline mode, switch to inline mode ` +
-          `by typing: @genemabot and then start typing something there.</i>`,
+        caption: text,
         parse_mode: "HTML",
         reply_markup: Markup.inlineKeyboard([
           [Markup.callbackButton("Delete Information", "delete")],
