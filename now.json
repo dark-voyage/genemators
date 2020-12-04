@@ -1,6 +1,6 @@
 {
-  "trailingSlash": false,
-  "github": {
-    "silent": true
-  }
+    "trailingSlash": false,
+    "github": {
+        "silent": true
+    }
 }

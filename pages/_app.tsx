@@ -11,33 +11,33 @@ import "../components/markdown.css";
 import "../components/ngprogress.css";
 
 NProgress.configure({
-  showSpinner: false,
+    showSpinner: false,
 });
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => {
-  window.scrollTo(0, 0);
-  NProgress.done();
+    window.scrollTo(0, 0);
+    NProgress.done();
 });
 Router.events.on("routeChangeError", () => NProgress.done());
 
 export default class MyApp extends App {
-  render() {
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    const { Component, pageProps } = this.props;
-    return (
-      <div className="h-screen">
-        <Head>
-          <meta
-            property="og:image"
-            content="https://genemator.me/preview.png"
-          />
-          <meta property="og:site_name" content="Genemator's" />
-          <title>Genemator's Portfolio Website</title>
-        </Head>
-        <Component {...pageProps} />
-      </div>
-    );
-  }
+    render() {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        const { Component, pageProps } = this.props;
+        return (
+            <div className="h-screen">
+                <Head>
+                    <meta
+                        property="og:image"
+                        content="https://genemator.me/preview.png"
+                    />
+                    <meta property="og:site_name" content="Genemator's" />
+                    <title>Genemator's Portfolio Website</title>
+                </Head>
+                <Component {...pageProps} />
+            </div>
+        );
+    }
 }
