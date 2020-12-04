@@ -1,4 +1,5 @@
 {
-    "proseWrap": "always",
-    "tabWidth": 4
+  "proseWrap": "always",
+  "arrowParens": "always",
+  "trailingComma": "none"
 }
