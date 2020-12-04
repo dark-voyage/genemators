@@ -244,6 +244,5 @@ export default async function telegram(
     res.statusCode = 500;
     res.setHeader("Content-Type", "text/html");
     res.send("<h1>Are you winnin' son?</h1>");
-    console.error(e.message);
   }
 }
