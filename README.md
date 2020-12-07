@@ -12,7 +12,7 @@ Python. I recently created my own linux distro with open source project repo lau
 led me to launch team <a href="https://bsba.uz/">BSBA™</a>, a community for various type of developers where they 
 exchange & sharpen their experiences.</b>
 
-## Find me around the web 🌐:
+## 🌐 Find me around the web:
 
 - Contributing in public on <a href="https://deno.land/">Deno</a> 👨🏻‍💻
 - Tinkering with interactions on <a href="https://instagram.com/genemator">
@@ -22,7 +22,7 @@ exchange & sharpen their experiences.</b>
   <a href="https://music.yandex.ru/users/ferollo/playlists/1019?lang=en">"Genemator's
   Choice"</a> 🎵
 
-## Languages and Tools 🛠:
+## 🛠 Languages and Tools:
 
 [<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][webdevplaylist]
 [<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][webdevplaylist]
@@ -41,7 +41,7 @@ exchange & sharpen their experiences.</b>
 [<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][webdevplaylist]
 [<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][webdevplaylist]
 
-### 📺 Latest YouTube Videos
+## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
 <!-- YOUTUBE:END -->
