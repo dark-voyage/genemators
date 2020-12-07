@@ -23,7 +23,6 @@ exchange & sharpen their experiences.</b>
 - Listening to Yandex Music playlist made by myself
   <a href="https://music.yandex.ru/users/ferollo/playlists/1019?lang=en">"Genemator's
   Choice"</a> 🎵
-  
 
 ## 🛠 Languages and Tools:
 
