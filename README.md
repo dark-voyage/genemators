@@ -41,16 +41,27 @@ exchange & sharpen their experiences.</b>
 [<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][webdevplaylist]
 [<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][webdevplaylist]
 
+### 📺 Latest YouTube Videos
+
+<!-- YOUTUBE:START -->
+<!-- YOUTUBE:END -->
+
+➡️ [more videos...](https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg)
+
 <br />
 <br />
 
 ---
 
 <details>
+  <summary>:zap: Recent GitHub Activity</summary>
+  <!--START_SECTION:activity-->
+  <!--END_SECTION:activity-->
+</details>
+
+<details>
   <summary>:zap: GitHub Stats</summary>
-
   <img align="left" alt="Genemator's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=genemators&show_icons=true&hide_border=true" />
-
 </details>
 
 **Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license.**
