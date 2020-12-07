@@ -77,11 +77,6 @@ exchange & sharpen their experiences.</b>
 
 </details>
 
-<br />
-<br />
-
-**Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license.**
-
 [website]: https://codeSTACKr.com
 [course]: http://vsCodeHero.com
 [twitter]: https://twitter.com/codeSTACKr
