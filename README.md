@@ -12,6 +12,8 @@ Python. I recently created my own linux distro with open source project repo lau
 led me to launch team <a href="https://bsba.uz/">BSBA™</a>, a community for various type of developers where they 
 exchange & sharpen their experiences.</b>
 
+<br />
+
 ## 🌐 Find me around the web:
 
 - Contributing in public on <a href="https://deno.land/">Deno</a> 👨🏻‍💻
@@ -21,6 +23,8 @@ exchange & sharpen their experiences.</b>
 - Listening to Yandex Music playlist made by myself
   <a href="https://music.yandex.ru/users/ferollo/playlists/1019?lang=en">"Genemator's
   Choice"</a> 🎵
+
+<br />
 
 ## 🛠 Languages and Tools:
 
@@ -41,15 +45,14 @@ exchange & sharpen their experiences.</b>
 [<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][webdevplaylist]
 [<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][webdevplaylist]
 
+<br />
+
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
 <!-- YOUTUBE:END -->
 
 ➡️ [more videos...](https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg)
-
-<br />
-<br />
 
 ---
 
