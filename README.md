@@ -44,6 +44,10 @@ exchange & sharpen their experiences.</b>
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+- [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
+- [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
+- [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
+- [♠ Setting up environment with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=VM-X24TTWO8)
 <!-- YOUTUBE:END -->
 
 ➡️ [more videos...](https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg)
