@@ -72,7 +72,9 @@ exchange & sharpen their experiences.</b>
 
 <details>
   <summary>:zap: GitHub Stats</summary>
+
   <img align="left" alt="Genemator's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=genemators&show_icons=true&hide_border=true" />
+
 </details>
 
 **Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license.**
