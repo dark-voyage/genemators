@@ -76,7 +76,7 @@ where they exchange & sharpen their experiences.</b>
   </a>
 
   <a href="#">
-    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true&show_icons=true&title_color=fff&icon_color=fff&text_color=fff&bg_color=0d1117" />
+    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=10&hide_border=true&show_icons=true&title_color=fff&icon_color=fff&text_color=fff&bg_color=0d1117" />
   </a>
 
 </details>
