@@ -29,6 +29,7 @@ where they exchange & sharpen their experiences.</b>
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+
 - [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
 - [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
 - [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
@@ -49,10 +50,6 @@ where they exchange & sharpen their experiences.</b>
 [<img align="left" alt="GraphQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/graphql/graphql.png" />][website]
 [<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />][website]
 [<img align="left" alt="Deno" width="26px" src="https://raw.githubusercontent.com/github/explore/361e2821e2dea67711cde99c9c40ed357061cf27/topics/deno/deno.png" />][website]
-[<img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />][website]
-[<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />][website]
-[<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />][website]
-[<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][website]
 [<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][website]
 [<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][website]
 
@@ -65,11 +62,13 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 💪 Opened PR [#1](https://github.com/DeathSy/genemators/pull/1) in [DeathSy/genemators](https://github.com/DeathSy/genemators)
-2. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
+1. 💪 Opened PR [#1](https://github.com/DeathSy/genemators/pull/1) in
+   [DeathSy/genemators](https://github.com/DeathSy/genemators)
 2. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
    [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
 3. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
+   [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
+4. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
 [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
 <!--END_SECTION:activity-->
 
