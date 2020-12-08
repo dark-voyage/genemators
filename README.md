@@ -59,6 +59,8 @@ where they exchange & sharpen their experiences.</b>
 <details>
   <summary>:zap: Recent GitHub Activity</summary>
 
+  <br />
+
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
