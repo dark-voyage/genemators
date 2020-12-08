@@ -79,7 +79,7 @@ exchange & sharpen their experiences.</b>
   </a>  
 
   <a href="#">
-    <img align="right" alt="Genemator's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true" />
+    <img align="center" alt="Genemator's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true" />
   </a>
 
 </details>
