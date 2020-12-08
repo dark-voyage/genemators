@@ -29,6 +29,7 @@ where they exchange & sharpen their experiences.</b>
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+
 - [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
 - [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
 - [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
@@ -65,9 +66,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 💪 Opened PR [#1](https://github.com/DeathSy/genemators/pull/1) in [DeathSy/genemators](https://github.com/DeathSy/genemators)
-2. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
+1. 💪 Opened PR [#1](https://github.com/DeathSy/genemators/pull/1) in
+   [DeathSy/genemators](https://github.com/DeathSy/genemators)
 2. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
+   [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
+3. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
 [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
 <!--END_SECTION:activity-->
 
