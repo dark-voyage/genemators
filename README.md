@@ -12,7 +12,7 @@ Python. I recently created my own linux distro with open source project repo lau
 led me to launch team <a href="https://bsba.uz/">BSBA™</a>, a community for various type of developers where they 
 exchange & sharpen their experiences.</b>
 
-<br />
+---
 
 ## 🌐 Find me around the web:
 
