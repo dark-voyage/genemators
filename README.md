@@ -29,6 +29,7 @@ where they exchange & sharpen their experiences.</b>
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+
 - [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
 - [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
 - [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
@@ -60,13 +61,15 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 💪 Opened PR [#1](https://github.com/DeathSy/genemators/pull/1) in [DeathSy/genemators](https://github.com/DeathSy/genemators)
-2. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
+1. 💪 Opened PR [#1](https://github.com/DeathSy/genemators/pull/1) in
+   [DeathSy/genemators](https://github.com/DeathSy/genemators)
 2. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
    [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
 3. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
    [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
 4. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
+   [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
+5. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in
 [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
 <!--END_SECTION:activity-->
 
@@ -76,11 +79,11 @@ where they exchange & sharpen their experiences.</b>
   <summary>:zap: Genemator's GitHub Stats</summary>
   
   <a href="#">
-    <img align="center" alt="Genemator's Overall GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&show_icons=true&count_private=true&hide_border=true" />
+    <img align="center" alt="Genemator's Overall GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&count_private=true&hide_border=true&show_icons=true&theme=radical" />
   </a>
 
   <a href="#">
-    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true" />
+    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true&show_icons=true&theme=radical" />
   </a>
 
 </details>
