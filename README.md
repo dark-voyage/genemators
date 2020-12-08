@@ -29,6 +29,7 @@ where they exchange & sharpen their experiences.</b>
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+
 - [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
 - [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
 - [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
@@ -67,11 +68,11 @@ where they exchange & sharpen their experiences.</b>
   <summary>:zap: Genemator's GitHub Stats</summary>
   
   <a href="#">
-    <img align="center" alt="Genemator's Overall GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&count_private=true&hide_border=true&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />
+    <img align="center" alt="Genemator's Overall GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&count_private=true&hide_border=true&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=transparent" />
   </a>
 
   <a href="#">
-    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />
+    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=transparent" />
   </a>
 
 </details>
