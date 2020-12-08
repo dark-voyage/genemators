@@ -70,11 +70,11 @@ where they exchange & sharpen their experiences.</b>
   <br />
 
   <a href="#">
-    <img align="center" alt="Genemator's Overall GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&count_private=true&hide_border=true&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=0d1117" />
+    <img align="center" alt="Genemator's Overall GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&count_private=true&hide_border=true&show_icons=true&title_color=fff&icon_color=fff&text_color=fff&bg_color=0d1117" />
   </a>
 
   <a href="#">
-    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=0d1117" />
+    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true&show_icons=true&title_color=fff&icon_color=fff&text_color=fff&bg_color=0d1117" />
   </a>
 
 </details>
