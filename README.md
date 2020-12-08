@@ -69,14 +69,14 @@ exchange & sharpen their experiences.</b>
 </details>
 
 <details>
-  <summary>:zap: GitHub Stats</summary>
+  <summary>:zap: Genemator's GitHub Stats</summary>
   
   <a href="#">
-    <img align="center" alt="Genemator's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&show_icons=true&count_private=true&hide_border=true" />
+    <img align="center" alt="Genemator's Overall GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&show_icons=true&count_private=true&hide_border=true" />
   </a>  
 
   <a href="#">
-    <img align="center" alt="Genemator's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true" />
+    <img align="center" alt="Genemator's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true" />
   </a>
 
 </details>
