@@ -62,6 +62,8 @@ where they exchange & sharpen their experiences.</b>
   <br />
 
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#1](https://github.com/DeathSy/genemators/pull/1) in [DeathSy/genemators](https://github.com/DeathSy/genemators)
+2. 💪 Opened PR [#1](https://github.com/MrAbdurakhimov/genemators/pull/1) in [MrAbdurakhimov/genemators](https://github.com/MrAbdurakhimov/genemators)
 <!--END_SECTION:activity-->
 
 </details>
