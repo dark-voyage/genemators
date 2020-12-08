@@ -74,7 +74,7 @@ exchange & sharpen their experiences.</b>
 <details>
   <summary>:zap: GitHub Stats</summary>
   <br />
-  <img align="left" alt="Genemator's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&show_icons=true&count_private=true&hide_border=true" />
+  <img align="center" alt="Genemator's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=genemators&show_icons=true&count_private=true&hide_border=true" />
   <img align="right" alt="Genemator's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=genemators&layout=compact&langs_count=8&hide_border=true" />
   <br />
 
