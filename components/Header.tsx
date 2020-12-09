@@ -116,11 +116,11 @@ const Header = ({ subtitle }: { subtitle: string }) => {
           </nav>
           <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
             <a
-              href="https://student.genemator.me/"
+              href="https://desktop.genemator.me/"
               target="_blank"
               className="whitespace-no-wrap genemator-title text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400"
             >
-              W
+              D
             </a>
           </div>
         </div>
@@ -354,7 +354,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                     href="https://github.com/genemators/genemators"
                     className="w-full genemator-title flex items-center justify-center px-4 py-2 border border text-base leading-6 font-medium rounded-md text-white bg-transparent hover:bg-white hover:text-black focus:outline-none focus:border-white focus:shadow-outline-white active:bg-white transition ease-in-out duration-150"
                   >
-                    WestHub's Git
+                    Genemator's Desktop
                   </a>
                   <span className="w-full flex rounded-md shadow-sm" />
                   <p className="text-center text-base leading-6 font-medium text-white">
