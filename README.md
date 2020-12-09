@@ -88,13 +88,19 @@ where they exchange & sharpen their experiences.</b>
 <details>
     <summary>:zap: History of Operation System</summary>
 
-    <br />
-    <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
-    <br />
-    <img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
-    <br />
-    <img align="center" alt="Black Snitch" src="https://genemator.me/os/nordissimo.jpg" />
-    <br />
+<br />
+
+<img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
+    
+<br />
+        
+<img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
+        
+<br />
+        
+<img align="center" alt="Black Snitch" src="https://genemator.me/os/nordissimo.jpg" />
+    
+<br />
 </details>
 
 [website]: https://genemator.me
