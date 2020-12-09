@@ -29,6 +29,7 @@ where they exchange & sharpen their experiences.</b>
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+
 - [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
 - [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
 - [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
@@ -91,23 +92,23 @@ where they exchange & sharpen their experiences.</b>
 <br />
 <br />
 
-<p align="center"><h1 align="center">Nordic Nordissimo</h1></p>
+<p align="center"><h3 align="center">Nordic Nordissimo</h3></p>
 
 <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
     
 <br />
 <br />
 
-<p align="center"><h1 align="center">Starfighter Synthwave</h1></p>
+<p align="center"><h3 align="center">Starfighter Synthwave</h3></p>
 
 <img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
         
 <br />
 <br />
 
-<p align="center"><h1 align="center">Black Snitch</h1></p>
+<p align="center"><h3 align="center">Black Snitch</h3></p>
 
-<img align="center" alt="Black Snitch" src="https://genemator.me/os/nordissimo.jpg" />
+<img align="center" alt="Black Snitch" src="https://genemator.me/os/blacksnitch.jpg" />
     
 <br />
 </details>
