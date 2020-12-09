@@ -120,7 +120,19 @@ const Header = ({ subtitle }: { subtitle: string }) => {
               target="_blank"
               className="whitespace-no-wrap genemator-title text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400"
             >
-              D
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
+                />
+              </svg>
             </a>
           </div>
         </div>
@@ -354,7 +366,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                     href="https://github.com/genemators/genemators"
                     className="w-full genemator-title flex items-center justify-center px-4 py-2 border border text-base leading-6 font-medium rounded-md text-white bg-transparent hover:bg-white hover:text-black focus:outline-none focus:border-white focus:shadow-outline-white active:bg-white transition ease-in-out duration-150"
                   >
-                    Genemator's Desktop
+                    Desktop Station
                   </a>
                   <span className="w-full flex rounded-md shadow-sm" />
                   <p className="text-center text-base leading-6 font-medium text-white">
