@@ -24,7 +24,7 @@ export default function Home() {
       <Notification news={news} />
       <div className="h-auto">
         <div className="flex justify-center items-center">
-          <a href="https://i.am.genemator.me">
+          <a className="flex justify-center items-center" href="https://i.am.genemator.me">
             <svg
               className="text-white xl:w-3/4 lg:w-3/4 sm:w-3/4 w-3/4"
               version="1.1"
