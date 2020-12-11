@@ -91,21 +91,15 @@ where they exchange & sharpen their experiences.</b>
 <br />
 <br />
 
-<p align="center"><h3 align="center">Nordic Nordissimo</h3></p>
-
 <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
     
 <br />
 <br />
 
-<p align="center"><h3 align="center">Starfighter Synthwave</h3></p>
-
 <img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
         
 <br />
 <br />
-
-<p align="center"><h3 align="center">Black Snitch</h3></p>
 
 <img align="center" alt="Black Snitch" src="https://genemator.me/os/blacksnitch.jpg" />
     
