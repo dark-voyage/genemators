@@ -85,25 +85,31 @@ where they exchange & sharpen their experiences.</b>
 
 </details>
 
-<p>
+<details>
     <summary>:zap: History of Operation System</summary>
 
-<br />
-<br />
-
-<img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
+    <br />
+    <br />
     
-<br />
-<br />
-
-<img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
+    <p align="center"><h3 align="center">Nordic Nordissimo</h3></p>
+    
+    <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
         
-<br />
-<br />
-
-<img align="center" alt="Black Snitch" src="https://genemator.me/os/blacksnitch.jpg" />
+    <br />
+    <br />
     
-<br />
+    <p align="center"><h3 align="center">Starfighter Synthwave</h3></p>
+    
+    <img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
+            
+    <br />
+    <br />
+    
+    <p align="center"><h3 align="center">Black Snitch</h3></p>
+    
+    <img align="center" alt="Black Snitch" src="https://genemator.me/os/blacksnitch.jpg" />
+        
+    <br />
 </details>
 
 [website]: https://genemator.me
