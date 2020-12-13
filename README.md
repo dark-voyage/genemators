@@ -53,7 +53,7 @@ where they exchange & sharpen their experiences.</b>
 
 <br />
 
-## 🔰 Miscellaneous
+## 🔰 Miscellaneous (tap to open each)
 
 <details>
   <summary>:zap: Recent github activity</summary>
