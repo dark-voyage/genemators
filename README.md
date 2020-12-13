@@ -88,15 +88,15 @@ where they exchange & sharpen their experiences.</b>
 <details>
     <summary>:floppy_disk: List of used operation systems</summary>
     <br />
-    <p align="center"><h3 align="center">Nordic Nordissimo</h3></p>
+    <p align="center"><h3 align="center">Nordic Nordissimo (Windows 10) Modified by Genemator</h3></p>
     <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
     <br />
     <br />
-    <p align="center"><h3 align="center">Starfighter Synthwave</h3></p>
+    <p align="center"><h3 align="center">Starfighter Synthwave (Arch Linux on GNOME) Riced by Genemator</h3></p>
     <img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
     <br />
     <br />
-    <p align="center"><h3 align="center">Black Snitch</h3></p>
+    <p align="center"><h3 align="center">Black Snitch (Windows 10) Modified by Genemator</h3></p>
     <img align="center" alt="Black Snitch" src="https://genemator.me/os/blacksnitch.jpg" />
     <br />
 </details>
