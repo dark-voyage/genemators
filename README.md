@@ -102,7 +102,7 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 <details>
-    <summary>:zap: THE BEST WAIFUS ALL TIME!</summary>
+    <summary>:zap: THE BEST WAIFU ALL TIME!</summary>
     <br />
     <p align="center"><h3 align="center">SPEEDWAGOOOOON!!!</h3></p>
     <img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.me/icons/speedwagon.jpg" />
