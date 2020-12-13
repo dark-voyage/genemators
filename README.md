@@ -101,6 +101,14 @@ where they exchange & sharpen their experiences.</b>
     <br />
 </details>
 
+<details>
+    <summary>:zap: THE BEST WAIFUS ALL TIME!</summary>
+    <br />
+    <p align="center"><h3 align="center">SPEEDWAGOOOOON!!!</h3></p>
+    <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/icons/speedwagon.jpg" />
+    <br />
+</details>
+
 [website]: https://genemator.me
 [twitter]: https://twitter.com/genemator
 [youtube]: https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg
