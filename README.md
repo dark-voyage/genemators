@@ -105,7 +105,7 @@ where they exchange & sharpen their experiences.</b>
     <summary>:zap: THE BEST WAIFUS ALL TIME!</summary>
     <br />
     <p align="center"><h3 align="center">SPEEDWAGOOOOON!!!</h3></p>
-    <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/icons/speedwagon.jpg" />
+    <img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.me/icons/speedwagon.jpg" />
     <br />
 </details>
 
