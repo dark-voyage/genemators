@@ -92,7 +92,7 @@ where they exchange & sharpen their experiences.</b>
     <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
     <br />
     <br />
-    <p align="center"><h3 align="center">Starfighter Synthwave (Arch Linux on GNOME) Riced by Genemator</h3></p>
+    <p align="center"><h3 align="center">Starfighter Synthwave (Arch Linux on KDE) Riced by Genemator</h3></p>
     <img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
     <br />
     <br />
