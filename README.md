@@ -86,7 +86,7 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 <details>
-    <summary>:floppy_disk: History of Operation System</summary>
+    <summary>:floppy_disk: List of used operation systems</summary>
     <br />
     <p align="center"><h3 align="center">Nordic Nordissimo</h3></p>
     <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
