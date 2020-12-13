@@ -56,7 +56,7 @@ where they exchange & sharpen their experiences.</b>
 ---
 
 <details>
-  <summary>:zap: Recent GitHub Activity</summary>
+  <summary>:zap: Recent github activity</summary>
 
   <br />
 
@@ -71,7 +71,7 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 <details>
-  <summary>:fleur_de_lis: Genemator's GitHub Stats</summary>
+  <summary>:fleur_de_lis: Genemator's github stats</summary>
   
   <br />
 
