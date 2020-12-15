@@ -99,6 +99,10 @@ where they exchange & sharpen their experiences.</b>
     <p align="center"><h3 align="center">Black Snitch (Windows 10) Modified by Genemator</h3></p>
     <img align="center" alt="Black Snitch" src="https://genemator.me/os/blacksnitch.jpg" />
     <br />
+    <br />
+    <p align="center"><h3 align="center">Blackintosh (Arch Linux) Riced by Genemator</h3></p>
+    <img align="center" alt="Blackintosh" src="https://genemator.me/os/blackintosh.jpg" />
+    <br />
 </details>
 
 <details>
