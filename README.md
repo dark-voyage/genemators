@@ -100,7 +100,7 @@ where they exchange & sharpen their experiences.</b>
     <img align="center" alt="Black Snitch" src="https://genemator.me/os/blacksnitch.jpg" />
     <br />
     <br />
-    <p align="center"><h3 align="center">Blackintosh (Arch Linux) Riced by Genemator</h3></p>
+    <p align="center"><h3 align="center">Blackintosh (BSPWM Arch Linux) Riced by Genemator</h3></p>
     <img align="center" alt="Blackintosh" src="https://genemator.me/os/blackintosh.jpg" />
     <br />
 </details>
