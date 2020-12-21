@@ -109,7 +109,7 @@ where they exchange & sharpen their experiences.</b>
     <summary>:black_heart: The best waifu all time!</summary>
     <br />
     <p align="center"><h3 align="center">SPEEDWAGOOOOON!!!</h3></p>
-    <img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.me/icons/speedwagon.jpg" />
+        <a href="https://jojo.fandom.com/wiki/Robert_E._O._Speedwagon"><img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.me/icons/speedwagon.jpg" /></a>
     <br />
 </details>
 
