@@ -29,6 +29,7 @@ where they exchange & sharpen their experiences.</b>
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+
 - [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
 - [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
 - [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
@@ -109,7 +110,7 @@ where they exchange & sharpen their experiences.</b>
     <summary>:black_heart: The best waifu all time!</summary>
     <br />
     <p align="center"><h3 align="center">SPEEDWAGOOOOON!!!</h3></p>
-        <a href="https://jojo.fandom.com/wiki/Robert_E._O._Speedwagon"><img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.me/icons/speedwagon.jpg" /></a>
+    <a href="https://jojo.fandom.com/wiki/Robert_E._O._Speedwagon"><img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.me/icons/speedwagon.jpg" /></a>
     <br />
 </details>
 
