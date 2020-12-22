@@ -61,11 +61,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🎉 Merged PR [#1](https://github.com/genemators/sauce/pull/1) in [genemators/sauce](https://github.com/genemators/sauce)
-2. 🎉 Merged PR [#2](https://github.com/genemators/autorizator/pull/2) in [genemators/autorizator](https://github.com/genemators/autorizator)
-3. 🎉 Merged PR [#3](https://github.com/genemators/autorizator/pull/3) in [genemators/autorizator](https://github.com/genemators/autorizator)
-4. ❗️ Closed issue [#1](https://github.com/genemators/autorizator/issues/1) in [genemators/autorizator](https://github.com/genemators/autorizator)
-5. 🗣 Commented on [#1](https://github.com/genemators/autorizator/issues/1) in [genemators/autorizator](https://github.com/genemators/autorizator)
+1. ❗️ Opened issue [#575](https://github.com/JosephDuffy/homebridge-pc-volume/issues/575) in [JosephDuffy/homebridge-pc-volume](https://github.com/JosephDuffy/homebridge-pc-volume)
+2. 🎉 Merged PR [#1](https://github.com/genemators/sauce/pull/1) in [genemators/sauce](https://github.com/genemators/sauce)
+3. 🎉 Merged PR [#2](https://github.com/genemators/autorizator/pull/2) in [genemators/autorizator](https://github.com/genemators/autorizator)
+4. 🎉 Merged PR [#3](https://github.com/genemators/autorizator/pull/3) in [genemators/autorizator](https://github.com/genemators/autorizator)
+5. ❗️ Closed issue [#1](https://github.com/genemators/autorizator/issues/1) in [genemators/autorizator](https://github.com/genemators/autorizator)
    [genemators/autorizator](https://github.com/genemators/autorizator)
 4. 🗣 Commented on [#1](https://github.com/genemators/autorizator/issues/1) in
 [genemators/autorizator](https://github.com/genemators/autorizator)
