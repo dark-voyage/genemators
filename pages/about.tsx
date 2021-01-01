@@ -47,7 +47,7 @@ export default function About(string: string, node: HTMLElement | null) {
               options={{
                 deleteSpeed: 25,
                 strings: [
-                  "Senior Developer from Uzbekistan's Top 2 ¯\\_(ツ)_/¯",
+                  "Senior Developer from Uzbekistan's Top 1 ¯\\_(ツ)_/¯",
                   "Welcome to my showcase ^_^"
                 ],
                 autoStart: true,
@@ -270,9 +270,9 @@ export default function About(string: string, node: HTMLElement | null) {
                         Scripting
                       </h4>
                       <p className="mt-2 text-base leading-6 text-gray-300">
-                        With my knowledge on C, C++ or Python programming
-                        languages, I can build ready setup & build scripts,
-                        startups or unit tests for project.
+                        With my knowledge on Bash, ZSH or V programming
+                        language, I can build my environment & build scripts,
+                        startups or unit tests for project on ease.
                       </p>
                     </div>
                   </div>
