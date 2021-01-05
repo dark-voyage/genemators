@@ -209,7 +209,7 @@ export default async function telegram(
     // @ts-ignore
     bot.on("text", async (ctx: TC) => {
       if (ctx.chat?.type === "private" && ctx.message?.via_bot) {
-        await ctx.replyWithHTML("<b>Yay, you found something useful!?</b>", {
+        await ctx.replyWithHTML("<b>Yay, you found something useful?</b>", {
           parse_mode: "HTML",
           reply_markup: Markup.inlineKeyboard([
             Markup.callbackButton(`Delete Message`, `delete`)
