@@ -61,8 +61,8 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. ❗️ Closed issue [#575](https://github.com/JosephDuffy/homebridge-pc-volume/issues/575) in [JosephDuffy/homebridge-pc-volume](https://github.com/JosephDuffy/homebridge-pc-volume)
-2. 🗣 Commented on [#575](https://github.com/JosephDuffy/homebridge-pc-volume/issues/575) in [JosephDuffy/homebridge-pc-volume](https://github.com/JosephDuffy/homebridge-pc-volume)
+1. 🗣 Commented on [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+2. ❗️ Opened issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
 3. 🗣 Commented on [#575](https://github.com/JosephDuffy/homebridge-pc-volume/issues/575) in [JosephDuffy/homebridge-pc-volume](https://github.com/JosephDuffy/homebridge-pc-volume)
 4. ❗️ Opened issue [#575](https://github.com/JosephDuffy/homebridge-pc-volume/issues/575) in [JosephDuffy/homebridge-pc-volume](https://github.com/JosephDuffy/homebridge-pc-volume)
 5. 🎉 Merged PR [#1](https://github.com/genemators/sauce/pull/1) in [genemators/sauce](https://github.com/genemators/sauce)
