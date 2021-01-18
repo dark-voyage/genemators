@@ -61,11 +61,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. ❗️ Opened issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-2. 🗣 Commented on [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-3. ❗️ Opened issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-4. ❗️ Opened issue [#575](https://github.com/JosephDuffy/homebridge-pc-volume/issues/575) in [JosephDuffy/homebridge-pc-volume](https://github.com/JosephDuffy/homebridge-pc-volume)
-5. 🎉 Merged PR [#1](https://github.com/genemators/sauce/pull/1) in [genemators/sauce](https://github.com/genemators/sauce)
+1. ❗️ Closed issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+2. ❗️ Closed issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+3. ❗️ Opened issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+4. 🗣 Commented on [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+5. ❗️ Opened issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
    [genemators/autorizator](https://github.com/genemators/autorizator)
 4. 🗣 Commented on [#1](https://github.com/genemators/autorizator/issues/1) in
 [genemators/autorizator](https://github.com/genemators/autorizator)
