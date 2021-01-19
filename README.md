@@ -61,11 +61,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. ❗️ Closed issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-2. ❗️ Closed issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-3. ❗️ Opened issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-4. 🗣 Commented on [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-5. ❗️ Opened issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+1. 🗣 Commented on [#1](https://github.com/xinuxuz/docs/issues/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
+2. 🎉 Merged PR [#1](https://github.com/xinuxuz/docs/pull/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
+3. ❗️ Closed issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+4. ❗️ Closed issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+5. ❗️ Opened issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
    [genemators/autorizator](https://github.com/genemators/autorizator)
 4. 🗣 Commented on [#1](https://github.com/genemators/autorizator/issues/1) in
 [genemators/autorizator](https://github.com/genemators/autorizator)
