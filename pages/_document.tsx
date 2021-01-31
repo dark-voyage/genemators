@@ -6,7 +6,7 @@ import Document, {
   Head,
   Main,
   NextScript,
-  DocumentContext
+  DocumentContext,
 } from "next/document";
 
 export default class MyDocument extends Document {

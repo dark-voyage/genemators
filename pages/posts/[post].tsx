@@ -34,7 +34,7 @@ const NewsPostPage = (props: Props) => {
   const format = new Intl.DateTimeFormat(undefined, {
     month: "long",
     day: "numeric",
-    year: "numeric"
+    year: "numeric",
   });
   return (
     <>
@@ -96,7 +96,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const dir = await fs.readdir("./public/posts");
   const postIds = dir.filter((name) => name.endsWith(".json"));
   const paths = postIds.map((id) => ({
-    params: { post: id.replace(/\.json$/, "") }
+    params: { post: id.replace(/\.json$/, "") },
   }));
   return { paths, fallback: false };
 };
@@ -104,16 +104,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<Props> = async (ctx) => {
   const post = ctx.params!.post;
   const markdown = await fs.readFile(join("./public/posts", post + ".md"), {
-    encoding: "utf8"
+    encoding: "utf8",
   });
   const meta = await fs.readFile(join("./public/posts", post + ".json"), {
-    encoding: "utf8"
+    encoding: "utf8",
   });
   return {
     props: {
       markdown,
-      meta: { ...JSON.parse(meta), id: post }
-    }
+      meta: { ...JSON.parse(meta), id: post },
+    },
   };
 };
 

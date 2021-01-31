@@ -44,7 +44,7 @@ export const RawCodeBlock = ({
   language,
   className: extraClassName,
   disablePrefixes,
-  enableLineRef = false
+  enableLineRef = false,
 }: CodeBlockProps & { className?: string; enableLineRef?: boolean }) => {
   const [hashValue, setHashValue] = useState("");
   const codeDivClassNames = "token-line text-right select-none text-xs";
@@ -73,7 +73,7 @@ export const RawCodeBlock = ({
           if (idEl) {
             idEl.scrollIntoView({
               block: "center",
-              behavior: "smooth"
+              behavior: "smooth",
             });
             return;
           }

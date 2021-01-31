@@ -9,8 +9,8 @@
     "start": "next start",
     "test": "jest",
     "format": "yarn format:check --write",
-    "format:check": "prettier --check \"**/*.md\" \"*.js\" \"*.json\" \"**/*.css\" \"{util,public,pages,components,bot}/**/*.{js,ts,jsx,tsx,css}\" \"{util,public,pages,components,bot}/*.{js,ts,jsx,tsx,css}\"",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx util/ pages/ components/ --fix",
+    "format:check": "prettier --check \"**/*.md\" \"*.js\" \"*.json\" \"{util,public,pages,components}/**/*.{js,ts,jsx,tsx}\" \"{util,public,pages,components}/*.{js,ts,jsx,tsx}\"",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx util/ pages/ components/",
     "update": "yarn update"
   },
   "repository": {
@@ -47,8 +47,8 @@
     "preact-render-to-string": "^5.1.11",
     "prism-react-renderer": "^1.1.1",
     "prismjs": "^1.21.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "github:preact-compat/react#1.0.0",
+    "react-dom": "github:preact-compat/react-dom#1.0.0",
     "react-transition-group": "^4.4.1",
     "swr": "^0.3.7",
     "tailwindcss": "^1.6.2",

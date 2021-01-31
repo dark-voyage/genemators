@@ -9,7 +9,7 @@ const testDbEntry: GithubDatabaseEntry = {
   type: "github",
   desc: "A entry for testing",
   owner: "octocat",
-  repo: "test-repo1"
+  repo: "test-repo1",
 };
 const testEntry = new GithubEntry(testDbEntry);
 
@@ -30,7 +30,7 @@ test("source url with custom default version", () => {
     new GithubEntry({
       ...testDbEntry,
       // eslint-disable-next-line @typescript-eslint/camelcase
-      default_version: "custom"
+      default_version: "custom",
     }).getRepositoryURL("/index.js", undefined)
   ).toEqual("https://github.com/octocat/test-repo1/tree/custom/index.js");
 });
@@ -45,7 +45,7 @@ test("source url with subdirectory", () => {
   expect(
     new GithubEntry({
       ...testDbEntry,
-      path: "/test"
+      path: "/test",
     }).getSourceURL("/index.js", "1.0")
   ).toEqual(
     "https://raw.githubusercontent.com/octocat/test-repo1/1.0/test/index.js"
@@ -69,7 +69,7 @@ test("repo url with custom default version", () => {
     new GithubEntry({
       ...testDbEntry,
       // eslint-disable-next-line @typescript-eslint/camelcase
-      default_version: "custom"
+      default_version: "custom",
     }).getRepositoryURL("/index.js", undefined)
   ).toEqual("https://github.com/octocat/test-repo1/tree/custom/index.js");
 });
@@ -84,7 +84,7 @@ test("repo url with subdirectory", () => {
   expect(
     new GithubEntry({
       ...testDbEntry,
-      path: "/test"
+      path: "/test",
     }).getRepositoryURL("/index.js", "1.0")
   ).toEqual("https://github.com/octocat/test-repo1/tree/1.0/test/index.js");
 });
@@ -95,20 +95,20 @@ test("directory listing", async () => {
       name: "2015-04-12-test-post-last-year.md",
       size: 171,
       target: undefined,
-      type: "file"
+      type: "file",
     },
     {
       name: "2016-02-24-first-post.md",
       size: 287,
       target: undefined,
-      type: "file"
+      type: "file",
     },
     {
       name: "2016-02-26-sample-post-jekyll.md",
       size: 1041,
       target: undefined,
-      type: "file"
-    }
+      type: "file",
+    },
   ]);
 });
 

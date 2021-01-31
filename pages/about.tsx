@@ -48,10 +48,10 @@ export default function About(string: string, node: HTMLElement | null) {
                 deleteSpeed: 25,
                 strings: [
                   "Senior Developer from Uzbekistan's Top 1 ¯\\_(ツ)_/¯",
-                  "Welcome to my showcase ^_^"
+                  "Welcome to my showcase ^_^",
                 ],
                 autoStart: true,
-                loop: true
+                loop: true,
               }}
               onInit={() => {}}
             />
@@ -299,7 +299,7 @@ export default function About(string: string, node: HTMLElement | null) {
                 <Typewriter
                   options={{
                     autoStart: true,
-                    cursor: "¦"
+                    cursor: "¦",
                   }}
                   onInit={(typewriter: any) => {
                     typewriter

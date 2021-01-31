@@ -36,12 +36,12 @@ const Registry = () => {
   const sourceURL = useMemo(() => entry?.getSourceURL(path, version), [
     entry,
     path,
-    version
+    version,
   ]);
   const repositoryURL = useMemo(() => entry?.getRepositoryURL(path, version), [
     entry,
     path,
-    version
+    version,
   ]);
   const defaultVersion = useMemo(() => entry?.getDefaultVersion(), [entry]);
 
@@ -298,7 +298,7 @@ function Breadcrumbs({
   name,
   version,
   path,
-  isStd
+  isStd,
 }: {
   name: string;
   version: string | undefined;
@@ -356,7 +356,7 @@ function VersionSelector({
   versions,
   selectedVersion,
   defaultVersion,
-  onChange
+  onChange,
 }: {
   versions: string[] | null | undefined;
   selectedVersion: string | undefined;

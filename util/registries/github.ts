@@ -47,8 +47,8 @@ export class GithubEntry implements Entry {
       }`;
       const res = await fetch(url, {
         headers: {
-          accept: "application/vnd.github.v3.object"
-        }
+          accept: "application/vnd.github.v3.object",
+        },
       });
       if (res.status === 404) return null;
       if (res.status !== 200) {
@@ -66,7 +66,7 @@ export class GithubEntry implements Entry {
         name: entry.name,
         type: entry.type, // "file" | "dir" | "symlink"
         size: entry.size, // file only
-        target: entry.target // symlink only
+        target: entry.target, // symlink only
       }));
       return files;
     } catch (e) {
@@ -82,8 +82,8 @@ export class GithubEntry implements Entry {
     const url = `https://api.github.com/repos/${this.owner}/${this.repo}/tags`;
     const res = await fetch(url, {
       headers: {
-        accept: "application/vnd.github.v3.object"
-      }
+        accept: "application/vnd.github.v3.object",
+      },
     });
     if (res.status !== 200) {
       throw Error(

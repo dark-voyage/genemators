@@ -11,7 +11,7 @@ import "../components/markdown.css";
 import "../components/ngprogress.css";
 
 NProgress.configure({
-  showSpinner: false
+  showSpinner: false,
 });
 
 Router.events.on("routeChangeStart", () => NProgress.start());

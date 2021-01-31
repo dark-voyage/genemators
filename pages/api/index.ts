@@ -8,6 +8,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     name: name,
     about: description,
     version: version,
-    url: homepage
+    url: homepage,
   });
 }

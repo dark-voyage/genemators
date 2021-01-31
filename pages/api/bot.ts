@@ -54,8 +54,8 @@ export default async function telegram(
           `\n` +
           `<i>In order to see full detailed usage information of the bot, press the button below.</i>`,
         reply_markup: Markup.inlineKeyboard([
-          [Markup.callbackButton("Show detailed information", "help")]
-        ])
+          [Markup.callbackButton("Show detailed information", "help")],
+        ]),
       });
     });
     // @ts-ignore
@@ -74,8 +74,8 @@ export default async function telegram(
           `by typing: @genemabot and then start typing something there.</i>`,
         parse_mode: "HTML",
         reply_markup: Markup.inlineKeyboard([
-          [Markup.switchToCurrentChatButton("Search Projects", "")]
-        ])
+          [Markup.switchToCurrentChatButton("Search Projects", "")],
+        ]),
       });
     });
     // @ts-ignore
@@ -90,8 +90,8 @@ export default async function telegram(
         parse_mode: "HTML",
         reply_markup: Markup.inlineKeyboard([
           [Markup.callbackButton("Delete Information", "delete")],
-          [Markup.callbackButton("Show Available Commands", "help")]
-        ])
+          [Markup.callbackButton("Show Available Commands", "help")],
+        ]),
       });
     });
     // @ts-ignore
@@ -110,13 +110,13 @@ export default async function telegram(
             `\n` +
             `\n` +
             `<i>In order to use our inline mode, switch to inline mode ` +
-            `by typing: @genemabot and then start typing something there.</i>`
+            `by typing: @genemabot and then start typing something there.</i>`,
         },
         {
           parse_mode: "HTML",
           reply_markup: Markup.inlineKeyboard([
-            [Markup.switchToCurrentChatButton("Search Projects", "")]
-          ])
+            [Markup.switchToCurrentChatButton("Search Projects", "")],
+          ]),
         }
       );
     });
@@ -134,7 +134,7 @@ export default async function telegram(
       async ({ inlineQuery, answerInlineQuery }): Promise<any> => {
         let results: tt.InlineQueryResult[] = [],
           indexation = 1;
-        let found = fuzzy
+        const found = fuzzy
           .filter(
             <string>inlineQuery?.query,
             Object.values(
@@ -152,8 +152,8 @@ export default async function telegram(
           .map(function (obj) {
             return obj.string;
           });
-        for (let key of found) {
-          let data = await fetch(
+        for (const key of found) {
+          const data = await fetch(
             `https://api.github.com/repos/genemators/${key}`
           ).then((r) => {
             return r.json();
@@ -172,7 +172,7 @@ export default async function telegram(
                   `Download`,
                   `https://github.com/${data["full_name"]}/archive/master.zip`
                 ),
-                Markup.switchToCurrentChatButton(`Repositories`, ``)
+                Markup.switchToCurrentChatButton(`Repositories`, ``),
               ],
               { columns: 2 }
             ),
@@ -194,8 +194,8 @@ export default async function telegram(
                 `<code>🔃: ${data["forks_count"]}</code> <b>|</b> ` +
                 `<code>❗: ${data["open_issues_count"]}</code>`,
               parse_mode: "HTML",
-              disable_web_page_preview: true
-            }
+              disable_web_page_preview: true,
+            },
           });
           indexation++;
         }
@@ -212,8 +212,8 @@ export default async function telegram(
         await ctx.replyWithHTML("<b>Yay, you found something useful?</b>", {
           parse_mode: "HTML",
           reply_markup: Markup.inlineKeyboard([
-            Markup.callbackButton(`Delete Message`, `delete`)
-          ])
+            Markup.callbackButton(`Delete Message`, `delete`),
+          ]),
         });
       }
       if (ctx.chat?.type === "private" && !ctx.message?.via_bot) {
@@ -223,8 +223,8 @@ export default async function telegram(
             parse_mode: "HTML",
             reply_markup: Markup.inlineKeyboard([
               [Markup.callbackButton(`Show available commands`, `help`)],
-              [Markup.callbackButton(`Delete Message`, `delete`)]
-            ])
+              [Markup.callbackButton(`Delete Message`, `delete`)],
+            ]),
           }
         );
       }

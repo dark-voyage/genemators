@@ -50,7 +50,7 @@ const Quotes = (props: Props) => {
               const format = new Intl.DateTimeFormat(undefined, {
                 month: "long",
                 day: "numeric",
-                year: "numeric"
+                year: "numeric",
               });
               return (
                 <div key={quote.id}>
@@ -85,14 +85,14 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     await Promise.all(
       quoteIds.map(async (name) => {
         const file = await promises.readFile(join("./public/quotes", name), {
-          encoding: "utf8"
+          encoding: "utf8",
         });
         return { ...JSON.parse(file), id: name.replace(/\.json$/, "") };
       })
     )
   ).reverse();
   return {
-    props: { quotes }
+    props: { quotes },
   };
 };
 

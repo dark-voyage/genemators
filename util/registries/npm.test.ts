@@ -8,7 +8,7 @@ import "isomorphic-unfetch";
 const testDbEntry: NPMDatabaseEntry = {
   type: "npm",
   desc: "A entry for testing",
-  package: "example"
+  package: "example",
 };
 const testEntry = new NPMEntry(testDbEntry);
 
@@ -71,13 +71,13 @@ test("directory listing", async () => {
     {
       name: "package.json",
       size: 291,
-      type: "file"
+      type: "file",
     },
     {
       name: "github.js",
       size: 886,
-      type: "file"
-    }
+      type: "file",
+    },
   ]);
 });
 

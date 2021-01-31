@@ -61,7 +61,7 @@ const PostsIndexPage = (props: Props) => {
               const format = new Intl.DateTimeFormat(undefined, {
                 month: "long",
                 day: "numeric",
-                year: "numeric"
+                year: "numeric",
               });
               return (
                 <div key={post.id}>
@@ -104,13 +104,13 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   const posts = await Promise.all(
     postIds.map(async (name) => {
       const file = await promises.readFile(join("./public/posts", name), {
-        encoding: "utf8"
+        encoding: "utf8",
       });
       return { ...JSON.parse(file), id: name.replace(/\.json$/, "") };
     })
   );
   return {
-    props: { posts }
+    props: { posts },
   };
 };
 

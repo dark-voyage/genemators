@@ -39,8 +39,8 @@ export class NPMEntry implements Entry {
     }${path}/?meta`;
     const res = await fetch(url, {
       headers: {
-        accept: "application/json"
-      }
+        accept: "application/json",
+      },
     });
     if (res.status === 404) return null;
     if (res.status !== 200) {
@@ -59,7 +59,7 @@ export class NPMEntry implements Entry {
       return {
         name: file.path?.substring(prefix.length),
         type: file.type === "directory" ? "dir" : file.type, // "file" | "dir"
-        size: file.size // file only
+        size: file.size, // file only
       };
     });
     return files;
@@ -70,8 +70,8 @@ export class NPMEntry implements Entry {
     }registry.npmjs.org/${this.package_}`;
     const res = await fetch(url, {
       headers: {
-        accept: "application/vnd.npm.install-v1+json"
-      }
+        accept: "application/vnd.npm.install-v1+json",
+      },
     });
     if (res.status !== 200) {
       throw Error(

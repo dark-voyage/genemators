@@ -93,7 +93,7 @@ function Markdown(props: MarkdownProps) {
         },
         html(html: string) {
           const images: RegExpMatchArray[] = [
-            ...html.matchAll(/src="([^"]*)"/g)
+            ...html.matchAll(/src="([^"]*)"/g),
           ];
           images.forEach((a) => {
             const original = a[1];
@@ -102,7 +102,7 @@ function Markdown(props: MarkdownProps) {
             html = html.replace(`src="${original}"`, `src="${final}"`);
           });
           const links: RegExpMatchArray[] = [
-            ...html.matchAll(/href="([^"]*)"/g)
+            ...html.matchAll(/href="([^"]*)"/g),
           ];
           links.forEach((a) => {
             const original = a[1];
@@ -117,8 +117,8 @@ function Markdown(props: MarkdownProps) {
         },
         text(text) {
           return replaceEmojis(text);
-        }
-      } as Partial<Renderer>) as any
+        },
+      } as Partial<Renderer>) as any,
     });
 
     const raw = marked(props.source, {
@@ -133,7 +133,7 @@ function Markdown(props: MarkdownProps) {
             disablePrefixes={true}
             enableLineRef={false}
           />
-        )
+        ),
     });
     return (
       <div

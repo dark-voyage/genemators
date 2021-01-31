@@ -25,7 +25,7 @@ interface ParentContextProps {
 }
 
 const TransitionContext = React.createContext<ParentContextProps>({
-  parent: {}
+  parent: {},
 });
 
 function useIsInitialRender() {
@@ -45,7 +45,7 @@ function CSSTransition({
   leaveFrom = "",
   leaveTo = "",
   appear,
-  children
+  children,
 }: TransitionProps) {
   const enterClasses = enter.split(" ").filter((s) => s.length);
   const enterFromClasses = enterFrom.split(" ").filter((s) => s.length);
@@ -117,8 +117,8 @@ function Transition({ show, appear, ...rest }: TransitionProps) {
         parent: {
           show,
           isInitialRender,
-          appear
-        }
+          appear,
+        },
       }}
     >
       <CSSTransition appear={appear} show={show} {...rest} />
