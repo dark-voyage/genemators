@@ -61,11 +61,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1](https://github.com/xinuxuz/docs/issues/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
-2. 🎉 Merged PR [#1](https://github.com/xinuxuz/docs/pull/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
-3. ❗️ Closed issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-4. ❗️ Closed issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
-5. ❗️ Opened issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+1. ❌ Closed PR [#3](https://github.com/genemators/genemators/pull/3) in [genemators/genemators](https://github.com/genemators/genemators)
+2. ❌ Closed PR [#4](https://github.com/genemators/genemators/pull/4) in [genemators/genemators](https://github.com/genemators/genemators)
+3. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in [genemators/genemators](https://github.com/genemators/genemators)
+4. 🗣 Commented on [#1](https://github.com/xinuxuz/docs/issues/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
+5. 🎉 Merged PR [#1](https://github.com/xinuxuz/docs/pull/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
    [xinuxuz/comments](https://github.com/xinuxuz/comments)
 4. ❗️ Closed issue [#1](https://github.com/xinuxuz/comments/issues/1) in
    [xinuxuz/comments](https://github.com/xinuxuz/comments)
