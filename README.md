@@ -62,11 +62,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#1](https://github.com/xinuxuz/docs/issues/1) in
-   [xinuxuz/docs](https://github.com/xinuxuz/docs)
-2. 🎉 Merged PR [#1](https://github.com/xinuxuz/docs/pull/1) in
-   [xinuxuz/docs](https://github.com/xinuxuz/docs)
-3. ❗️ Closed issue [#2](https://github.com/xinuxuz/comments/issues/2) in
+1. 🗣 Commented on [#1](https://github.com/xinuxuz/docs/issues/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
+2. 🎉 Merged PR [#1](https://github.com/xinuxuz/docs/pull/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
+3. ❗️ Closed issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+4. ❗️ Closed issue [#1](https://github.com/xinuxuz/comments/issues/1) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
+5. ❗️ Opened issue [#2](https://github.com/xinuxuz/comments/issues/2) in [xinuxuz/comments](https://github.com/xinuxuz/comments)
    [xinuxuz/comments](https://github.com/xinuxuz/comments)
 4. ❗️ Closed issue [#1](https://github.com/xinuxuz/comments/issues/1) in
    [xinuxuz/comments](https://github.com/xinuxuz/comments)
