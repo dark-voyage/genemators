@@ -14,7 +14,7 @@ class RegistryError {
   constructor(public message: string) {}
 }
 
-const Registry = () => {
+const Registry = (): React.ReactElement => {
   const { query, asPath, push } = useRouter();
   const isStd = asPath.startsWith("/std");
   const { name, version, path } = useMemo(() => {

@@ -9,7 +9,7 @@ import Link from "next/link";
 // @ts-ignore
 import Router from "next/router";
 
-const Notification = ({ news }: { news: string }) => {
+const Notification = ({ news }: { news: string }): React.ReactElement => {
   const path = useRouter().pathname;
 
   const NewsPanel = (news: string) => {

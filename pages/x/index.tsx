@@ -9,7 +9,7 @@ import InlineCode from "../../components/InlineCode";
 
 import Head from "next/head";
 
-const ThirdPartyRegistryList = () => {
+const ThirdPartyRegistryList = (): React.ReactElement => {
   const [query, setQuery] = React.useState("");
 
   const list = useMemo(

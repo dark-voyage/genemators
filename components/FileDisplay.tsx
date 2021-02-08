@@ -12,7 +12,7 @@ function FileDisplay(props: {
   sourceURL: string;
   baseURL: string;
   repositoryURL?: string | null;
-}) {
+}): React.ReactElement {
   const filetype = fileTypeFromURL(props.sourceURL);
   const segments = props.sourceURL.split("/");
   const filename = segments[segments.length - 1];

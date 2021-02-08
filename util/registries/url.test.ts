@@ -9,7 +9,6 @@ const testDbEntry: URLDatabaseEntry = {
   desc: "A entry for testing",
   repo: "https://repos.example.com/my_package@${v}${p}",
   url: "https://example.com/my_package@${v}${p}",
-  // eslint-disable-next-line @typescript-eslint/camelcase
   default_version: "latest",
 };
 const testEntry = new URLEntry(testDbEntry);

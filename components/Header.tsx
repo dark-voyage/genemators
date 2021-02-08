@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import Transition from "./Transition";
 import React, { useState } from "react";
 
-const Header = ({ subtitle }: { subtitle: string }) => {
+const Header = ({ subtitle }: { subtitle: string }): React.ReactElement => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const path = useRouter().pathname;
@@ -118,6 +118,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
             <a
               href="https://desktop.genemator.me/"
               target="_blank"
+              rel="noreferrer"
               className="whitespace-no-wrap genemator-title text-base leading-6 font-medium text-white hover:text-gray-200 focus:outline-none focus:text-gray-400"
             >
               <svg
@@ -363,6 +364,7 @@ const Header = ({ subtitle }: { subtitle: string }) => {
                 <div className="space-y-6">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/genemators/genemators"
                     className="w-full genemator-title flex items-center justify-center px-4 py-2 border border text-base leading-6 font-medium rounded-md text-white bg-transparent hover:bg-white hover:text-black focus:outline-none focus:border-white focus:shadow-outline-white active:bg-white transition ease-in-out duration-150"
                   >

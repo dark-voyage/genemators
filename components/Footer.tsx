@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Footer = (props: { simple?: boolean }) => (
+const Footer = (props: { simple?: boolean }): React.ReactElement => (
   <div
     className={
       props.simple ? undefined : "bg-black border-t border-b border-gray-200"

@@ -87,6 +87,7 @@ export const RawCodeBlock = ({
       Prism={Prism}
       theme={light}
       code={code}
+      /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
       // @ts-ignore
       language={
         language === "shell" ? "bash" : language === "text" ? "diff" : language

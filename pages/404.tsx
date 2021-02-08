@@ -6,7 +6,7 @@ import Router from "next/router";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-export default function Custom404() {
+export default function Custom404(): React.ReactElement {
   return (
     <>
       <Head>

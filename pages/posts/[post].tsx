@@ -29,7 +29,7 @@ interface Props {
   };
 }
 
-const NewsPostPage = (props: Props) => {
+const NewsPostPage = (props: Props): React.ReactElement => {
   const date = new Date(props.meta.publish_date);
   const format = new Intl.DateTimeFormat(undefined, {
     month: "long",

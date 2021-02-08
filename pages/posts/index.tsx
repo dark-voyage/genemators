@@ -30,7 +30,7 @@ interface Props {
   posts: PostMeta[];
 }
 
-const PostsIndexPage = (props: Props) => {
+const PostsIndexPage = (props: Props): React.ReactElement => {
   return (
     <>
       <Head>
