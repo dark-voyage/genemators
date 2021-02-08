@@ -61,11 +61,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🎉 Merged PR [#2](https://github.com/xinuxuz/docs/pull/2) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
-2. ❌ Closed PR [#3](https://github.com/genemators/genemators/pull/3) in [genemators/genemators](https://github.com/genemators/genemators)
-3. ❌ Closed PR [#4](https://github.com/genemators/genemators/pull/4) in [genemators/genemators](https://github.com/genemators/genemators)
-4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in [genemators/genemators](https://github.com/genemators/genemators)
-3. ❌ Closed PR [#4](https://github.com/genemators/genemators/pull/4) in
+1. 🗣 Commented on [#21137](https://github.com/vercel/next.js/issues/21137) in [vercel/next.js](https://github.com/vercel/next.js)
+2. 🗣 Commented on [#20456](https://github.com/vercel/next.js/issues/20456) in [vercel/next.js](https://github.com/vercel/next.js)
+3. 🎉 Merged PR [#2](https://github.com/xinuxuz/docs/pull/2) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
+4. ❌ Closed PR [#3](https://github.com/genemators/genemators/pull/3) in [genemators/genemators](https://github.com/genemators/genemators)
+5. ❌ Closed PR [#4](https://github.com/genemators/genemators/pull/4) in [genemators/genemators](https://github.com/genemators/genemators)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
    [genemators/genemators](https://github.com/genemators/genemators)
