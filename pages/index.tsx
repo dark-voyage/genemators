@@ -9,7 +9,7 @@ import Link from "next/link";
 
 import { news } from "../news.json";
 
-export default function Home() {
+export default function Home(): React.ReactElement {
   return (
     <>
       <Head>

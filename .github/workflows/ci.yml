@@ -1,9 +1,9 @@
-name: Tests
+name: ci
 
 on: [push, pull_request]
 
 jobs:
-  types:
+  web:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -21,4 +21,5 @@ jobs:
             web-${{ runner.os }}-yarn-
       - run: yarn --frozen-lockfile
       - run: yarn format:check
-      - run: yarn test
+#      - run: yarn lint
+#      - run: yarn test

@@ -5,18 +5,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-interface SocialMeta {
-  id: string;
-  url: string;
-  icon: string;
-  hover: string;
-}
-
-interface Props {
-  socials: SocialMeta[];
-}
-
-const Socials = (props: Props) => {
+const Musics = (): React.ReactElement => {
   return (
     <>
       <Head>
@@ -50,4 +39,4 @@ const Socials = (props: Props) => {
   );
 };
 
-export default Socials;
+export default Musics;
