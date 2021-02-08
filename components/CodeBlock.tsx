@@ -45,7 +45,7 @@ export const RawCodeBlock = ({
   className: extraClassName,
   disablePrefixes,
   enableLineRef = false,
-}: CodeBlockProps & { className?: string; enableLineRef?: boolean }) => {
+}: CodeBlockProps & { className?: string; enableLineRef?: boolean }): React.ReactElement => {
   const [hashValue, setHashValue] = useState("");
   const codeDivClassNames = "token-line text-right select-none text-xs";
   if (enableLineRef) {
@@ -158,7 +158,7 @@ export const RawCodeBlock = ({
   );
 };
 
-const CodeBlock = ({ code, language, disablePrefixes }: CodeBlockProps) => {
+const CodeBlock = ({ code, language, disablePrefixes }: CodeBlockProps): React.ReactElement => {
   return (
     <RawCodeBlock
       code={code}
