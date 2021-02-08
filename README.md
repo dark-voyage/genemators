@@ -29,7 +29,6 @@ where they exchange & sharpen their experiences.</b>
 ## 📺 Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
-
 - [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
 - [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
 - [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
@@ -62,10 +61,10 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🎉 Merged PR [#2](https://github.com/xinuxuz/docs/pull/2) in
-   [xinuxuz/docs](https://github.com/xinuxuz/docs)
-2. ❌ Closed PR [#3](https://github.com/genemators/genemators/pull/3) in
-   [genemators/genemators](https://github.com/genemators/genemators)
+1. 🎉 Merged PR [#2](https://github.com/xinuxuz/docs/pull/2) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
+2. ❌ Closed PR [#3](https://github.com/genemators/genemators/pull/3) in [genemators/genemators](https://github.com/genemators/genemators)
+3. ❌ Closed PR [#4](https://github.com/genemators/genemators/pull/4) in [genemators/genemators](https://github.com/genemators/genemators)
+4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in [genemators/genemators](https://github.com/genemators/genemators)
 3. ❌ Closed PR [#4](https://github.com/genemators/genemators/pull/4) in
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
