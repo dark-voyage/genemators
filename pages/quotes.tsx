@@ -21,7 +21,7 @@ interface Props {
   quotes: QuoteMeta[];
 }
 
-const Quotes = (props: Props) => {
+const Quotes = (props: Props): React.ReactElement => {
   return (
     <>
       <Head>

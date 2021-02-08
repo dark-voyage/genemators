@@ -13,7 +13,7 @@ export class URLEntry implements Entry {
   public desc: string;
   private url: string;
   private repo: string;
-  private defaultVersion: string;
+  private readonly defaultVersion: string;
 
   constructor(databaseEntry: URLDatabaseEntry) {
     this.desc = databaseEntry.desc;

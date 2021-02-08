@@ -1,5 +1,3 @@
-/* Copyright 2020 Genemator Sakhib. All rights reserved. MPL-2.0 license. */
-
 import React from "react";
 import Document, {
   Html,
@@ -7,15 +5,18 @@ import Document, {
   Main,
   NextScript,
   DocumentContext,
+  DocumentInitialProps,
 } from "next/document";
 
-export default class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
+export default class GenoDocDocument extends Document {
+  static async getInitialProps(
+    ctx: DocumentContext
+  ): Promise<DocumentInitialProps> {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
   }
 
-  render() {
+  render(): React.ReactElement {
     return (
       <Html lang="en">
         <Head>

@@ -4,12 +4,12 @@ import React from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import Typewriter from "typewriter-effect";
 
-export default function About(string: string, node: HTMLElement | null) {
+export default function About(
+  string: string,
+  node: HTMLElement | null
+): React.ReactElement {
   return (
     <>
       <Head>
@@ -309,38 +309,40 @@ export default function About(string: string, node: HTMLElement | null) {
                       .typeString("./goodbyeworld") //
                       .pauseFor(1000)
                       .pasteString(
-                        "<br>" + "Thank you for being with me all time! 💖"
+                        "<br>" + "Thank you for being with me all time! 💖",
+                        node
                       )
                       .pasteString(
                         "<br>" +
-                          'Now, I want you to find "trying//cry4help" by funeral and sing with me! I\'ll be waiting for you next 10 seconds here... ಥ_ಥ'
+                          'Now, I want you to find "trying//cry4help" by funeral and sing with me! I\'ll be waiting for you next 10 seconds here... ಥ_ಥ',
+                        node
                       )
                       .pauseFor(1000)
-                      .pasteString("<br/>" + "Are you ready?")
+                      .pasteString("<br/>" + "Are you ready?", node)
                       .pauseFor(1000)
-                      .pasteString("<br/>" + "1...")
+                      .pasteString("<br/>" + "1...", node)
                       .pauseFor(1000)
-                      .pasteString(" 2...")
+                      .pasteString(" 2...", node)
                       .pauseFor(1000)
-                      .pasteString(" 3...")
+                      .pasteString(" 3...", node)
                       .pauseFor(1000)
                       .deleteAll(1)
-                      .pasteString("<br/>" + "(#--------) 5%")
+                      .pasteString("<br/>" + "(#--------) 5%", node)
                       .pauseFor(1000)
-                      .pasteString("<br/>" + "(###------) 26%")
+                      .pasteString("<br/>" + "(###------) 26%", node)
                       .pauseFor(1000)
                       .pasteString("<br/>" + "(#####----) 52%", node)
                       .pauseFor(1000)
-                      .pasteString("<br/>" + "(######---) 72%")
+                      .pasteString("<br/>" + "(######---) 72%", node)
                       .pauseFor(1000)
-                      .pasteString("<br/>" + "(#######--) 84%")
+                      .pasteString("<br/>" + "(#######--) 84%", node)
                       .pauseFor(1000)
-                      .pasteString("<br/>" + "(########-) 99%")
+                      .pasteString("<br/>" + "(########-) 99%", node)
                       .pauseFor(1000)
-                      .pasteString("<br/>" + "Goodbye World! (┬┬﹏┬┬)")
+                      .pasteString("<br/>" + "Goodbye World! (┬┬﹏┬┬)", node)
                       .pauseFor(5000)
                       .typeString("  exit")
-                      .pasteString("<br/>" + "[Process completed]")
+                      .pasteString("<br/>" + "[Process completed]", node)
                       .start();
                   }}
                 />

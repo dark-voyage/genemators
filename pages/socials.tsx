@@ -6,7 +6,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const Socials = () => {
+const Socials = (): React.ReactElement => {
   return (
     <>
       <Head>
@@ -29,29 +29,6 @@ const Socials = () => {
             </div>
           </div>
           <div className="mt-6 grid gap-16 lg:grid-cols-5  lg:row-gap-12 items-center text-center justify-center">
-            <div className="items-center justify-center">
-              <a href="https://facebook.com/sakhib.orzklv" key="facebook">
-                <svg
-                  className="h-36 w-36 animated-social"
-                  fill="none"
-                  viewBox="0 0 50 50"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1"
-                    d="M38.8,3H11.3C6.7,3,3,6.7,3,11.3v27.5c0,4.6,3.7,8.3,8.3,8.3h27.5c4.6,0,8.3-3.7,8.3-8.3V11.3C47,6.7,43.3,3,38.8,3z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1"
-                    d="M25,47V28h-3v-6h3v-3c0-4.7,1.6-8,7-8c2.9,0,6,1,6,1v5h-3c-2.1,0-3,0.5-3,2v3h6l-1,6h-5v19"
-                  />
-                </svg>
-              </a>
-            </div>
             <div className="items-center justify-center">
               <a href="https://instagram.com/genemator" key="instagram">
                 <svg
@@ -167,7 +144,7 @@ const Socials = () => {
               </a>
             </div>
             <div className="items-center justify-center">
-              <a href="https://t.me/genemator" key="telegram">
+              <a href="https://t.me/genemators" key="telegram">
                 <svg
                   className="h-36 w-36 animated-social"
                   fill="none"

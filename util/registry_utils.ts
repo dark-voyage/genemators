@@ -9,6 +9,7 @@ import { Entry, DatabaseEntry } from "./registries";
 function findDatabaseEntry(
   name: string
 ): GithubDatabaseEntry | URLDatabaseEntry | NPMDatabaseEntry | undefined {
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
   return DATABASE[name];
 }
@@ -34,6 +35,7 @@ export function parseNameVersion(
   return [name, version];
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export function fileTypeFromURL(filename: string) {
   const f = filename.toLowerCase();
   if (f.endsWith(".ts")) {
@@ -83,6 +85,7 @@ export function fileTypeFromURL(filename: string) {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export function isReadme(filename: string) {
   return (
     filename.toLowerCase() === "readme.md" ||
