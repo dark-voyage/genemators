@@ -4,20 +4,6 @@ module.exports = withPrefresh({
   experimental: {
     modern: true,
     polyfillsOptimization: true,
-    redirects() {
-      return [
-        {
-          source: "/about.html",
-          destination: "/about",
-          permanent: true,
-        },
-        {
-          source: "/posts.html",
-          destination: "/posts",
-          permanent: true,
-        },
-      ];
-    },
   },
   webpack(config, { dev, isServer }) {
     const splitChunks = config.optimization && config.optimization.splitChunks;
