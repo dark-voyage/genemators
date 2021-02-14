@@ -61,11 +61,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🎉 Merged PR [#2](https://github.com/xinuxuz/docs/pull/2) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
-2. ❌ Closed PR [#3](https://github.com/genemators/genemators/pull/3) in [genemators/genemators](https://github.com/genemators/genemators)
-3. ❌ Closed PR [#4](https://github.com/genemators/genemators/pull/4) in [genemators/genemators](https://github.com/genemators/genemators)
-4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in [genemators/genemators](https://github.com/genemators/genemators)
-3. ❌ Closed PR [#4](https://github.com/genemators/genemators/pull/4) in
+1. ❗️ Closed issue [#4](https://github.com/phpusr/yandex-music-player/issues/4) in [phpusr/yandex-music-player](https://github.com/phpusr/yandex-music-player)
+2. ❗️ Closed issue [#3](https://github.com/SnowdenHGF/id_prop_album_finding_game/issues/3) in [SnowdenHGF/id_prop_album_finding_game](https://github.com/SnowdenHGF/id_prop_album_finding_game)
+3. ❗️ Closed issue [#2](https://github.com/SnowdenHGF/id_prop_album_finding_game/issues/2) in [SnowdenHGF/id_prop_album_finding_game](https://github.com/SnowdenHGF/id_prop_album_finding_game)
+4. ❗️ Closed issue [#1](https://github.com/SnowdenHGF/id_prop_album_finding_game/issues/1) in [SnowdenHGF/id_prop_album_finding_game](https://github.com/SnowdenHGF/id_prop_album_finding_game)
+5. ❗️ Closed issue [#1](https://github.com/lil-mark/iiwt/issues/1) in [lil-mark/iiwt](https://github.com/lil-mark/iiwt)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
    [genemators/genemators](https://github.com/genemators/genemators)
