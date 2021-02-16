@@ -131,10 +131,13 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgenemators&count_bg=%23000000&title_bg=%23000000&icon=jenkins.svg&icon_color=%23FFFFFF&title=Genemator%27s+Viewers&edge_flat=true)](https://genemator.me)
+[![Hits]()](https://genemator.me)
 
 
 <p align="center"><h3 align="center">🖤 Thank you for visiting my GitHub Page! 🖤</h3></p>
+
+
+<p align="center"><a href="https://genemator.me" align="center"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgenemators&count_bg=%23000000&title_bg=%23000000&icon=jenkins.svg&icon_color=%23FFFFFF&title=Genemator%27s+Viewers&edge_flat=true" alt="Genemator's Hits & Visitors Counter"></a></p>
 
 
 [website]: https://genemator.me
