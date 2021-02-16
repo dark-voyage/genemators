@@ -131,9 +131,6 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 
-[![Hits]()](https://genemator.me)
-
-
 <p align="center"><h3 align="center">🖤 Thank you for visiting my GitHub Page! 🖤</h3></p>
 
 
