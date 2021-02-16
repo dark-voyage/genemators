@@ -62,7 +62,7 @@ where they exchange & sharpen their experiences.</b>
 [<img align="left" alt="MacOS" width="26px" src="./techs/macos.svg" />][vscode]
 [<img align="left" alt="Windows" width="26px" src="./techs/windows 10.svg" />][vscode]
 
-
+<br />
 <br />
 
 ## 🔰 Miscellaneous (tap to open each)
