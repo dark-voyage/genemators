@@ -47,11 +47,14 @@ where they exchange & sharpen their experiences.</b>
 [<img align="left" alt="Python" width="26px" src="./techs/python.svg" />][vscode]
 [<img align="left" alt="Java" width="26px" src="./techs/java.svg" />][vscode]
 [<img align="left" alt="Kotlin" width="26px" src="./techs/kotlin.svg" />][vscode]
+[<img align="left" alt="Swift" width="26px" src="./techs/swift.svg" />][vscode]
 [<img align="left" alt="Docker" width="26px" src="./techs/docker.svg" />][vscode]
 [<img align="left" alt="Visual Studio Code" width="26px" src="./techs/vscode.svg" />][vscode]
 [<img align="left" alt="IntelliJ IDEA" width="26px" src="./techs/intellij.svg" />][vscode]
+[<img align="left" alt="Android" width="26px" src="./techs/android.svg" />][vscode]
+[<img align="left" alt="iOS" width="26px" src="./techs/ios.svg" />][vscode]
 [<img align="left" alt="Linux" width="26px" src="./techs/linux.svg" />][vscode]
-[<img align="left" alt="OSX" width="26px" src="./techs/macos.svg" />][vscode]
+[<img align="left" alt="MacOS" width="26px" src="./techs/macos.svg" />][vscode]
 [<img align="left" alt="Windows" width="26px" src="./techs/windows 10.svg" />][vscode]
 
 
