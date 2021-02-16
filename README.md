@@ -56,11 +56,15 @@ where they exchange & sharpen their experiences.</b>
 [<img align="left" alt="IntelliJ IDEA" width="26px" src="./techs/intellij.svg" />][vscode]
 [<img align="left" alt="Terminal Console" width="26px" src="./techs/console.svg" />][vscode]
 [<img align="left" alt="Powershell" width="26px" src="./techs/powershell.svg" />][vscode]
+[<img align="left" alt="Git" width="26px" src="./techs/git.svg" />][vscode]
+[<img align="left" alt="Heroku" width="26px" src="./techs/heroku.svg" />][vscode]
+[<img align="left" alt="AWS Lambda" width="26px" src="./techs/aws.svg" />][vscode]
 [<img align="left" alt="Android" width="26px" src="./techs/android.svg" />][vscode]
 [<img align="left" alt="iOS" width="26px" src="./techs/ios.svg" />][vscode]
 [<img align="left" alt="Linux" width="26px" src="./techs/linux.svg" />][vscode]
 [<img align="left" alt="MacOS" width="26px" src="./techs/macos.svg" />][vscode]
 [<img align="left" alt="Windows" width="26px" src="./techs/windows 10.svg" />][vscode]
+[<img align="left" alt="Social Engineering" width="26px" src="./techs/social engineering.svg" />][vscode]
 
 <br />
 <br />
