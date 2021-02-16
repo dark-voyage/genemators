@@ -1,7 +1,7 @@
 <p align="center"><h1 align="center">Good time of the day, says an introvert uzbek senior developer a.k.a Genemator! 🖤🏴</h1></p>
 
 <a href="https://genemator.me">
-    <img src="https://genemator.me/banner.png" alt="A banner that says Genemator - senior full stack developer... content creator and community organizer alongside a cartoon illustration of Geno Ferollo">
+    <img src="https://genemator.me/banner.png" width="100%" alt="A banner that says Genemator - senior full stack developer... content creator and community organizer alongside a cartoon illustration of Geno Ferollo">
 </a>
 
 ---
@@ -18,7 +18,7 @@ where they exchange & sharpen their experiences.</b>
 
 ## 🌐 Find me around the web:
 
-- Contributing in public on <a href="https://deno.land/">Deno</a> 👨🏻‍💻
+- Contributing in public on <a href="https://vlang.io/">V Lang</a> 👨🏻‍💻
 - Tinkering with interactions on <a href="https://instagram.com/genemator">
   Instagram</a> 📷
 - Sharing updates on <a href="https://www.t.me/genemators">Telegram</a> 🤙🏻
@@ -39,23 +39,28 @@ where they exchange & sharpen their experiences.</b>
 
 ## 🛠 Languages and Tools:
 
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][website]
-[<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][htmlcss]
-[<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][htmlcss]
-[<img align="left" alt="Sass" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />][htmlcss]
-[<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][javascript]
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />][typescript]
-[<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />][javascript]
-[<img align="left" alt="Deno" width="26px" src="https://raw.githubusercontent.com/github/explore/361e2821e2dea67711cde99c9c40ed357061cf27/topics/deno/deno.png" />][typescript]
-[<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][github]
-[<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][terminal]
+[<img align="left" alt="HTML" width="26px" src="./techs/html.svg" />][vscode]
+[<img align="left" alt="CSS" width="26px" src="./techs/css.svg" />][vscode]
+[<img align="left" alt="JavaScript" width="26px" src="./techs/javascript.svg" />][vscode]
+[<img align="left" alt="NodeJS" width="26px" src="./techs/nodejs.svg" />][vscode]
+[<img align="left" alt="Denoland" width="26px" src="./techs/deno.svg" />][vscode]
+[<img align="left" alt="Python" width="26px" src="./techs/python.svg" />][vscode]
+[<img align="left" alt="Java" width="26px" src="./techs/java.svg" />][vscode]
+[<img align="left" alt="Kotlin" width="26px" src="./techs/kotlin.svg" />][vscode]
+[<img align="left" alt="Docker" width="26px" src="./techs/docker.svg" />][vscode]
+[<img align="left" alt="Visual Studio Code" width="26px" src="./techs/vscode.svg" />][vscode]
+[<img align="left" alt="IntelliJ IDEA" width="26px" src="./techs/intellij.svg" />][vscode]
+[<img align="left" alt="Linux" width="26px" src="./techs/linux.svg" />][vscode]
+[<img align="left" alt="OSX" width="26px" src="./techs/macos.svg" />][vscode]
+[<img align="left" alt="Windows" width="26px" src="./techs/windows 10.svg" />][vscode]
+
 
 <br />
 
 ## 🔰 Miscellaneous (tap to open each)
 
 <details>
-  <summary>:zap: Recent github activity</summary>
+  <summary>⚡ Recent github activity</summary>
 
   <br />
 
@@ -88,7 +93,7 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 <details>
-  <summary>:fleur_de_lis: Genemator's github stats</summary>
+  <summary>⚜ Genemator's github stats</summary>
   
   <br />
 
@@ -103,7 +108,7 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 <details>
-    <summary>:floppy_disk: List of used operation systems</summary>
+    <summary>💾 List of used operation systems</summary>
     <br />
     <p align="center"><h3 align="center">Nordic Nordissimo (Windows 10) Modified by Genemator</h3></p>
     <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
@@ -123,7 +128,7 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 <details>
-    <summary>:black_heart: The best waifu all time!</summary>
+    <summary>🖤 The best waifu all time!</summary>
     <br />
     <p align="center"><h3 align="center">SPEEDWAGOOOOON!!!</h3></p>
     <a href="https://jojo.fandom.com/wiki/Robert_E._O._Speedwagon"><img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.me/icons/speedwagon.jpg" /></a>
@@ -137,16 +142,4 @@ where they exchange & sharpen their experiences.</b>
 <p align="center"><a href="https://genemator.me" align="center"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgenemators&count_bg=%23000000&title_bg=%23000000&icon=jenkins.svg&icon_color=%23FFFFFF&title=Genemator%27s+Viewers&edge_flat=true" alt="Genemator's Hits & Visitors Counter"></a></p>
 
 
-[website]: https://genemator.me
-[twitter]: https://twitter.com/genemator
-[youtube]: https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg
-[instagram]: https://instagram.com/genemator
-[linkedin]: https://www.linkedin.com/in/sokhibjon-orzikulov-86529a197/
-[github]: https://github.com/genemators
-[typescript]:
-  https://github.com/genemators?tab=repositories&q=&type=&language=typescript
-[javascript]:
-  https://github.com/genemators?tab=repositories&q=&type=&language=javascript
-[htmlcss]: https://github.com/genemators?tab=repositories&q=&type=&language=css
-[terminal]:
-  https://github.com/genemators#nordic-nordissimo-windows-10-modified-by-genemator
+[vscode]: https://microsoft.com
