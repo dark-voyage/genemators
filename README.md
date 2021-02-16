@@ -151,7 +151,7 @@ where they exchange & sharpen their experiences.</b>
 </details>
 
 <style>
-#vader {margin-top: 100px;}
+#vader {padding-top: 10px;}
 </style>
 
 <p align="center"><h3 align="center"><img id="vader" alt="Darth Vader" width="20px" src="./techs/vader.svg"> ﾂつｨﾂ姪"ﾂつ"ﾂ債 <img id="vader" alt="Darth Vader" width="20px" src="./techs/vader.svg"></h3></p>
