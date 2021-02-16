@@ -134,6 +134,9 @@ where they exchange & sharpen their experiences.</b>
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgenemators&count_bg=%23000000&title_bg=%23000000&icon=jenkins.svg&icon_color=%23FFFFFF&title=Genemator%27s+Viewers&edge_flat=true)](https://genemator.me)
 
 
+<p align="center"><h2 align="center">Thank you for visiting me🖤</h2></p>
+
+
 [website]: https://genemator.me
 [twitter]: https://twitter.com/genemator
 [youtube]: https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg
