@@ -81,7 +81,7 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. ❗️ Closed issue [#4](https://github.com/phpusr/yandex-music-player/issues/4) in [phpusr/yandex-music-player](https://github.com/phpusr/yandex-music-player)
+1. 🗣 Commented on [#222](https://github.com/evgeny-nadymov/telegram-react/issues/222) in [evgeny-nadymov/telegram-react](https://github.com/evgeny-nadymov/telegram-react)
 2. ❗️ Closed issue [#3](https://github.com/SnowdenHGF/id_prop_album_finding_game/issues/3) in [SnowdenHGF/id_prop_album_finding_game](https://github.com/SnowdenHGF/id_prop_album_finding_game)
 3. ❗️ Closed issue [#2](https://github.com/SnowdenHGF/id_prop_album_finding_game/issues/2) in [SnowdenHGF/id_prop_album_finding_game](https://github.com/SnowdenHGF/id_prop_album_finding_game)
 4. ❗️ Closed issue [#1](https://github.com/SnowdenHGF/id_prop_album_finding_game/issues/1) in [SnowdenHGF/id_prop_album_finding_game](https://github.com/SnowdenHGF/id_prop_album_finding_game)
