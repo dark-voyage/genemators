@@ -81,11 +81,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🗣 Commented on [#20456](https://github.com/vercel/next.js/issues/20456) in [vercel/next.js](https://github.com/vercel/next.js)
-2. 🎉 Merged PR [#2](https://github.com/wiut-bis/sekai/pull/2) in [wiut-bis/sekai](https://github.com/wiut-bis/sekai)
-3. 🗣 Commented on [#222](https://github.com/evgeny-nadymov/telegram-react/issues/222) in [evgeny-nadymov/telegram-react](https://github.com/evgeny-nadymov/telegram-react)
-4. ❗️ Closed issue [#1](https://github.com/SnowdenHGF/id_prop_album_finding_game/issues/1) in [SnowdenHGF/id_prop_album_finding_game](https://github.com/SnowdenHGF/id_prop_album_finding_game)
-5. ❗️ Closed issue [#1](https://github.com/lil-mark/iiwt/issues/1) in [lil-mark/iiwt](https://github.com/lil-mark/iiwt)
+1. 🎉 Merged PR [#1](https://github.com/genemators/wt.coursework2/pull/1) in [genemators/wt.coursework2](https://github.com/genemators/wt.coursework2)
+2. 💪 Opened PR [#1](https://github.com/genemators/wt.coursework2/pull/1) in [genemators/wt.coursework2](https://github.com/genemators/wt.coursework2)
+3. 🗣 Commented on [#20456](https://github.com/vercel/next.js/issues/20456) in [vercel/next.js](https://github.com/vercel/next.js)
+4. 🎉 Merged PR [#2](https://github.com/wiut-bis/sekai/pull/2) in [wiut-bis/sekai](https://github.com/wiut-bis/sekai)
+5. 🗣 Commented on [#222](https://github.com/evgeny-nadymov/telegram-react/issues/222) in [evgeny-nadymov/telegram-react](https://github.com/evgeny-nadymov/telegram-react)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
    [genemators/genemators](https://github.com/genemators/genemators)
