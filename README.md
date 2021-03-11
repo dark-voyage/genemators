@@ -26,18 +26,8 @@ where they exchange & sharpen their experiences.</b>
   <a href="https://music.yandex.ru/users/ferollo/playlists/1019?lang=en">"Genemator's
   Choice"</a> 🎵
 
-## 📺 Latest YouTube Videos:
 
-<!-- YOUTUBE:START -->
-- [♠ Hosting Static Website (Simple & Easy Way) | Course Work Materials](https://www.youtube.com/watch?v=5xhhIfJiXGc)
-- [♠ Python & Git Basic Concepts | Course Work Materials](https://www.youtube.com/watch?v=eAZCVnXS7gw)
-- [♠ Learning basic concepts of Python & Git with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=AmMZf0srbI4)
-- [♠ Setting up environment with Genemator | Coding Concept Tutorials](https://www.youtube.com/watch?v=VM-X24TTWO8)
-<!-- YOUTUBE:END -->
-
-➡️ [more videos...](https://www.youtube.com/channel/UCuF2yVTeVW6vcwXobvXXvZg)
-
-## 🛠 Languages and Tools:
+## 🔨 Languages and Tools:
 
 [<img align="left" alt="HTML" width="26px" src="./techs/html.svg" />][html]
 [<img align="left" alt="CSS" width="26px" src="./techs/css.svg" />][css]
