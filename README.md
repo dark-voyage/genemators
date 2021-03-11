@@ -72,10 +72,10 @@ where they exchange & sharpen their experiences.</b>
 <!--START_SECTION:activity-->
 
 1. 🗣 Commented on [#1](https://github.com/xinuxuz/xenon/issues/1) in [xinuxuz/xenon](https://github.com/xinuxuz/xenon)
-2. 🎉 Merged PR [#1](https://github.com/xinuxuz/xenon/pull/1) in [xinuxuz/xenon](https://github.com/xinuxuz/xenon)
-3. ❗️ Closed issue [#32](https://github.com/pacocoursey/next-themes/issues/32) in [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes)
-4. 🗣 Commented on [#32](https://github.com/pacocoursey/next-themes/issues/32) in [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes)
-5. ❗️ Opened issue [#32](https://github.com/pacocoursey/next-themes/issues/32) in [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes)
+2. 🗣 Commented on [#1](https://github.com/xinuxuz/xenon/issues/1) in [xinuxuz/xenon](https://github.com/xinuxuz/xenon)
+3. 🎉 Merged PR [#1](https://github.com/xinuxuz/xenon/pull/1) in [xinuxuz/xenon](https://github.com/xinuxuz/xenon)
+4. ❗️ Closed issue [#32](https://github.com/pacocoursey/next-themes/issues/32) in [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes)
+5. 🗣 Commented on [#32](https://github.com/pacocoursey/next-themes/issues/32) in [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
    [genemators/genemators](https://github.com/genemators/genemators)
