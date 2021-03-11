@@ -81,7 +81,7 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🎉 Merged PR [#3](https://github.com/genemators/wt.coursework2/pull/3) in [genemators/wt.coursework2](https://github.com/genemators/wt.coursework2)
+1. ❗️ Opened issue [#32](https://github.com/pacocoursey/next-themes/issues/32) in [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes)
 2. 💪 Opened PR [#3](https://github.com/genemators/wt.coursework2/pull/3) in [genemators/wt.coursework2](https://github.com/genemators/wt.coursework2)
 3. 🎉 Merged PR [#1](https://github.com/00010023/wt.coursework2/pull/1) in [00010023/wt.coursework2](https://github.com/00010023/wt.coursework2)
 4. 💪 Opened PR [#1](https://github.com/00010023/wt.coursework2/pull/1) in [00010023/wt.coursework2](https://github.com/00010023/wt.coursework2)
