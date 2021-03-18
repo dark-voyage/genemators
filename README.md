@@ -71,10 +71,10 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 💪 Opened PR [#106](https://github.com/dylanaraps/pfetch/pull/106) in [dylanaraps/pfetch](https://github.com/dylanaraps/pfetch)
-2. 💪 Opened PR [#1700](https://github.com/dylanaraps/neofetch/pull/1700) in [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch)
-3. 🎉 Merged PR [#1](https://github.com/xinuxuz/mirror/pull/1) in [xinuxuz/mirror](https://github.com/xinuxuz/mirror)
-4. 🗣 Commented on [#1](https://github.com/xinuxuz/xenon/issues/1) in [xinuxuz/xenon](https://github.com/xinuxuz/xenon)
+1. 🗣 Commented on [#29](https://github.com/Opticos/GWSL-Source/issues/29) in [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source)
+2. 💪 Opened PR [#106](https://github.com/dylanaraps/pfetch/pull/106) in [dylanaraps/pfetch](https://github.com/dylanaraps/pfetch)
+3. 💪 Opened PR [#1700](https://github.com/dylanaraps/neofetch/pull/1700) in [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch)
+4. 🎉 Merged PR [#1](https://github.com/xinuxuz/mirror/pull/1) in [xinuxuz/mirror](https://github.com/xinuxuz/mirror)
 5. 🗣 Commented on [#1](https://github.com/xinuxuz/xenon/issues/1) in [xinuxuz/xenon](https://github.com/xinuxuz/xenon)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
