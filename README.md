@@ -71,11 +71,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. ❗️ Opened issue [#146](https://github.com/vercel/serve-handler/issues/146) in [vercel/serve-handler](https://github.com/vercel/serve-handler)
-2. 🗣 Commented on [#260](https://github.com/denolib/awesome-deno/issues/260) in [denolib/awesome-deno](https://github.com/denolib/awesome-deno)
-3. 💪 Opened PR [#260](https://github.com/denolib/awesome-deno/pull/260) in [denolib/awesome-deno](https://github.com/denolib/awesome-deno)
-4. ❗️ Opened issue [#1](https://github.com/7Em41k/nordissimo/issues/1) in [7Em41k/nordissimo](https://github.com/7Em41k/nordissimo)
-5. 🎉 Merged PR [#1](https://github.com/xinuxuz/mirror/pull/1) in [xinuxuz/mirror](https://github.com/xinuxuz/mirror)
+1. 🎉 Merged PR [#1](https://github.com/genemators/deno_website2/pull/1) in [genemators/deno_website2](https://github.com/genemators/deno_website2)
+2. 💪 Opened PR [#1](https://github.com/genemators/deno_website2/pull/1) in [genemators/deno_website2](https://github.com/genemators/deno_website2)
+3. 🎉 Merged PR [#1](https://github.com/denolanduz/deno_website2/pull/1) in [denolanduz/deno_website2](https://github.com/denolanduz/deno_website2)
+4. 💪 Opened PR [#1](https://github.com/denolanduz/deno_website2/pull/1) in [denolanduz/deno_website2](https://github.com/denolanduz/deno_website2)
+5. ❗️ Opened issue [#146](https://github.com/vercel/serve-handler/issues/146) in [vercel/serve-handler](https://github.com/vercel/serve-handler)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
    [genemators/genemators](https://github.com/genemators/genemators)
