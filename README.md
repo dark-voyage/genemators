@@ -71,11 +71,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. ❗️ Opened issue [#6197](https://github.com/lukesampson/scoop-extras/issues/6197) in [lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras)
-2. ❗️ Opened issue [#6196](https://github.com/lukesampson/scoop-extras/issues/6196) in [lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras)
-3. ❗️ Opened issue [#107](https://github.com/matthewjberger/scoop-nerd-fonts/issues/107) in [matthewjberger/scoop-nerd-fonts](https://github.com/matthewjberger/scoop-nerd-fonts)
-4. ❗️ Opened issue [#2680](https://github.com/benawad/dogehouse/issues/2680) in [benawad/dogehouse](https://github.com/benawad/dogehouse)
-5. ❗️ Opened issue [#2674](https://github.com/benawad/dogehouse/issues/2674) in [benawad/dogehouse](https://github.com/benawad/dogehouse)
+1. 🎉 Merged PR [#3](https://github.com/genemators/genio/pull/3) in [genemators/genio](https://github.com/genemators/genio)
+2. 🎉 Merged PR [#2](https://github.com/genemators/genio/pull/2) in [genemators/genio](https://github.com/genemators/genio)
+3. 🎉 Merged PR [#1](https://github.com/genemators/genio/pull/1) in [genemators/genio](https://github.com/genemators/genio)
+4. 🎉 Merged PR [#2](https://github.com/bsbateam/genogram/pull/2) in [bsbateam/genogram](https://github.com/bsbateam/genogram)
+5. 🎉 Merged PR [#1](https://github.com/bsbateam/genogram/pull/1) in [bsbateam/genogram](https://github.com/bsbateam/genogram)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
    [genemators/genemators](https://github.com/genemators/genemators)
