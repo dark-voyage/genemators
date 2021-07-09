@@ -71,10 +71,10 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. ❗️ Opened issue [#2228](https://github.com/ScoopInstaller/Main/issues/2228) in [ScoopInstaller/Main](https://github.com/ScoopInstaller/Main)
-2. 🎉 Merged PR [#3](https://github.com/genemators/genio/pull/3) in [genemators/genio](https://github.com/genemators/genio)
-3. 🎉 Merged PR [#2](https://github.com/genemators/genio/pull/2) in [genemators/genio](https://github.com/genemators/genio)
-4. 🎉 Merged PR [#1](https://github.com/genemators/genio/pull/1) in [genemators/genio](https://github.com/genemators/genio)
+1. 🎉 Merged PR [#3](https://github.com/genemators/telegram/pull/3) in [genemators/telegram](https://github.com/genemators/telegram)
+2. 🎉 Merged PR [#1](https://github.com/genemators/telegram/pull/1) in [genemators/telegram](https://github.com/genemators/telegram)
+3. 🎉 Merged PR [#2](https://github.com/genemators/telegram/pull/2) in [genemators/telegram](https://github.com/genemators/telegram)
+4. ❗️ Opened issue [#2228](https://github.com/ScoopInstaller/Main/issues/2228) in [ScoopInstaller/Main](https://github.com/ScoopInstaller/Main)
 5. 🎉 Merged PR [#2](https://github.com/bsbateam/genogram/pull/2) in [bsbateam/genogram](https://github.com/bsbateam/genogram)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
