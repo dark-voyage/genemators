@@ -1,7 +1,7 @@
 <p align="center"><h1 align="center">Good time of the day, says an introvert uzbek senior developer a.k.a Genemator! 🖤🏴</h1></p>
 
-<a href="https://genemator.me">
-    <img src="https://genemator.me/banner.png" width="100%" alt="A banner that says Genemator - senior full stack developer... content creator and community organizer alongside a cartoon illustration of Geno Ferollo">
+<a href="https://genemator.uz">
+    <img src="https://genemator.uz/banner.png" width="100%" alt="A banner that says Genemator - senior full stack developer... content creator and community organizer alongside a cartoon illustration of Geno Ferollo">
 </a>
 
 ---
@@ -116,19 +116,19 @@ where they exchange & sharpen their experiences.</b>
     <summary>💾 List of used operation systems</summary>
     <br />
     <p align="center"><h3 align="center">Nordic Nordissimo (Windows 10) Modified by Genemator</h3></p>
-    <img align="center" alt="Nordic Nordissimo" src="https://genemator.me/os/nordissimo.jpg" />
+    <img align="center" alt="Nordic Nordissimo" src="https://genemator.uz/os/nordissimo.jpg" />
     <br />
     <br />
     <p align="center"><h3 align="center">Starfighter Synthwave (Arch Linux on KDE) Riced by Genemator</h3></p>
-    <img align="center" alt="Starfighter Synthwave" src="https://genemator.me/os/synthwave.jpg" />
+    <img align="center" alt="Starfighter Synthwave" src="https://genemator.uz/os/synthwave.jpg" />
     <br />
     <br />
     <p align="center"><h3 align="center">Black Snitch (Windows 10) Modified by Genemator</h3></p>
-    <img align="center" alt="Black Snitch" src="https://genemator.me/os/blacksnitch.jpg" />
+    <img align="center" alt="Black Snitch" src="https://genemator.uz/os/blacksnitch.jpg" />
     <br />
     <br />
     <p align="center"><h3 align="center">Blackintosh (BSPWM Arch Linux) Riced by Genemator</h3></p>
-    <img align="center" alt="Blackintosh" src="https://genemator.me/os/blackintosh.jpg" />
+    <img align="center" alt="Blackintosh" src="https://genemator.uz/os/blackintosh.jpg" />
     <br />
 </details>
 
@@ -136,7 +136,7 @@ where they exchange & sharpen their experiences.</b>
     <summary>🖤 The best waifu all time!</summary>
     <br />
     <p align="center"><h3 align="center">SPEEDWAGOOOOON!!!</h3></p>
-    <a href="https://jojo.fandom.com/wiki/Robert_E._O._Speedwagon"><img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.me/icons/speedwagon.jpg" /></a>
+    <a href="https://jojo.fandom.com/wiki/Robert_E._O._Speedwagon"><img align="center" alt="Robert E. O. Speedwagon" src="https://genemator.uz/icons/speedwagon.jpg" /></a>
     <br />
 </details>
 
@@ -144,7 +144,7 @@ where they exchange & sharpen their experiences.</b>
 <p align="center"><h3 align="center"><img alt="Darth Vader" width="20px" src="./techs/vader.svg"> ﾂつｨﾂ姪"ﾂつ"ﾂ債 <img alt="Darth Vader" width="20px" src="./techs/vader.svg"></h3></p>
 
 
-<p align="center"><a href="https://genemator.me" align="center"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgenemators&count_bg=%23000000&title_bg=%23000000&icon=jenkins.svg&icon_color=%23FFFFFF&title=Genemator%27s+Viewers&edge_flat=true" alt="Genemator's Hits & Visitors Counter"></a></p>
+<p align="center"><a href="https://genemator.uz" align="center"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgenemators&count_bg=%23000000&title_bg=%23000000&icon=jenkins.svg&icon_color=%23FFFFFF&title=Genemator%27s+Viewers&edge_flat=true" alt="Genemator's Hits & Visitors Counter"></a></p>
 
 ---
 
