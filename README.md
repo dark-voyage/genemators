@@ -71,11 +71,11 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. 🎉 Merged PR [#1](https://github.com/xinuxuz/docs/pull/1) in [xinuxuz/docs](https://github.com/xinuxuz/docs)
-2. 🎉 Merged PR [#3](https://github.com/genemators/telegram/pull/3) in [genemators/telegram](https://github.com/genemators/telegram)
-3. 🎉 Merged PR [#1](https://github.com/genemators/telegram/pull/1) in [genemators/telegram](https://github.com/genemators/telegram)
-4. 🎉 Merged PR [#2](https://github.com/genemators/telegram/pull/2) in [genemators/telegram](https://github.com/genemators/telegram)
-5. 🎉 Merged PR [#2](https://github.com/bsbateam/genogram/pull/2) in [bsbateam/genogram](https://github.com/bsbateam/genogram)
+1. ❌ Closed PR [#5](https://github.com/mad-maids/maid.hub/pull/5) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
+2. ❌ Closed PR [#4](https://github.com/mad-maids/maid.hub/pull/4) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
+3. ❌ Closed PR [#3](https://github.com/mad-maids/maid.hub/pull/3) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
+4. ❌ Closed PR [#2](https://github.com/mad-maids/maid.hub/pull/2) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
+5. ❌ Closed PR [#1](https://github.com/mad-maids/maid.hub/pull/1) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
    [genemators/genemators](https://github.com/genemators/genemators)
 4. ❌ Closed PR [#5](https://github.com/genemators/genemators/pull/5) in
    [genemators/genemators](https://github.com/genemators/genemators)
