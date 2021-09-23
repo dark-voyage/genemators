@@ -71,9 +71,9 @@ where they exchange & sharpen their experiences.</b>
 
 <!--START_SECTION:activity-->
 
-1. ❌ Closed PR [#12](https://github.com/mad-maids/maid.table/pull/12) in [mad-maids/maid.table](https://github.com/mad-maids/maid.table)
-2. ❌ Closed PR [#4](https://github.com/mad-maids/maid.hub/pull/4) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
-3. ❌ Closed PR [#3](https://github.com/mad-maids/maid.hub/pull/3) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
+1. ❌ Closed PR [#4](https://github.com/genemators/genos/pull/4) in [genemators/genos](https://github.com/genemators/genos)
+2. ❌ Closed PR [#2](https://github.com/genemators/genos/pull/2) in [genemators/genos](https://github.com/genemators/genos)
+3. ❌ Closed PR [#12](https://github.com/mad-maids/maid.table/pull/12) in [mad-maids/maid.table](https://github.com/mad-maids/maid.table)
 4. ❌ Closed PR [#2](https://github.com/mad-maids/maid.hub/pull/2) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
 5. ❌ Closed PR [#1](https://github.com/mad-maids/maid.hub/pull/1) in [mad-maids/maid.hub](https://github.com/mad-maids/maid.hub)
    [genemators/genemators](https://github.com/genemators/genemators)
