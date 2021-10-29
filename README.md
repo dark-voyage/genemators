@@ -1,6 +1,6 @@
 <p align="center"><h1 align="center">Good time of the day, says an introvert uzbek senior developer a.k.a Genemator! 🖤🏴</h1></p>
 
-<a href="https://genemator.uz">
+<a href="https://youtu.be/Tt7bzxurJ1I">
     <img src="https://genemator.uz/banner.png" width="100%" alt="A banner that says Genemator - senior full stack developer... content creator and community organizer alongside a cartoon illustration of Geno Ferollo">
 </a>
 
