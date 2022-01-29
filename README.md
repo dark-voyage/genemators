@@ -1,4 +1,4 @@
-<p align="center"><h1 align="center">Good time of the day, says an introvert uzbek senior developer a.k.a Genemator! 🖤🏴</h1></p>
+<p align="center"><h1 align="center">Good time of the day, says an introvert uzbek developer a.k.a Genemator! 🖤🏴</h1></p>
 
 
 
